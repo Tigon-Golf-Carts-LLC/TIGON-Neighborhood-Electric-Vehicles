@@ -1,139 +1,326 @@
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Award, Bolt, Truck } from "lucide-react";
-import evolutionD5Ranger4PlusImage from "@assets/EVOLUTIOND5RANGER4PLUS_1751893115782_1753135350622.jpg";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Star, Wrench, Percent, Leaf, CheckCircle, MapPin } from "lucide-react";
+import { useQuery } from "@tanstack/react-query";
+import type { Vehicle } from "@shared/schema";
 
 export default function HomePage() {
-  const features = [
-    {
-      icon: Award,
-      title: "Premium Quality",
-      description: "Top-tier recreational vehicles from trusted manufacturers",
-    },
-    {
-      icon: Bolt,
-      title: "Expert Service",
-      description: "Professional maintenance and support services",
-    },
-    {
-      icon: Truck,
-      title: "Fast Delivery",
-      description: "Quick and reliable delivery throughout Ocean County",
-    },
-  ];
+  const { data: vehicles } = useQuery<Vehicle[]>({
+    queryKey: ["/api/vehicles"],
+  });
+
+  const featuredVehicles = vehicles?.slice(0, 3) || [];
 
   return (
-    <div>
+    <div className="min-h-screen">
       {/* Hero Section */}
-      <div 
-        className="relative bg-cover bg-center h-96 md:h-[500px]"
-        style={{
-          backgroundImage: `linear-gradient(rgba(30, 58, 138, 0.6), rgba(14, 165, 233, 0.6)), url('https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080')`
-        }}
-      >
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="text-center text-white px-4">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">
-              Premium Golf Carts & Recreational Vehicles
-            </h1>
-            <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
-              Discover DENAGO and EVOLUTION vehicles in 2X4 and 4X4 configurations for every adventure
-            </p>
-            <Link href="/inventory">
-              <Button size="lg" className="bg-accent-orange hover:bg-orange-600 text-white px-8 py-3 text-lg">
-                View Inventory
-              </Button>
-            </Link>
+      <section className="bg-gradient-to-br from-teal-500 via-cyan-500 to-green-400 text-white py-20 px-4">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h1 className="text-5xl font-bold mb-6 leading-tight">
+                New Jersey's Premier Golf Cart Dealerships
+              </h1>
+              <p className="text-xl mb-8 text-gray-100">
+                Discover our extensive selection of new electric golf carts from Evolution and Denago with professional services. 
+                Serving Atlantic County, Cape May County, Middlesex County, Monmouth County, Ocean County and all of New Jersey State.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Link href="/inventory">
+                  <Button size="lg" className="bg-red-500 hover:bg-red-600 text-white">
+                    View Inventory
+                  </Button>
+                </Link>
+                <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-gray-900">
+                  Get Quote
+                </Button>
+              </div>
+            </div>
+            <div className="relative">
+              <img 
+                src="/attached_assets/D6-XT6-4wd-color-PORTIMAO-BLUE_1753135231312.png" 
+                alt="Golf Cart" 
+                className="w-full h-auto max-w-lg mx-auto"
+              />
+            </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      {/* Brand Showcase */}
-      <div className="max-w-7xl mx-auto px-4 py-16">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Featured Brands</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Choose from our premium selection of DENAGO and EVOLUTION recreational vehicles
+      {/* Why Choose Us Section */}
+      <section className="py-16 px-4 bg-gray-50">
+        <div className="max-w-7xl mx-auto text-center">
+          <h2 className="text-4xl font-bold mb-4 text-gray-900">
+            Why Choose NJ Golf Carts?
+          </h2>
+          <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
+            We're more than just a dealership - we're your partner in golf cart ownership 
+            with comprehensive services and unmatched expertise.
           </p>
-        </div>
-
-        <div className="grid md:grid-cols-2 gap-8">
-          {/* DENAGO Brand Card */}
-          <Card className="overflow-hidden hover:shadow-xl transition-shadow">
-            <div className="relative h-64">
-              <img
-                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400"
-                alt="DENAGO vehicles"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <CardHeader>
-              <CardTitle className="text-2xl">DENAGO</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-gray-600 mb-4">
-                Premium recreational vehicles designed for performance and style. Available in both 2X4 and 4X4 configurations.
+          
+          <div className="grid md:grid-cols-4 gap-8">
+            <div className="text-center">
+              <div className="bg-blue-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Star className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="text-xl font-semibold mb-3 text-gray-900">Premium Quality</h3>
+              <p className="text-gray-600">
+                Top-rated brands including Yamaha, Club Car, EZGO, and Evolution with rigorous quality standards.
               </p>
-              <Link href="/denago">
-                <Button className="bg-navy hover:bg-blue-800 text-white">
-                  Explore DENAGO
-                </Button>
-              </Link>
-            </CardContent>
-          </Card>
-
-          {/* EVOLUTION Brand Card */}
-          <Card className="overflow-hidden hover:shadow-xl transition-shadow">
-            <div className="relative h-64">
-              <img
-                src={evolutionD5Ranger4PlusImage}
-                alt="EVOLUTION vehicles"
-                className="w-full h-full object-cover"
-              />
             </div>
-            <CardHeader>
-              <CardTitle className="text-2xl">EVOLUTION</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-gray-600 mb-4">
-                Advanced recreational vehicles with cutting-edge technology and superior comfort for all terrains.
+            
+            <div className="text-center">
+              <div className="bg-green-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Wrench className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="text-xl font-semibold mb-3 text-gray-900">Expert Service</h3>
+              <p className="text-gray-600">
+                Professional maintenance, repairs, and customization by certified technicians.
               </p>
-              <Link href="/evolution">
-                <Button className="bg-ocean-blue hover:bg-blue-600 text-white">
-                  Explore EVOLUTION
-                </Button>
-              </Link>
-            </CardContent>
-          </Card>
+            </div>
+            
+            <div className="text-center">
+              <div className="bg-red-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Percent className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="text-xl font-semibold mb-3 text-gray-900">0% Financing</h3>
+              <p className="text-gray-600">
+                Flexible payment options with 0% financing available on select models.
+              </p>
+            </div>
+            
+            <div className="text-center">
+              <div className="bg-green-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Leaf className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="text-xl font-semibold mb-3 text-gray-900">Eco-Friendly</h3>
+              <p className="text-gray-600">
+                Electric golf carts for sustainable, quiet, and efficient transportation.
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
 
-      {/* Features Section */}
-      <div className="bg-gray-100 py-16">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Why Choose Ocean County Golf Carts?
-            </h2>
+      {/* Brand Section */}
+      <section className="py-16 px-4 bg-white">
+        <div className="max-w-7xl mx-auto text-center">
+          <h2 className="text-4xl font-bold mb-4 text-gray-900">
+            New Jersey Golf Cart Dealerships for Top Brands
+          </h2>
+          <p className="text-xl text-gray-600 mb-12">
+            We carry the most trusted names in golf cart manufacturing
+          </p>
+          
+          <div className="grid grid-cols-2 md:grid-cols-6 gap-6 mb-12">
+            <div className="bg-gray-100 p-6 rounded-lg text-center">
+              <h3 className="font-semibold text-gray-700 mb-2">Club Car</h3>
+              <p className="text-sm text-gray-600">Premium golf carts with advanced technology</p>
+            </div>
+            <div className="bg-gray-100 p-6 rounded-lg text-center">
+              <h3 className="font-semibold text-gray-700 mb-2">EZ-GO</h3>
+              <p className="text-sm text-gray-600">Reliable and efficient golf cart solutions</p>
+            </div>
+            <div className="bg-gray-100 p-6 rounded-lg text-center">
+              <h3 className="font-semibold text-gray-700 mb-2">Denago</h3>
+              <p className="text-sm text-gray-600">High-quality performance golf carts</p>
+            </div>
+            <div className="bg-gray-100 p-6 rounded-lg text-center">
+              <h3 className="font-semibold text-gray-700 mb-2">Evolution</h3>
+              <p className="text-sm text-gray-600">Luxury golf carts with premium features</p>
+            </div>
+            <div className="bg-gray-100 p-6 rounded-lg text-center">
+              <h3 className="font-semibold text-gray-700 mb-2">Tomberlin</h3>
+              <p className="text-sm text-gray-600">Street-legal LSV and golf cart options</p>
+            </div>
+            <div className="bg-gray-100 p-6 rounded-lg text-center">
+              <h3 className="font-semibold text-gray-700 mb-2">Swift EV</h3>
+              <p className="text-sm text-gray-600">Electric vehicle innovation</p>
+            </div>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
-            {features.map((feature, index) => {
-              const Icon = feature.icon;
-              return (
-                <div key={index} className="text-center">
-                  <div className="bg-ocean-blue text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Icon className="h-8 w-8" />
+          <p className="text-lg text-gray-700 mb-8">
+            As an authorized dealer, we provide genuine parts, factory warranties, and certified service for all major brands.
+          </p>
+
+          <div className="flex flex-wrap justify-center gap-8 text-green-600">
+            <div className="flex items-center gap-2">
+              <CheckCircle className="w-5 h-5" />
+              <span>Factory Warranties</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <CheckCircle className="w-5 h-5" />
+              <span>Genuine Parts</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <CheckCircle className="w-5 h-5" />
+              <span>Certified Service</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <CheckCircle className="w-5 h-5" />
+              <span>Expert Support</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Featured Golf Carts Section */}
+      <section className="py-16 px-4 bg-gray-50">
+        <div className="max-w-7xl mx-auto text-center">
+          <h2 className="text-4xl font-bold mb-4 text-gray-900">
+            Featured Golf Carts
+          </h2>
+          <p className="text-xl text-gray-600 mb-12">
+            Check out some of our most popular models
+          </p>
+          
+          <div className="grid md:grid-cols-3 gap-8 mb-12">
+            {featuredVehicles.map((vehicle) => (
+              <Card key={vehicle.id} className="overflow-hidden hover:shadow-lg transition-shadow">
+                <div className="aspect-video bg-gray-200 relative overflow-hidden">
+                  {vehicle.images && vehicle.images[0] && (
+                    <img 
+                      src={vehicle.images[0]} 
+                      alt={vehicle.name}
+                      className="w-full h-full object-cover"
+                    />
+                  )}
+                  <div className="absolute top-4 right-4">
+                    <Badge className="bg-green-500 text-white">NEW</Badge>
                   </div>
-                  <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
-                  <p className="text-gray-600">{feature.description}</p>
                 </div>
-              );
-            })}
+                <CardHeader>
+                  <CardTitle className="text-xl">{vehicle.name}</CardTitle>
+                  <CardDescription className="text-left">
+                    {vehicle.description}
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <div className="flex justify-between items-center mb-4">
+                    <span className="text-2xl font-bold text-blue-600">
+                      ${vehicle.price.toLocaleString()}
+                    </span>
+                    <Button size="sm" className="bg-red-500 hover:bg-red-600">
+                      View Details
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+
+          <Link href="/inventory">
+            <Button size="lg" className="bg-red-500 hover:bg-red-600 text-white">
+              View Full Inventory
+            </Button>
+          </Link>
+        </div>
+      </section>
+
+      {/* About NJ Golf Carts Section */}
+      <section className="py-16 px-4 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-4xl font-bold mb-6 text-gray-900">
+                About NJ Golf Carts
+              </h2>
+              <p className="text-lg text-gray-600 mb-8">
+                With over 15 years of experience in the golf cart industry, we've built our reputation on providing exceptional service and quality products to customers throughout New Jersey.
+              </p>
+              
+              <div className="grid grid-cols-2 gap-8 mb-8">
+                <div className="text-center">
+                  <div className="text-4xl font-bold text-blue-600 mb-2">500+</div>
+                  <div className="text-gray-600">Happy Customers</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-4xl font-bold text-blue-600 mb-2">15+</div>
+                  <div className="text-gray-600">Years Experience</div>
+                </div>
+              </div>
+
+              <Button className="bg-red-500 hover:bg-red-600 text-white">
+                Learn More
+              </Button>
+            </div>
+            
+            <div className="relative">
+              <div className="bg-green-100 p-4 rounded-lg">
+                <div className="w-full h-64 bg-green-200 rounded-lg flex items-center justify-center text-gray-600">
+                  <div className="text-center">
+                    <MapPin className="w-12 h-12 mx-auto mb-2 text-green-600" />
+                    <div className="font-semibold">New Jersey</div>
+                    <div className="text-sm">Serving all 21 counties</div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
+
+      {/* Ready to Get Started Section */}
+      <section className="py-16 px-4 bg-gray-50">
+        <div className="max-w-7xl mx-auto text-center">
+          <h2 className="text-4xl font-bold mb-4 text-gray-900">
+            Ready to Get Started?
+          </h2>
+          <p className="text-xl text-gray-600 mb-12">
+            Contact us today for personalized service and expert advice
+          </p>
+          
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-6 mb-12">
+            <div className="bg-white p-6 rounded-lg shadow-sm text-center">
+              <MapPin className="w-8 h-8 text-blue-500 mx-auto mb-3" />
+              <h3 className="font-semibold text-gray-900 mb-2">Ocean View</h3>
+              <p className="text-sm text-gray-600 mb-2">101 NJ 50, Ocean View, NJ 08230</p>
+              <p className="text-blue-600 font-semibold">609-840-0404</p>
+            </div>
+            
+            <div className="bg-white p-6 rounded-lg shadow-sm text-center">
+              <MapPin className="w-8 h-8 text-blue-500 mx-auto mb-3" />
+              <h3 className="font-semibold text-gray-900 mb-2">Bayville</h3>
+              <p className="text-sm text-gray-600 mb-2">155 Atlantic City Blvd, Bayville, NJ 08721</p>
+              <p className="text-blue-600 font-semibold">(732) 908-7166</p>
+            </div>
+            
+            <div className="bg-white p-6 rounded-lg shadow-sm text-center">
+              <MapPin className="w-8 h-8 text-blue-500 mx-auto mb-3" />
+              <h3 className="font-semibold text-gray-900 mb-2">Waretown</h3>
+              <p className="text-sm text-gray-600 mb-2">526 US 9, Waretown, NJ 08758</p>
+              <p className="text-blue-600 font-semibold">(732) 998-8146</p>
+            </div>
+            
+            <div className="bg-white p-6 rounded-lg shadow-sm text-center">
+              <MapPin className="w-8 h-8 text-blue-500 mx-auto mb-3" />
+              <h3 className="font-semibold text-gray-900 mb-2">Pleasantville</h3>
+              <p className="text-sm text-gray-600 mb-2">7000 Black Horse Pike, Pleasantville, NJ 08232</p>
+              <p className="text-blue-600 font-semibold">640-444-3094</p>
+            </div>
+            
+            <div className="bg-white p-6 rounded-lg shadow-sm text-center">
+              <MapPin className="w-8 h-8 text-blue-500 mx-auto mb-3" />
+              <h3 className="font-semibold text-gray-900 mb-2">New Jersey</h3>
+              <p className="text-sm text-gray-600 mb-2">New Jersey</p>
+              <p className="text-blue-600 font-semibold">1-844-844-6638</p>
+            </div>
+          </div>
+
+          <div className="bg-white p-8 rounded-lg shadow-sm">
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Main Contact</h3>
+            <p className="text-gray-600 mb-4">For general inquiries and support</p>
+            <div className="flex justify-center items-center gap-4">
+              <span className="text-2xl font-bold text-blue-600">1-844-844-6638</span>
+              <Button className="bg-red-500 hover:bg-red-600 text-white">
+                Contact Us
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

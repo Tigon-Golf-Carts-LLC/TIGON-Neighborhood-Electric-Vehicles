@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "wouter";
-import { Menu, X } from "lucide-react";
+import { Menu, Car } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
@@ -11,8 +11,9 @@ export default function Navigation() {
   const navItems = [
     { path: "/", label: "Home" },
     { path: "/inventory", label: "Inventory" },
-    { path: "/denago", label: "DENAGO" },
-    { path: "/evolution", label: "EVOLUTION" },
+    { path: "/rentals", label: "Rentals" },
+    { path: "/services", label: "Services" },
+    { path: "/about", label: "About" },
     { path: "/contact", label: "Contact" },
   ];
 
@@ -22,33 +23,47 @@ export default function Navigation() {
   };
 
   return (
-    <nav className="bg-white shadow-lg sticky top-0 z-50">
+    <nav className="bg-white shadow-sm sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="flex items-center">
+          <div className="flex items-center space-x-3">
+            <div className="bg-green-500 p-2 rounded-lg">
+              <Car className="h-6 w-6 text-white" />
+            </div>
             <Link href="/">
-              <h1 className="text-2xl font-bold text-navy cursor-pointer">
-                Ocean County Golf Carts
-              </h1>
+              <div className="cursor-pointer">
+                <div className="text-lg font-bold text-blue-600">NEW JERSEY</div>
+                <div className="text-lg font-bold text-blue-600 -mt-1">GOLF CART DEALERSHIPS</div>
+              </div>
             </Link>
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-4">
+          <div className="hidden md:flex items-center space-x-8">
+            <div className="flex items-baseline space-x-6">
               {navItems.map((item) => (
                 <Link
                   key={item.path}
                   href={item.path}
                   className={`px-3 py-2 text-sm font-medium transition-colors ${
                     isActive(item.path)
-                      ? "text-navy"
-                      : "text-gray-700 hover:text-ocean-blue"
+                      ? "text-gray-900 font-semibold"
+                      : "text-gray-700 hover:text-gray-900"
                   }`}
                 >
                   {item.label}
                 </Link>
               ))}
+            </div>
+            
+            <div className="flex items-center space-x-4">
+              <div className="text-right">
+                <div className="text-sm text-gray-600">Call Now</div>
+                <div className="text-sm font-semibold text-blue-600">1-844-844-6638</div>
+              </div>
+              <Button className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 text-sm font-medium">
+                Get Quote
+              </Button>
             </div>
           </div>
 
@@ -69,14 +84,21 @@ export default function Navigation() {
                       href={item.path}
                       className={`px-3 py-2 text-base font-medium transition-colors ${
                         isActive(item.path)
-                          ? "text-navy"
-                          : "text-gray-700 hover:text-ocean-blue"
+                          ? "text-gray-900 font-semibold"
+                          : "text-gray-700 hover:text-gray-900"
                       }`}
                       onClick={() => setIsMobileMenuOpen(false)}
                     >
                       {item.label}
                     </Link>
                   ))}
+                  <div className="border-t pt-4 mt-4">
+                    <div className="text-sm text-gray-600">Call Now</div>
+                    <div className="text-sm font-semibold text-blue-600 mb-4">1-844-844-6638</div>
+                    <Button className="bg-red-500 hover:bg-red-600 text-white w-full">
+                      Get Quote
+                    </Button>
+                  </div>
                 </div>
               </SheetContent>
             </Sheet>

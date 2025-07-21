@@ -5,6 +5,9 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import HomePage from "@/pages/HomePage";
 import InventoryPage from "@/pages/InventoryPage";
+import RentalsPage from "@/pages/RentalsPage";
+import ServicesPage from "@/pages/ServicesPage";
+import AboutPage from "@/pages/AboutPage";
 import DenagoPage from "@/pages/DenagoPage";
 import EvolutionPage from "@/pages/EvolutionPage";
 import VehicleDetailPage from "@/pages/VehicleDetailPage";
@@ -22,6 +25,9 @@ function App() {
           <Switch>
             <Route path="/" component={HomePage} />
             <Route path="/inventory" component={InventoryPage} />
+            <Route path="/rentals" component={RentalsPage} />
+            <Route path="/services" component={ServicesPage} />
+            <Route path="/about" component={AboutPage} />
             <Route path="/denago" component={DenagoPage} />
             <Route path="/evolution" component={EvolutionPage} />
             <Route path="/vehicle/:id" component={VehicleDetailPage} />
