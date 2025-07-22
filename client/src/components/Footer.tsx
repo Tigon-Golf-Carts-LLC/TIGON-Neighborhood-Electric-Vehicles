@@ -55,7 +55,7 @@ export default function Footer() {
           <div className="md:col-span-1">
             <div className="space-y-2">
               <p className="text-gray-900 font-semibold text-sm">Phone: 1-844-844-6638</p>
-              <p className="text-gray-600 text-sm">Email: info@njgolfcarts.com</p>
+              <p className="text-gray-600 text-sm">Email: info@oceancountygolfcarts.com</p>
               <div className="text-gray-600 text-sm">
                 <p>Mon-Fri: 9AM-5PM</p>
                 <p>Sat: 9AM-5PM</p>
