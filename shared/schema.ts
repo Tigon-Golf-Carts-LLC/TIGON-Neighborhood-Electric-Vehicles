@@ -40,3 +40,19 @@ export const contactFormSchema = z.object({
 });
 
 export type ContactForm = z.infer<typeof contactFormSchema>;
+
+// Golf Cart schema for inventory
+export const golfCartSchema = z.object({
+  id: z.string(),
+  title: z.string(),
+  description: z.string(),
+  price: z.number(),
+  category: z.enum(["new", "used", "custom"]),
+  imageUrl: z.string(),
+  brand: z.string(),
+  model: z.string(),
+  year: z.number().optional(),
+  featured: z.boolean().default(false),
+});
+
+export type GolfCart = z.infer<typeof golfCartSchema>;

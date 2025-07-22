@@ -5,6 +5,8 @@ import { Badge } from "@/components/ui/badge";
 import { Star, Wrench, Percent, Leaf, CheckCircle, MapPin } from "lucide-react";
 import { useQuery } from "@tanstack/react-query";
 import type { Vehicle } from "@shared/schema";
+import InventorySection from "@/components/InventorySection";
+import BrandsSection from "@/components/BrandsSection";
 
 export default function HomePage() {
   const { data: vehicles } = useQuery<Vehicle[]>({

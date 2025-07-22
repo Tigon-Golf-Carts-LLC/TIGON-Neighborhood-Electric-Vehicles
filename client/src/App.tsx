@@ -13,6 +13,11 @@ import EvolutionPage from "@/pages/EvolutionPage";
 import VehicleDetailPage from "@/pages/VehicleDetailPage";
 import ContactPage from "@/pages/ContactPage";
 import NotFound from "@/pages/not-found";
+import NewInventoryPage from "@/pages/NewInventoryPage";
+import NewServicesPage from "@/pages/NewServicesPage";
+import NewAboutPage from "@/pages/NewAboutPage";
+import EvolutionD5Ranger6Plus from "@/pages/vehicles/EvolutionD5Ranger6Plus";
+import EvolutionD5Ranger22Plus from "@/pages/vehicles/EvolutionD5Ranger22Plus";
 import {
   BarnegaTPPage, BarnegaLightPage, BayHeadPage, BeachHavenPage, BeachwoodPage,
   BerkeleyTPage, BrickTPage, EagleswoodTPage, HarveyCedarsPage, IslandHeightsPage,
@@ -33,14 +38,18 @@ function App() {
         <main className="flex-1">
           <Switch>
             <Route path="/" component={HomePage} />
-            <Route path="/inventory" component={InventoryPage} />
+            <Route path="/inventory" component={NewInventoryPage} />
             <Route path="/rentals" component={RentalsPage} />
-            <Route path="/services" component={ServicesPage} />
-            <Route path="/about" component={AboutPage} />
+            <Route path="/services" component={NewServicesPage} />
+            <Route path="/about" component={NewAboutPage} />
             <Route path="/denago" component={DenagoPage} />
             <Route path="/evolution" component={EvolutionPage} />
             <Route path="/vehicle/:id" component={VehicleDetailPage} />
             <Route path="/contact" component={ContactPage} />
+            
+            {/* Vehicle Pages */}
+            <Route path="/vehicles/evolution-d5-ranger-6-plus" component={EvolutionD5Ranger6Plus} />
+            <Route path="/vehicles/evolution-d5-ranger-22-plus" component={EvolutionD5Ranger22Plus} />
             
             {/* Ocean County Town Pages */}
             <Route path="/barnegat-township-golf-carts" component={BarnegaTPPage} />
