@@ -87,11 +87,10 @@ export default function TownPage({ townName, townType }: TownPageProps) {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-5xl font-bold mb-6 leading-tight">
-                {townName} Golf Carts - Ocean County's Premier Dealership
+                Ocean County Golf Carts - Top Golf Cart and LSV Brands
               </h1>
               <p className="text-xl mb-8 text-gray-100">
-                Professional golf cart sales, service, and rentals in {fullTownName}. 
-                Serving {townName} residents with premium DENAGO and EVOLUTION electric golf carts.
+                We carry the most trusted names in Golf Carts and Low Speed Vehicles
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/inventory" className="w-full sm:w-auto">
