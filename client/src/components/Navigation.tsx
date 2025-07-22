@@ -57,12 +57,8 @@ export default function Navigation() {
             </div>
             
             <div className="flex items-center space-x-4">
-              <div className="text-right">
-                <div className="text-sm text-gray-600">Call Now</div>
-                <div className="text-sm font-semibold text-theme-primary">1-844-844-6638</div>
-              </div>
               <Button className="bg-theme-orange hover:bg-orange-600 text-white px-4 py-2 text-sm font-medium">
-                Get Quote
+                Call Now 1-844-844-6638
               </Button>
             </div>
           </div>
@@ -93,10 +89,8 @@ export default function Navigation() {
                     </Link>
                   ))}
                   <div className="border-t pt-4 mt-4">
-                    <div className="text-sm text-gray-600">Call Now</div>
-                    <div className="text-sm font-semibold text-blue-600 mb-4">1-844-844-6638</div>
-                    <Button className="bg-red-500 hover:bg-red-600 text-white w-full">
-                      Get Quote
+                    <Button className="bg-theme-orange hover:bg-orange-600 text-white w-full">
+                      Call Now 1-844-844-6638
                     </Button>
                   </div>
                 </div>
