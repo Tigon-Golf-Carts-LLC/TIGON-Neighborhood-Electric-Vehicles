@@ -26,7 +26,19 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Navigation Links - Updated with requested links */}
+          {/* Navigation Links */}
+          <div className="md:col-span-1">
+            <ul className="space-y-2">
+              <li><Link href="/" className="text-gray-600 hover:text-gray-900 text-sm">Home</Link></li>
+              <li><Link href="/inventory" className="text-gray-600 hover:text-gray-900 text-sm">Inventory</Link></li>
+              <li><Link href="/rentals" className="text-gray-600 hover:text-gray-900 text-sm">Rentals</Link></li>
+              <li><Link href="/services" className="text-gray-600 hover:text-gray-900 text-sm">Services</Link></li>
+              <li><Link href="/financing" className="text-gray-600 hover:text-gray-900 text-sm">Financing</Link></li>
+              <li><Link href="/about" className="text-gray-600 hover:text-gray-900 text-sm">About</Link></li>
+            </ul>
+          </div>
+
+          {/* Services - Updated with requested links */}
           <div className="md:col-span-1">
             <ul className="space-y-2">
               <li><Link href="/inventory" className="text-gray-600 hover:text-gray-900 text-sm">NEW GOLF CARTS</Link></li>
@@ -36,17 +48,6 @@ export default function Footer() {
               <li><Link href="/contact" className="text-gray-600 hover:text-gray-900 text-sm">CONTACT</Link></li>
               <li><Link href="/privacy" className="text-gray-600 hover:text-gray-900 text-sm">PRIVACY POLICY</Link></li>
               <li><Link href="/terms" className="text-gray-600 hover:text-gray-900 text-sm">TERMS OF SERVICE</Link></li>
-            </ul>
-          </div>
-
-          {/* Services */}
-          <div className="md:col-span-1">
-            <ul className="space-y-2">
-              <li><span className="text-gray-600 text-sm">New Golf Carts</span></li>
-              <li><span className="text-gray-600 text-sm">Golf Cart Rentals</span></li>
-              <li><span className="text-gray-600 text-sm">Service & Repair</span></li>
-              <li><span className="text-gray-600 text-sm">Parts & Accessories</span></li>
-              <li><span className="text-gray-600 text-sm">Financing Options</span></li>
             </ul>
           </div>
 
