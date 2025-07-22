@@ -179,38 +179,101 @@ Ocean County Golf Carts Premier Dealership
           </p>
           
           <div className="grid md:grid-cols-3 gap-8 mb-12">
-            {featuredVehicles.map((vehicle) => (
-              <Card key={vehicle.id} className="overflow-hidden hover:shadow-lg transition-shadow">
-                <div className="aspect-video bg-gray-200 relative overflow-hidden">
-                  {vehicle.images && vehicle.images[0] && (
-                    <img 
-                      src={vehicle.images[0]} 
-                      alt={vehicle.name}
-                      className="w-full h-full object-cover"
-                    />
-                  )}
-                  <div className="absolute top-4 right-4">
-                    <Badge className="bg-green-500 text-white">NEW</Badge>
-                  </div>
+            {/* Evolution D5 Maverick 4 Plus */}
+            <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="aspect-video bg-gray-200 relative overflow-hidden">
+                <img 
+                  src="/attached_assets/EVOLUTIOND5MAVERICK4PLUS_1751893115781_1753135350621.jpg" 
+                  alt="Evolution D5 Maverick 4 Plus"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute top-4 right-4">
+                  <Badge className="bg-green-500 text-white text-xs px-2 py-1">NEW</Badge>
                 </div>
-                <CardHeader>
-                  <CardTitle className="text-xl">{vehicle.name}</CardTitle>
-                  <CardDescription className="text-left">
-                    {vehicle.description}
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div className="flex justify-between items-center mb-4">
-                    <span className="text-2xl font-bold text-blue-600">
-                      ${vehicle.price.toLocaleString()}
-                    </span>
-                    <Button size="sm" className="bg-theme-orange hover:bg-orange-600">
+              </div>
+              <CardHeader className="pb-3">
+                <CardTitle className="text-xl font-semibold">Evolution D5 Maverick 4 Plus</CardTitle>
+                <CardDescription className="text-left text-gray-600 text-sm">
+                  Premium electric golf cart with advanced features and superior performance. Seats 4 passengers with extended range capability.
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="pt-0">
+                <div className="flex justify-between items-center">
+                  <span className="text-2xl font-bold text-blue-600">
+                    $12,995
+                  </span>
+                  <Link href="/vehicles/evolution-d5-maverick-4-plus">
+                    <Button size="sm" className="bg-theme-orange hover:bg-orange-600 text-white px-4 py-2">
                       View Details
                     </Button>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
+                  </Link>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Evolution D6 Max GT4 */}
+            <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="aspect-video bg-gray-200 relative overflow-hidden">
+                <img 
+                  src="/attached_assets/EVOLUTIOND6MAXGT4_1751893159004_1753135350620.jpg" 
+                  alt="Evolution D6 Max GT4"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute top-4 right-4">
+                  <Badge className="bg-green-500 text-white text-xs px-2 py-1">NEW</Badge>
+                </div>
+              </div>
+              <CardHeader className="pb-3">
+                <CardTitle className="text-xl font-semibold">Evolution D6 Max GT4</CardTitle>
+                <CardDescription className="text-left text-gray-600 text-sm">
+                  High-performance 4-passenger golf cart with cutting-edge technology and sporty design.
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="pt-0">
+                <div className="flex justify-between items-center">
+                  <span className="text-2xl font-bold text-blue-600">
+                    $16,995
+                  </span>
+                  <Link href="/vehicles/evolution-d6-max-gt4">
+                    <Button size="sm" className="bg-theme-orange hover:bg-orange-600 text-white px-4 py-2">
+                      View Details
+                    </Button>
+                  </Link>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Denago EV City */}
+            <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="aspect-video bg-gray-200 relative overflow-hidden">
+                <img 
+                  src="/attached_assets/DENAGONEVCITY_1751893047472_1753135231313.jpg" 
+                  alt="Denago EV City"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute top-4 right-4">
+                  <Badge className="bg-green-500 text-white text-xs px-2 py-1">NEW</Badge>
+                </div>
+              </div>
+              <CardHeader className="pb-3">
+                <CardTitle className="text-xl font-semibold">Denago EV City</CardTitle>
+                <CardDescription className="text-left text-gray-600 text-sm">
+                  Urban mobility solution with street-legal capabilities and modern design for city transportation.
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="pt-0">
+                <div className="flex justify-between items-center">
+                  <span className="text-2xl font-bold text-blue-600">
+                    $11,995
+                  </span>
+                  <Link href="/vehicles/denago-ev-city">
+                    <Button size="sm" className="bg-theme-orange hover:bg-orange-600 text-white px-4 py-2">
+                      View Details
+                    </Button>
+                  </Link>
+                </div>
+              </CardContent>
+            </Card>
           </div>
 
           <Link href="/inventory">
