@@ -27,13 +27,13 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-3">
-            <div className="bg-green-500 p-2 rounded-lg">
+            <div className="bg-theme-orange p-2 rounded-lg">
               <Car className="h-6 w-6 text-white" />
             </div>
             <Link href="/">
               <div className="cursor-pointer">
-                <div className="text-lg font-bold text-blue-600">OCEAN COUNTY</div>
-                <div className="text-lg font-bold text-blue-600 -mt-1">GOLF CARTS</div>
+                <div className="text-lg font-bold text-theme-primary">OCEAN COUNTY</div>
+                <div className="text-lg font-bold text-theme-primary -mt-1">GOLF CARTS</div>
               </div>
             </Link>
           </div>
@@ -59,9 +59,9 @@ export default function Navigation() {
             <div className="flex items-center space-x-4">
               <div className="text-right">
                 <div className="text-sm text-gray-600">Call Now</div>
-                <div className="text-sm font-semibold text-blue-600">1-844-844-6638</div>
+                <div className="text-sm font-semibold text-theme-primary">1-844-844-6638</div>
               </div>
-              <Button className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 text-sm font-medium">
+              <Button className="bg-theme-orange hover:bg-orange-600 text-white px-4 py-2 text-sm font-medium">
                 Get Quote
               </Button>
             </div>

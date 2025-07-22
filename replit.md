@@ -7,6 +7,7 @@ NJ Golf Carts is a full-stack web application for a New Jersey-based golf cart d
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
+Theme Colors: Primary theme color #0e2e55 (dark blue), Orange accent #ff6100 for buttons and highlights.
 
 ## System Architecture
 

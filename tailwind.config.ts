@@ -61,6 +61,12 @@ export default {
           border: "var(--sidebar-border)",
           ring: "var(--sidebar-ring)",
         },
+        // Ocean County Golf Carts custom colors
+        'theme-primary': "var(--theme-primary)",
+        'theme-orange': "var(--theme-orange)",
+        'ocean-blue': "var(--ocean-blue)",
+        'navy': "var(--navy)",
+        'accent-orange': "var(--accent-orange)",
       },
       keyframes: {
         "accordion-down": {

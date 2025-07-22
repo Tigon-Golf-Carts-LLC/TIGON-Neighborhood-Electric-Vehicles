@@ -18,7 +18,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-teal-500 via-cyan-500 to-green-400 text-white py-20 px-4">
+      <section className="bg-gradient-to-br from-theme-primary via-blue-800 to-theme-primary text-white py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -31,7 +31,7 @@ Ocean County Golf Carts Premier Dealership
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/inventory">
-                  <Button size="lg" className="bg-red-500 hover:bg-red-600 text-white">
+                  <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
                     View Inventory
                   </Button>
                 </Link>
@@ -64,7 +64,7 @@ Ocean County Golf Carts Premier Dealership
           
           <div className="grid md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="bg-blue-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-theme-primary w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Star className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold mb-3 text-gray-900">Premium Quality</h3>
