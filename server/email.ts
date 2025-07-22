@@ -105,7 +105,7 @@ Respond directly to this email to contact the customer.
       from: `"Ocean County Golf Carts Contact Form" <${process.env.EMAIL_USER || 'oceancountygolfcarts@gmail.com'}>`,
       to: 'sales@tigongolfcarts.com',
       replyTo: formData.email, // Set reply-to as the customer's email
-      subject: `New ${interestLabel} - ${formData.firstName} ${formData.lastName}`,
+      subject: `[ OCEAN COUNTY GOLF CARTS ] New Inquiry`,
       text: textContent,
       html: htmlContent,
     };
@@ -122,7 +122,7 @@ Respond directly to this email to contact the customer.
       
       // For development, we'll just log the email content and return success
       console.log('Email would be sent to: sales@tigongolfcarts.com');
-      console.log('Email subject:', `New ${interestLabel} - ${formData.firstName} ${formData.lastName}`);
+      console.log('Email subject:', `[ OCEAN COUNTY GOLF CARTS ] New Inquiry`);
       console.log('Email content:', textContent);
       return true;
     }
