@@ -82,7 +82,7 @@ export default function TownPage({ townName, townType }: TownPageProps) {
         townName={fullTownName}
       />
       {/* SEO Optimized Hero Section */}
-      <section className="bg-gradient-to-br from-teal-500 via-cyan-500 to-green-400 text-white py-20 px-4">
+      <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(29, 78, 216, 0.8)), url('/attached_assets/Ocean County Golf Carts New Jersey 3_1753197335727.jpeg')"}}>
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
