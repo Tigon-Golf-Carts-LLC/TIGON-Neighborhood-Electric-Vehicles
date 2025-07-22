@@ -71,13 +71,23 @@ export default function ContactPage() {
   const contactInfo = [
     {
       icon: MapPin,
-      label: "Location",
-      value: "Ocean County, New Jersey",
+      label: "Bayville Location",
+      value: "Bayville, NJ",
     },
     {
       icon: Phone,
-      label: "Phone",
-      value: "Contact for current phone number",
+      label: "Bayville Phone",
+      value: "(732) 908-7166",
+    },
+    {
+      icon: MapPin,
+      label: "Waretown Location", 
+      value: "Waretown, NJ",
+    },
+    {
+      icon: Phone,
+      label: "Waretown Phone",
+      value: "(732) 998-8146",
     },
     {
       icon: Mail,
@@ -93,9 +103,9 @@ export default function ContactPage() {
   ];
 
   const businessHours = [
-    { day: "Monday - Friday", hours: "9:00 AM - 6:00 PM" },
+    { day: "Monday - Friday", hours: "9:00 AM - 5:00 PM" },
     { day: "Saturday", hours: "9:00 AM - 5:00 PM" },
-    { day: "Sunday", hours: "By Appointment" },
+    { day: "Sunday", hours: "CLOSED" },
   ];
 
   return (
