@@ -66,7 +66,10 @@ export default function ShowroomPage() {
                   <div className="flex justify-between items-start">
                     <div>
                       <CardTitle className="text-2xl text-theme-primary mb-2">
-                        {location.name}
+                        <a href={location.websiteUrl} target="_blank" rel="noopener noreferrer" 
+                           className="hover:text-theme-orange transition-colors cursor-pointer">
+                          {location.name}
+                        </a>
                       </CardTitle>
                       <Badge className="bg-theme-orange text-white">
                         {location.city} Location
