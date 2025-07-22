@@ -222,7 +222,7 @@ export default function ShowroomPage() {
                 Schedule Visit
               </Button>
             </Link>
-            <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-theme-primary">
+            <Button size="lg" variant="outline" className="text-gray-900 bg-white border-white hover:bg-gray-100">
               <Phone className="w-5 h-5 mr-2" />
               Call Today
             </Button>
