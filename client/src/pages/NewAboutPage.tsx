@@ -121,6 +121,13 @@ export default function NewAboutPage() {
                     Doylestown to Bristol, and everywhere in between.
                   </p>
                   <p>
+                    Bucks County itself has a rich history dating back to 1682, when William Penn founded 
+                    the county and named it in honor of Buckinghamshire, England - his family's ancestral 
+                    home. Just as Penn brought tradition and excellence from England to Pennsylvania, we 
+                    continue that legacy by bringing the finest golf cart technology and service to this 
+                    historic region.
+                  </p>
+                  <p>
                     Today, we're proud to be authorized dealers for premium brands like DENAGO and 
                     EVOLUTION, offering our customers access to the latest in electric vehicle 
                     technology and innovation.
