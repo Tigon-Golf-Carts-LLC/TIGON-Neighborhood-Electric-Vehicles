@@ -216,7 +216,7 @@ export default function EvolutionClassic2Pro() {
               Professional Grade Performance
             </h2>
             <p className="text-xl text-gray-300 mb-8">
-              Contact Ocean County Golf Carts today for your EVOLUTION Classic 2 Pro.
+              Contact Bucks County Golf Carts today for your EVOLUTION Classic 2 Pro.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">

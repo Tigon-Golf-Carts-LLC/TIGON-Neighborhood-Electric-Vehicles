@@ -216,7 +216,7 @@ export default function EvolutionD5Maverick4() {
               Essential Quality, Reliable Performance
             </h2>
             <p className="text-xl text-gray-300 mb-8">
-              Contact Ocean County Golf Carts today for your EVOLUTION D5 Maverick 4.
+              Contact Bucks County Golf Carts today for your EVOLUTION D5 Maverick 4.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">

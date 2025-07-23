@@ -218,7 +218,7 @@ export default function DenagoEVRoverXL() {
               Ready to Experience the DENAGO® EV ROVER XL?
             </h2>
             <p className="text-xl mb-8">
-              Contact Ocean County Golf Carts today for pricing, availability, and to schedule a test drive.
+              Contact Bucks County Golf Carts today for pricing, availability, and to schedule a test drive.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">

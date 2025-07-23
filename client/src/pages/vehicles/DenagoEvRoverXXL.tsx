@@ -225,7 +225,7 @@ export default function DenagoEvRoverXXL() {
               Maximum Capacity, Maximum Luxury
             </h2>
             <p className="text-xl text-gray-300 mb-8">
-              Contact Ocean County Golf Carts today to schedule a test drive or get a personalized quote for your DENAGO EV Rover XXL.
+              Contact Bucks County Golf Carts today to schedule a test drive or get a personalized quote for your DENAGO EV Rover XXL.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">

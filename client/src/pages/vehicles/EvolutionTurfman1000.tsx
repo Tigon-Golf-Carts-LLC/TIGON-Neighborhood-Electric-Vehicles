@@ -241,7 +241,7 @@ export default function EvolutionTurfman1000() {
               Ready to Experience the EVOLUTION® TURFMAN 1000?
             </h2>
             <p className="text-xl mb-8">
-              Contact Ocean County Golf Carts today for commercial pricing, availability, and to schedule a demonstration.
+              Contact Bucks County Golf Carts today for commercial pricing, availability, and to schedule a demonstration.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">

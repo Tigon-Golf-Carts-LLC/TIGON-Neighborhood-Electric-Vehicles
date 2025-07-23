@@ -216,7 +216,7 @@ export default function EvolutionCarrier8Plus() {
               Maximum Capacity, Maximum Performance
             </h2>
             <p className="text-xl text-gray-300 mb-8">
-              Contact Ocean County Golf Carts today for your EVOLUTION Carrier 8 Plus.
+              Contact Bucks County Golf Carts today for your EVOLUTION Carrier 8 Plus.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">

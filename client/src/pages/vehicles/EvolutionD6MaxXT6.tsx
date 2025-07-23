@@ -216,7 +216,7 @@ export default function EvolutionD6MaxXT6() {
               Ultimate Adventure Awaits
             </h2>
             <p className="text-xl text-gray-300 mb-8">
-              Contact Ocean County Golf Carts today for your EVOLUTION D6 Max XT6.
+              Contact Bucks County Golf Carts today for your EVOLUTION D6 Max XT6.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">

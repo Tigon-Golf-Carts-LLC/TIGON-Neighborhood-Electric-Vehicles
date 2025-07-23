@@ -169,7 +169,7 @@ export default function VehicleDetailPage() {
             <ul className="space-y-2">
               {vehicle.features.map((feature, index) => (
                 <li key={index} className="flex items-center text-gray-700">
-                  <div className="w-2 h-2 bg-ocean-blue rounded-full mr-3 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-theme-orange rounded-full mr-3 flex-shrink-0"></div>
                   {feature}
                 </li>
               ))}

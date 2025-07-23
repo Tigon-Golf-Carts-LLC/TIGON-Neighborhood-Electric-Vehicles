@@ -246,7 +246,7 @@ export default function DenagoEvNomad() {
               Ready to Start Your Adventure with the DENAGO® EV NOMAD?
             </h2>
             <p className="text-xl mb-8">
-              Contact Ocean County Golf Carts today for pricing, availability, and to schedule an off-road test drive.
+              Contact Bucks County Golf Carts today for pricing, availability, and to schedule an off-road test drive.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
@@ -295,11 +295,11 @@ export default function DenagoEvNomad() {
               <Card className="text-center">
                 <CardHeader>
                   <MapPin className="w-12 h-12 text-purple-500 mx-auto mb-4" />
-                  <CardTitle>Ocean County Service</CardTitle>
+                  <CardTitle>Bucks County Service</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600">
-                    Adventure-ready delivery and pickup service throughout Ocean County.
+                    Adventure-ready delivery and pickup service throughout Bucks County, Pennsylvania.
                   </p>
                 </CardContent>
               </Card>

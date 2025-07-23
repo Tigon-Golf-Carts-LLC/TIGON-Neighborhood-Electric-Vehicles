@@ -241,7 +241,7 @@ export default function EvolutionD6MaxGT4() {
               Ready to Experience the EVOLUTION® D6 MAX GT4?
             </h2>
             <p className="text-xl mb-8">
-              Contact Ocean County Golf Carts today for pricing, availability, and to schedule a performance test drive.
+              Contact Bucks County Golf Carts today for pricing, availability, and to schedule a performance test drive.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
@@ -290,11 +290,11 @@ export default function EvolutionD6MaxGT4() {
               <Card className="text-center">
                 <CardHeader>
                   <MapPin className="w-12 h-12 text-purple-500 mx-auto mb-4" />
-                  <CardTitle>Ocean County Service</CardTitle>
+                  <CardTitle>Bucks County Service</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600">
-                    Premium delivery and pickup service available throughout Ocean County.
+                    Premium delivery and pickup service available throughout Bucks County, Pennsylvania.
                   </p>
                 </CardContent>
               </Card>
