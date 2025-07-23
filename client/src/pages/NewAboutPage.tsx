@@ -277,19 +277,69 @@ export default function NewAboutPage() {
               <h3 className="text-2xl font-bold text-center mb-6">Complete Bucks County Coverage</h3>
               <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 text-sm text-gray-600">
                 {[
-                  "Bristol Borough", "Chalfont Borough", "Doylestown Borough", "Dublin Borough", "Hulmeville Borough", "Ivyland Borough",
-                  "Langhorne Borough", "Langhorne Manor Borough", "Morrisville Borough", "New Britain Borough", "New Hope Borough", "Newtown Borough",
-                  "Penndel Borough", "Perkasie Borough", "Quakertown Borough", "Richlandtown Borough", "Riegelsville Borough", "Sellersville Borough",
-                  "Silverdale Borough", "Telford Borough", "Trumbauersville Borough", "Tullytown Borough", "Yardley Borough", "Hatboro Borough",
-                  "Souderton Borough", "Bedminster Township", "Bensalem Township", "Bridgeton Township", "Bristol Township", "Buckingham Township",
-                  "Doylestown Township", "Durham Township", "East Rockhill Township", "Falls Township", "Haycock Township", "Hilltown Township",
-                  "Lower Makefield Township", "Lower Southampton Township", "Middletown Township", "Milford Township", "New Britain Township", "Newtown Township",
-                  "Nockamixon Township", "Northampton Township", "Plumstead Township", "Richland Township", "Solebury Township", "Springfield Township",
-                  "Tinicum Township", "Upper Makefield Township", "Upper Southampton Township", "Warminster Township", "Warrington Township", "Warwick Township",
-                  "West Rockhill Township", "Wrightstown Township"
+                  { name: "Bristol Borough", path: "/bristol-borough-golf-carts" },
+                  { name: "Chalfont Borough", path: "/chalfont-borough-golf-carts" },
+                  { name: "Doylestown Borough", path: "/doylestown-borough-golf-carts" },
+                  { name: "Dublin Borough", path: "/dublin-borough-golf-carts" },
+                  { name: "Hulmeville Borough", path: "/hulmeville-borough-golf-carts" },
+                  { name: "Ivyland Borough", path: "/ivyland-borough-golf-carts" },
+                  { name: "Langhorne Borough", path: "/langhorne-borough-golf-carts" },
+                  { name: "Langhorne Manor Borough", path: "/langhorne-manor-borough-golf-carts" },
+                  { name: "Morrisville Borough", path: "/morrisville-borough-golf-carts" },
+                  { name: "New Britain Borough", path: "/new-britain-borough-golf-carts" },
+                  { name: "New Hope Borough", path: "/new-hope-borough-golf-carts" },
+                  { name: "Newtown Borough", path: "/newtown-borough-golf-carts" },
+                  { name: "Penndel Borough", path: "/penndel-borough-golf-carts" },
+                  { name: "Perkasie Borough", path: "/perkasie-borough-golf-carts" },
+                  { name: "Quakertown Borough", path: "/quakertown-borough-golf-carts" },
+                  { name: "Richlandtown Borough", path: "/richlandtown-borough-golf-carts" },
+                  { name: "Riegelsville Borough", path: "/riegelsville-borough-golf-carts" },
+                  { name: "Sellersville Borough", path: "/sellersville-borough-golf-carts" },
+                  { name: "Silverdale Borough", path: "/silverdale-borough-golf-carts" },
+                  { name: "Telford Borough", path: "/telford-borough-golf-carts" },
+                  { name: "Trumbauersville Borough", path: "/trumbauersville-borough-golf-carts" },
+                  { name: "Tullytown Borough", path: "/tullytown-borough-golf-carts" },
+                  { name: "Yardley Borough", path: "/yardley-borough-golf-carts" },
+                  { name: "Hatboro Borough", path: "/hatboro-borough-golf-carts" },
+                  { name: "Souderton Borough", path: "/souderton-borough-golf-carts" },
+                  { name: "Bedminster Township", path: "/bedminster-township-golf-carts" },
+                  { name: "Bensalem Township", path: "/bensalem-township-golf-carts" },
+                  { name: "Bridgeton Township", path: "/bridgeton-township-golf-carts" },
+                  { name: "Bristol Township", path: "/bristol-township-golf-carts" },
+                  { name: "Buckingham Township", path: "/buckingham-township-golf-carts" },
+                  { name: "Doylestown Township", path: "/doylestown-township-golf-carts" },
+                  { name: "Durham Township", path: "/durham-township-golf-carts" },
+                  { name: "East Rockhill Township", path: "/east-rockhill-township-golf-carts" },
+                  { name: "Falls Township", path: "/falls-township-golf-carts" },
+                  { name: "Haycock Township", path: "/haycock-township-golf-carts" },
+                  { name: "Hilltown Township", path: "/hilltown-township-golf-carts" },
+                  { name: "Lower Makefield Township", path: "/lower-makefield-township-golf-carts" },
+                  { name: "Lower Southampton Township", path: "/lower-southampton-township-golf-carts" },
+                  { name: "Middletown Township", path: "/middletown-township-golf-carts" },
+                  { name: "Milford Township", path: "/milford-township-golf-carts" },
+                  { name: "New Britain Township", path: "/new-britain-township-golf-carts" },
+                  { name: "Newtown Township", path: "/newtown-township-golf-carts" },
+                  { name: "Nockamixon Township", path: "/nockamixon-township-golf-carts" },
+                  { name: "Northampton Township", path: "/northampton-township-golf-carts" },
+                  { name: "Plumstead Township", path: "/plumstead-township-golf-carts" },
+                  { name: "Richland Township", path: "/richland-township-golf-carts" },
+                  { name: "Solebury Township", path: "/solebury-township-golf-carts" },
+                  { name: "Springfield Township", path: "/springfield-township-golf-carts" },
+                  { name: "Tinicum Township", path: "/tinicum-township-golf-carts" },
+                  { name: "Upper Makefield Township", path: "/upper-makefield-township-golf-carts" },
+                  { name: "Upper Southampton Township", path: "/upper-southampton-township-golf-carts" },
+                  { name: "Warminster Township", path: "/warminster-township-golf-carts" },
+                  { name: "Warrington Township", path: "/warrington-township-golf-carts" },
+                  { name: "Warwick Township", path: "/warwick-township-golf-carts" },
+                  { name: "West Rockhill Township", path: "/west-rockhill-township-golf-carts" },
+                  { name: "Wrightstown Township", path: "/wrightstown-township-golf-carts" }
                 ].map((city, index) => (
                   <div key={index} className="text-center py-2">
-                    <span className="text-theme-orange font-medium">{city}</span>
+                    <Link href={city.path}>
+                      <span className="text-theme-orange font-medium hover:text-orange-600 cursor-pointer transition-colors">
+                        {city.name}
+                      </span>
+                    </Link>
                   </div>
                 ))}
               </div>
