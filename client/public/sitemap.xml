@@ -1,644 +1,653 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   
-  <!-- Main Website Pages -->
+  <!-- Main Pages -->
   <url>
     <loc>https://bucksgolfcarts.com/</loc>
-    <changefreq>daily</changefreq>
     <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://bucksgolfcarts.com/assets/Bucks%20County%20Golf%20Carts%20(3)_1753284044185.png</image:loc>
+      <image:title>Bucks County Golf Carts Logo</image:title>
+    </image:image>
   </url>
   
   <url>
     <loc>https://bucksgolfcarts.com/inventory</loc>
-    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <changefreq>daily</changefreq>
   </url>
   
   <url>
     <loc>https://bucksgolfcarts.com/rentals</loc>
-    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
   </url>
   
   <url>
     <loc>https://bucksgolfcarts.com/services</loc>
-    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
   </url>
   
   <url>
     <loc>https://bucksgolfcarts.com/about</loc>
-    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
   </url>
   
   <url>
     <loc>https://bucksgolfcarts.com/contact</loc>
+    <priority>0.8</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://bucksgolfcarts.com/financing</loc>
-    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/showroom</loc>
+    <loc>https://bucksgolfcarts.com/policies</loc>
+    <priority>0.5</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
-
+  
   <!-- Brand Pages -->
   <url>
     <loc>https://bucksgolfcarts.com/denago</loc>
+    <priority>0.9</priority>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://bucksgolfcarts.com/attached_assets/0f46bdfb-c558-4e28-9473-6c85686c5a80 (1)_1753279436268.png</image:loc>
-      <image:title>DENAGO Electric Golf Carts at Bucks County Golf Carts</image:title>
-    </image:image>
   </url>
   
   <url>
     <loc>https://bucksgolfcarts.com/evolution</loc>
+    <priority>0.9</priority>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://bucksgolfcarts.com/attached_assets/0f46bdfb-c558-4e28-9473-6c85686c5a80 (1)_1753279436268.png</image:loc>
-      <image:title>EVOLUTION Electric Golf Carts at Bucks County Golf Carts</image:title>
-    </image:image>
   </url>
-
+  
   <!-- Vehicle Detail Pages -->
   <url>
     <loc>https://bucksgolfcarts.com/vehicles/denago-ev-city</loc>
+    <priority>0.8</priority>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <image:image>
-      <image:loc>https://bucksgolfcarts.com/attached_assets/DENAGONEVCITY_1751893047472_1753135231313.jpg</image:loc>
-      <image:title>DENAGO EV City Golf Cart</image:title>
+      <image:loc>https://bucksgolfcarts.com/assets/DENAGONEVCITY_1751893047472_1753135231313.jpg</image:loc>
+      <image:title>Denago EV City Golf Cart</image:title>
     </image:image>
   </url>
   
   <url>
     <loc>https://bucksgolfcarts.com/vehicles/denago-ev-nomad</loc>
+    <priority>0.8</priority>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <image:image>
-      <image:loc>https://bucksgolfcarts.com/attached_assets/DENAGONEVROVERXL_1751893047473_1753135231313.jpg</image:loc>
-      <image:title>DENAGO EV Nomad Golf Cart</image:title>
+      <image:loc>https://bucksgolfcarts.com/assets/DENAGONEVNOMAD_1751893047472_1753135231313.jpg</image:loc>
+      <image:title>Denago EV Nomad Golf Cart</image:title>
     </image:image>
   </url>
   
   <url>
     <loc>https://bucksgolfcarts.com/vehicles/denago-ev-nomad-xl</loc>
+    <priority>0.8</priority>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <image:image>
-      <image:loc>https://bucksgolfcarts.com/attached_assets/DENAGONEVNOMADXL_1751893047472_1753135231313.jpg</image:loc>
-      <image:title>DENAGO EV Nomad XL Golf Cart</image:title>
+      <image:loc>https://bucksgolfcarts.com/assets/DENAGONEVNOMADXL_1751893047472_1753135231313.jpg</image:loc>
+      <image:title>Denago EV Nomad XL Golf Cart</image:title>
     </image:image>
   </url>
   
   <url>
     <loc>https://bucksgolfcarts.com/vehicles/denago-ev-rover-xl</loc>
+    <priority>0.8</priority>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <image:image>
-      <image:loc>https://bucksgolfcarts.com/attached_assets/DENAGONEVROVERXL_1751893047473_1753135231313.jpg</image:loc>
-      <image:title>DENAGO EV Rover XL Golf Cart</image:title>
+      <image:loc>https://bucksgolfcarts.com/assets/DENAGONEVROVERXL_1751893047473_1753135231313.jpg</image:loc>
+      <image:title>Denago EV Rover XL Golf Cart</image:title>
     </image:image>
   </url>
   
   <url>
     <loc>https://bucksgolfcarts.com/vehicles/denago-ev-rover-xl6</loc>
+    <priority>0.8</priority>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <image:image>
-      <image:loc>https://bucksgolfcarts.com/attached_assets/DENAGONEVROVERXL6_1751893047473_1753135231313.jpg</image:loc>
-      <image:title>DENAGO EV Rover XL6 Golf Cart</image:title>
+      <image:loc>https://bucksgolfcarts.com/assets/DENAGONEVROVERXL6_1751893047473_1753135231313.jpg</image:loc>
+      <image:title>Denago EV Rover XL6 Golf Cart</image:title>
     </image:image>
   </url>
   
   <url>
     <loc>https://bucksgolfcarts.com/vehicles/denago-ev-rover-xxl</loc>
+    <priority>0.8</priority>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <image:image>
-      <image:loc>https://bucksgolfcarts.com/attached_assets/DENAGONEVROVERXXL_1751893047473_1753135231313.jpg</image:loc>
-      <image:title>DENAGO EV Rover XXL Golf Cart</image:title>
+      <image:loc>https://bucksgolfcarts.com/assets/DENAGONEVROVERXXL_1751893047473_1753135231313.jpg</image:loc>
+      <image:title>Denago EV Rover XXL Golf Cart</image:title>
     </image:image>
   </url>
   
   <url>
     <loc>https://bucksgolfcarts.com/vehicles/evolution-carrier-6-plus</loc>
+    <priority>0.8</priority>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <image:image>
-      <image:loc>https://bucksgolfcarts.com/attached_assets/EVOLUTIONCARRIER6PLUS_1751893115778_1753135231314.jpg</image:loc>
-      <image:title>EVOLUTION Carrier 6 Plus Golf Cart</image:title>
+      <image:loc>https://bucksgolfcarts.com/assets/EVOLUTIONCARRIER6PLUS_1751893115778_1753135231314.jpg</image:loc>
+      <image:title>Evolution Carrier 6 Plus Golf Cart</image:title>
     </image:image>
   </url>
   
   <url>
     <loc>https://bucksgolfcarts.com/vehicles/evolution-carrier-8-plus</loc>
+    <priority>0.8</priority>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <image:image>
-      <image:loc>https://bucksgolfcarts.com/attached_assets/EVOLUTIONCARRIER8PLUS_1751893115779_1753135231314.jpg</image:loc>
-      <image:title>EVOLUTION Carrier 8 Plus Golf Cart</image:title>
+      <image:loc>https://bucksgolfcarts.com/assets/EVOLUTIONCARRIER8PLUS_1751893115779_1753135231314.jpg</image:loc>
+      <image:title>Evolution Carrier 8 Plus Golf Cart</image:title>
     </image:image>
   </url>
   
   <url>
     <loc>https://bucksgolfcarts.com/vehicles/evolution-classic-2-plus</loc>
+    <priority>0.8</priority>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <image:image>
-      <image:loc>https://bucksgolfcarts.com/attached_assets/EVOLUTIONCLASSIC2PLUS_1751893115779_1753135231314.jpg</image:loc>
-      <image:title>EVOLUTION Classic 2 Plus Golf Cart</image:title>
+      <image:loc>https://bucksgolfcarts.com/assets/EVOLUTIONCLASSIC2PLUS_1751893115779_1753135231314.jpg</image:loc>
+      <image:title>Evolution Classic 2 Plus Golf Cart</image:title>
     </image:image>
   </url>
   
   <url>
     <loc>https://bucksgolfcarts.com/vehicles/evolution-classic-2-pro</loc>
+    <priority>0.8</priority>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <image:image>
-      <image:loc>https://bucksgolfcarts.com/attached_assets/EVOLUTIONCLASSIC2PRO_1751893115779_1753135231314.jpg</image:loc>
-      <image:title>EVOLUTION Classic 2 Pro Golf Cart</image:title>
+      <image:loc>https://bucksgolfcarts.com/assets/EVOLUTIONCLASSIC2PRO_1751893115779_1753135231314.jpg</image:loc>
+      <image:title>Evolution Classic 2 Pro Golf Cart</image:title>
     </image:image>
   </url>
   
   <url>
     <loc>https://bucksgolfcarts.com/vehicles/evolution-classic-4-plus</loc>
+    <priority>0.8</priority>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <image:image>
-      <image:loc>https://bucksgolfcarts.com/attached_assets/EVOLUTIONCLASSIC4PLUS_1751893115779_1753135231314.jpg</image:loc>
-      <image:title>EVOLUTION Classic 4 Plus Golf Cart</image:title>
+      <image:loc>https://bucksgolfcarts.com/assets/EVOLUTIONCLASSIC4PLUS_1751893115779_1753135231314.jpg</image:loc>
+      <image:title>Evolution Classic 4 Plus Golf Cart</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://bucksgolfcarts.com/vehicles/evolution-classic-4-pro</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://bucksgolfcarts.com/assets/EVOLUTIONCLASSIC4PRO_1751893115780_1753135231314.jpg</image:loc>
+      <image:title>Evolution Classic 4 Pro Golf Cart</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://bucksgolfcarts.com/vehicles/evolution-d5-maverick-2-2</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://bucksgolfcarts.com/assets/EVOLUTIOND5MAVERICK2%2B2_1751893115780_1753135231312.jpg</image:loc>
+      <image:title>Evolution D5 Maverick 2+2 Golf Cart</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://bucksgolfcarts.com/vehicles/evolution-d5-maverick-2-2-plus</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://bucksgolfcarts.com/assets/EVOLUTIOND5MAVERICK2%2B2PLUS_1751893115780_1753135231312.jpg</image:loc>
+      <image:title>Evolution D5 Maverick 2+2 Plus Golf Cart</image:title>
     </image:image>
   </url>
   
   <url>
     <loc>https://bucksgolfcarts.com/vehicles/evolution-d5-maverick-4</loc>
+    <priority>0.8</priority>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <image:image>
-      <image:loc>https://bucksgolfcarts.com/attached_assets/EVOLUTIOND5MAVERICK4_1751893115780_1753135231312.jpg</image:loc>
-      <image:title>EVOLUTION D5 Maverick 4 Golf Cart</image:title>
+      <image:loc>https://bucksgolfcarts.com/assets/EVOLUTIOND5MAVERICK4_1751893115780_1753135231312.jpg</image:loc>
+      <image:title>Evolution D5 Maverick 4 Golf Cart</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://bucksgolfcarts.com/vehicles/evolution-d5-maverick-4-2-plus</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://bucksgolfcarts.com/assets/EVOLUTIOND5MAVERICK4%2B2PLUS_1751893115780_1753135231312.jpg</image:loc>
+      <image:title>Evolution D5 Maverick 4+2 Plus Golf Cart</image:title>
     </image:image>
   </url>
   
   <url>
     <loc>https://bucksgolfcarts.com/vehicles/evolution-d5-maverick-4-plus</loc>
+    <priority>0.8</priority>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <image:image>
-      <image:loc>https://bucksgolfcarts.com/attached_assets/EVOLUTIOND5MAVERICK4PLUS_1751893115781_1753135231312.jpg</image:loc>
-      <image:title>EVOLUTION D5 Maverick 4 Plus Golf Cart</image:title>
+      <image:loc>https://bucksgolfcarts.com/assets/EVOLUTIOND5MAVERICK4PLUS_1751893115781_1753135231312.jpg</image:loc>
+      <image:title>Evolution D5 Maverick 4 Plus Golf Cart</image:title>
     </image:image>
   </url>
   
   <url>
     <loc>https://bucksgolfcarts.com/vehicles/evolution-d5-maverick-6</loc>
+    <priority>0.8</priority>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <image:image>
-      <image:loc>https://bucksgolfcarts.com/attached_assets/EVOLUTIOND5MAVERICK6_1751893115781_1753135350621.jpg</image:loc>
-      <image:title>EVOLUTION D5 Maverick 6 Golf Cart</image:title>
+      <image:loc>https://bucksgolfcarts.com/assets/EVOLUTIOND5MAVERICK6_1751893115781_1753135350621.jpg</image:loc>
+      <image:title>Evolution D5 Maverick 6 Golf Cart</image:title>
     </image:image>
   </url>
   
   <url>
     <loc>https://bucksgolfcarts.com/vehicles/evolution-d5-maverick-6-plus</loc>
+    <priority>0.8</priority>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <image:image>
-      <image:loc>https://bucksgolfcarts.com/attached_assets/EVOLUTIOND5MAVERICK6PLUS_1751893115781_1753135350622.jpg</image:loc>
-      <image:title>EVOLUTION D5 Maverick 6 Plus Golf Cart</image:title>
+      <image:loc>https://bucksgolfcarts.com/assets/EVOLUTIOND5MAVERICK6PLUS_1751893115781_1753135350622.jpg</image:loc>
+      <image:title>Evolution D5 Maverick 6 Plus Golf Cart</image:title>
     </image:image>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/vehicles/evolution-d5-ranger-22-plus</loc>
+    <loc>https://bucksgolfcarts.com/vehicles/evolution-d5-ranger-2-2</loc>
+    <priority>0.8</priority>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <image:image>
-      <image:loc>https://bucksgolfcarts.com/attached_assets/EVOLUTIOND5RANGER2+2PLUS_1751893115782_1753135350622.jpg</image:loc>
-      <image:title>EVOLUTION D5 Ranger 2+2 Plus Golf Cart</image:title>
+      <image:loc>https://bucksgolfcarts.com/assets/EVOLUTIOND5RANGER2%2B2_1751893115781_1753135350622.jpg</image:loc>
+      <image:title>Evolution D5 Ranger 2+2 Golf Cart</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://bucksgolfcarts.com/vehicles/evolution-d5-ranger-2-2-plus</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://bucksgolfcarts.com/assets/EVOLUTIOND5RANGER2%2B2PLUS_1751893115782_1753135350622.jpg</image:loc>
+      <image:title>Evolution D5 Ranger 2+2 Plus Golf Cart</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://bucksgolfcarts.com/vehicles/evolution-d5-ranger-4</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://bucksgolfcarts.com/assets/EVOLUTIOND5RANGER4_1751893115782_1753135350622.jpg</image:loc>
+      <image:title>Evolution D5 Ranger 4 Golf Cart</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://bucksgolfcarts.com/vehicles/evolution-d5-ranger-4-plus</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://bucksgolfcarts.com/assets/EVOLUTIOND5RANGER4PLUS_1751893115782_1753135350622.jpg</image:loc>
+      <image:title>Evolution D5 Ranger 4 Plus Golf Cart</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://bucksgolfcarts.com/vehicles/evolution-d5-ranger-6</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://bucksgolfcarts.com/assets/EVOLUTIOND5RANGER6_1751893159004_1753135350623.jpg</image:loc>
+      <image:title>Evolution D5 Ranger 6 Golf Cart</image:title>
     </image:image>
   </url>
   
   <url>
     <loc>https://bucksgolfcarts.com/vehicles/evolution-d5-ranger-6-plus</loc>
+    <priority>0.8</priority>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <image:image>
-      <image:loc>https://bucksgolfcarts.com/attached_assets/EVOLUTIOND5RANGER6PLUS_1751893159004_1753135350619.jpg</image:loc>
-      <image:title>EVOLUTION D5 Ranger 6 Plus Golf Cart</image:title>
+      <image:loc>https://bucksgolfcarts.com/assets/EVOLUTIOND5RANGER6PLUS_1751893159004_1753135350619.jpg</image:loc>
+      <image:title>Evolution D5 Ranger 6 Plus Golf Cart</image:title>
     </image:image>
   </url>
   
+  <!-- Bucks County Boroughs -->
   <url>
-    <loc>https://bucksgolfcarts.com/vehicles/evolution-d6-max-gt4</loc>
-    <changefreq>weekly</changefreq>
+    <loc>https://bucksgolfcarts.com/location/bedminster</loc>
     <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://bucksgolfcarts.com/attached_assets/EVOLUTIOND6MAXGT4_1751893159004_1753135350620.jpg</image:loc>
-      <image:title>EVOLUTION D6 Max GT4 Golf Cart</image:title>
-    </image:image>
+    <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/vehicles/evolution-d6-max-gt6</loc>
-    <changefreq>weekly</changefreq>
+    <loc>https://bucksgolfcarts.com/location/bristol</loc>
     <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://bucksgolfcarts.com/attached_assets/EVOLUTIOND6MAXGT6_1751893159004_1753135350620.jpg</image:loc>
-      <image:title>EVOLUTION D6 Max GT6 Golf Cart</image:title>
-    </image:image>
+    <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/vehicles/evolution-d6-max-xt4</loc>
-    <changefreq>weekly</changefreq>
+    <loc>https://bucksgolfcarts.com/location/chalfont</loc>
     <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://bucksgolfcarts.com/attached_assets/EVOLUTIOND6MAXXT4_1751893159005_1753135437836.jpg</image:loc>
-      <image:title>EVOLUTION D6 Max XT4 Golf Cart</image:title>
-    </image:image>
+    <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/vehicles/evolution-d6-max-xt6</loc>
-    <changefreq>weekly</changefreq>
+    <loc>https://bucksgolfcarts.com/location/doylestown</loc>
     <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://bucksgolfcarts.com/attached_assets/EVOLUTIOND6MAXXT6_1751893159005_1753135437836.jpg</image:loc>
-      <image:title>EVOLUTION D6 Max XT6 Golf Cart</image:title>
-    </image:image>
+    <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/vehicles/evolution-forester-4-plus</loc>
-    <changefreq>weekly</changefreq>
+    <loc>https://bucksgolfcarts.com/location/dublin</loc>
     <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://bucksgolfcarts.com/attached_assets/EVOLUTIONFORESTER4PLUS_1751893159005_1753135437836.jpg</image:loc>
-      <image:title>EVOLUTION Forester 4 Plus Golf Cart</image:title>
-    </image:image>
+    <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/vehicles/evolution-turfman-1000</loc>
-    <changefreq>weekly</changefreq>
+    <loc>https://bucksgolfcarts.com/location/hulmeville</loc>
     <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://bucksgolfcarts.com/attached_assets/EVOLUTIONTURFMAN1000_1751893159006_1753135437836.jpg</image:loc>
-      <image:title>EVOLUTION Turfman 1000 Golf Cart</image:title>
-    </image:image>
-  </url>
-
-  <!-- Bucks County Borough Golf Cart Pages -->
-  <url>
-    <loc>https://bucksgolfcarts.com/bristol-borough-golf-carts</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/chalfont-borough-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/ivyland</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/doylestown-borough-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/langhorne</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/dublin-borough-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/langhorne-manor</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/hulmeville-borough-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/morrisville</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/ivyland-borough-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/new-britain</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/langhorne-borough-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/new-hope</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/langhorne-manor-borough-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/newtown</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/morrisville-borough-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/penndel</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/new-britain-borough-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/perkasie</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/new-hope-borough-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/quakertown</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/newtown-borough-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/richlandtown</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/penndel-borough-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/riegelsville</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/perkasie-borough-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/sellersville</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/quakertown-borough-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/silverdale</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/richlandtown-borough-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/telford</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/riegelsville-borough-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/trumbauersville</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/sellersville-borough-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/tullytown</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/silverdale-borough-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/warminster</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/telford-borough-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/yardley</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+  </url>
+  
+  <!-- Bucks County Townships -->
+  <url>
+    <loc>https://bucksgolfcarts.com/location/bensalem</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/trumbauersville-borough-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/bristol-township</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/tullytown-borough-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/buckingham</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/yardley-borough-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/doylestown-township</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/hatboro-borough-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/durham</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/souderton-borough-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/east-rockhill</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <!-- Bucks County Township Golf Cart Pages -->
-  <url>
-    <loc>https://bucksgolfcarts.com/bedminster-township-golf-carts</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/bensalem-township-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/falls</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/bridgeton-township-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/haycock</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/bristol-township-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/hilltown</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/buckingham-township-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/lower-makefield</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/doylestown-township-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/lower-southampton</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/durham-township-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/middletown</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/east-rockhill-township-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/milford</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/falls-township-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/new-britain-township</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/haycock-township-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/newtown-township</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/hilltown-township-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/nockamixon</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/lower-makefield-township-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/northampton</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/lower-southampton-township-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/plumstead</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/middletown-township-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/richland</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/milford-township-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/solebury</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/new-britain-township-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/springfield</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/newtown-township-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/tinicum</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/nockamixon-township-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/upper-makefield</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/northampton-township-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/upper-southampton</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/plumstead-township-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/warminster-township</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/richland-township-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/warrington</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/solebury-township-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/warwick</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/springfield-township-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/west-rockhill</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/tinicum-township-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/wrightstown</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/upper-makefield-township-golf-carts</loc>
+    <loc>https://bucksgolfcarts.com/location/yardley-township</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://bucksgolfcarts.com/upper-southampton-township-golf-carts</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://bucksgolfcarts.com/warminster-township-golf-carts</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://bucksgolfcarts.com/warrington-township-golf-carts</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://bucksgolfcarts.com/warwick-township-golf-carts</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://bucksgolfcarts.com/west-rockhill-township-golf-carts</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://bucksgolfcarts.com/wrightstown-township-golf-carts</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
 
 </urlset>

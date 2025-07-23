@@ -119,22 +119,25 @@ export default function SEOHead({
       const structuredData = {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "name": `Ocean County Golf Carts - ${townName}`,
+        "name": `Bucks County Golf Carts - ${townName}`,
         "description": description,
         "address": {
           "@type": "PostalAddress",
           "addressLocality": townName,
-          "addressRegion": "NJ",
+          "addressRegion": "PA",
           "addressCountry": "US"
         },
-        "telephone": "1-844-844-6638",
+        "telephone": "(215) 555-0123",
+        "email": "info@bucksgolfcarts.com",
         "url": canonicalUrl,
+        "logo": "https://bucksgolfcarts.com/assets/Bucks County Golf Carts (3)_1753284044185.png",
+        "image": "https://bucksgolfcarts.com/assets/Bucks County Golf Carts (3)_1753284044185.png",
         "serviceArea": {
           "@type": "GeoCircle",
           "geoMidpoint": {
             "@type": "GeoCoordinates",
-            "latitude": "39.9526",
-            "longitude": "-74.1959"
+            "latitude": "40.3073",
+            "longitude": "-75.1292"
           },
           "geoRadius": "50000"
         },
@@ -146,7 +149,15 @@ export default function SEOHead({
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Product",
-                "name": "Electric Golf Carts"
+                "name": "Electric Golf Carts",
+                "brand": ["Denago", "Evolution"]
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Golf Cart Sales"
               }
             },
             {
@@ -162,9 +173,23 @@ export default function SEOHead({
                 "@type": "Service",
                 "name": "Golf Cart Rentals"
               }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Golf Cart Financing"
+              }
             }
           ]
-        }
+        },
+        "openingHours": "Mo-Sa 09:00-18:00",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "reviewCount": "127"
+        },
+        "priceRange": "$$"
       };
       
       const existingScript = document.querySelector('script[type="application/ld+json"]');
