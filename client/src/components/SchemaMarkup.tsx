@@ -330,20 +330,20 @@ export const generateTownPageSchema = (townName: string) => ({
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": `Golf Carts in ${townName}`,
-  "description": `Professional golf cart sales, service, and rentals delivered to ${townName}, Ocean County, New Jersey`,
-  "url": `https://oceancountygolfcarts.com/${townName.toLowerCase().replace(/\s+/g, '-')}-golf-carts`,
+  "description": `Professional golf cart sales, service, and rentals delivered to ${townName}, Bucks County, Pennsylvania`,
+  "url": `https://bucksgolfcarts.com/${townName.toLowerCase().replace(/\s+/g, '-')}-golf-carts`,
   "mainEntity": {
     "@type": "LocalBusiness",
-    "name": "Ocean County Golf Carts",
+    "name": "Bucks County Golf Carts",
     "areaServed": {
       "@type": "City",
       "name": townName,
       "containedInPlace": {
         "@type": "AdministrativeArea",
-        "name": "Ocean County",
+        "name": "Bucks County",
         "containedInPlace": {
           "@type": "State",
-          "name": "New Jersey"
+          "name": "Pennsylvania"
         }
       }
     }
@@ -355,13 +355,13 @@ export const generateTownPageSchema = (townName: string) => ({
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://oceancountygolfcarts.com"
+        "item": "https://bucksgolfcarts.com"
       },
       {
         "@type": "ListItem", 
         "position": 2,
         "name": `${townName} Golf Carts`,
-        "item": `https://oceancountygolfcarts.com/${townName.toLowerCase().replace(/\s+/g, '-')}-golf-carts`
+        "item": `https://bucksgolfcarts.com/${townName.toLowerCase().replace(/\s+/g, '-')}-golf-carts`
       }
     ]
   }
