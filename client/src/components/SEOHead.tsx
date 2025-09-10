@@ -127,7 +127,7 @@ export default function SEOHead({
           "addressRegion": "PA",
           "addressCountry": "US"
         },
-        "telephone": "(215) 555-0123",
+        "telephone": "267-736-4890",
         "email": "info@bucksgolfcarts.com",
         "url": canonicalUrl,
         "logo": "https://bucksgolfcarts.com/assets/Bucks County Golf Carts (3)_1753284044185.png",

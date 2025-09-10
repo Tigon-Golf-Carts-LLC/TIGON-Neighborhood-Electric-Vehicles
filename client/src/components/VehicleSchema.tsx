@@ -44,7 +44,7 @@ export default function VehicleSchema({
         "seller": {
           "@type": "Organization",
           "name": "Bucks County Golf Carts",
-          "telephone": "(215) 555-0123",
+          "telephone": "267-736-4890",
           "email": "info@bucksgolfcarts.com",
           "address": {
             "@type": "PostalAddress",

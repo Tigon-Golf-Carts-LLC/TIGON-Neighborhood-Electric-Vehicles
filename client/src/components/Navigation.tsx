@@ -62,9 +62,11 @@ export default function Navigation() {
             </div>
             
             <div className="flex items-center space-x-4">
-              <Button className="bg-theme-orange hover:bg-orange-600 text-white px-4 py-2 text-sm font-medium">
-                Call Now 1-844-844-6638
-              </Button>
+              <a href="tel:2677364890">
+                <Button className="bg-theme-orange hover:bg-orange-600 text-white px-4 py-2 text-sm font-medium">
+                  Call Now 267-736-4890
+                </Button>
+              </a>
             </div>
           </div>
 
@@ -94,9 +96,11 @@ export default function Navigation() {
                     </Link>
                   ))}
                   <div className="border-t pt-4 mt-4">
-                    <Button className="bg-theme-orange hover:bg-orange-600 text-white w-full">
-                      Call Now 1-844-844-6638
-                    </Button>
+                    <a href="tel:2677364890" className="block">
+                      <Button className="bg-theme-orange hover:bg-orange-600 text-white w-full">
+                        Call Now 267-736-4890
+                      </Button>
+                    </a>
                   </div>
                 </div>
               </SheetContent>
