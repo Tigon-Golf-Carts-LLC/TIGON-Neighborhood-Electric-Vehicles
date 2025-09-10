@@ -89,6 +89,11 @@ export default function ContactPage() {
       value: "info@bucksgolfcarts.com",
     },
     {
+      icon: Mail,
+      label: "Gmail",
+      value: "bucksgolfcarts@gmail.com",
+    },
+    {
       icon: Globe,
       label: "Website",
       value: "bucksgolfcarts.com",
