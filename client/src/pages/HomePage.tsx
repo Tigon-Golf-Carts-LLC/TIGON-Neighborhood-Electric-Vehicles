@@ -45,9 +45,11 @@ Bucks County Golf Carts Premier Dealership
                     View Inventory
                   </Button>
                 </Link>
-                <Button size="lg" variant="outline" className="text-gray-900 bg-white border-white hover:bg-gray-100 hover:text-gray-900 w-full sm:w-auto">
-                  Call Now 1-844-844-6638
-                </Button>
+                <a href="tel:2677364890">
+                  <Button size="lg" variant="outline" className="text-gray-900 bg-white border-white hover:bg-gray-100 hover:text-gray-900 w-full sm:w-auto">
+                    Call Now 267-736-4890
+                  </Button>
+                </a>
               </div>
             </div>
             <div className="relative">
@@ -480,40 +482,26 @@ Bucks County Golf Carts Premier Dealership
             Contact us today for personalized service and expert advice
           </p>
           
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-6 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
               <MapPin className="w-8 h-8 text-blue-500 mx-auto mb-3" />
-              <h3 className="font-semibold text-gray-900 mb-2">Ocean View</h3>
-              <p className="text-sm text-gray-600 mb-2">101 NJ 50, Ocean View, NJ 08230</p>
-              <p className="text-blue-600 font-semibold">609-840-0404</p>
+              <h3 className="font-semibold text-gray-900 mb-2">Main Location</h3>
+              <p className="text-sm text-gray-600 mb-2">115 Lincoln Hwy, Fairless Hills, PA 19030</p>
+              <p className="text-blue-600 font-semibold">267-736-4890</p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
               <MapPin className="w-8 h-8 text-blue-500 mx-auto mb-3" />
-              <h3 className="font-semibold text-gray-900 mb-2">Bayville</h3>
-              <p className="text-sm text-gray-600 mb-2">155 Atlantic City Blvd, Bayville, NJ 08721</p>
-              <p className="text-blue-600 font-semibold">(732) 908-7166</p>
+              <h3 className="font-semibold text-gray-900 mb-2">Service Area</h3>
+              <p className="text-sm text-gray-600 mb-2">All of Bucks County, PA</p>
+              <p className="text-blue-600 font-semibold">267-736-4890</p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
               <MapPin className="w-8 h-8 text-blue-500 mx-auto mb-3" />
-              <h3 className="font-semibold text-gray-900 mb-2">Waretown</h3>
-              <p className="text-sm text-gray-600 mb-2">526 US 9, Waretown, NJ 08758</p>
-              <p className="text-blue-600 font-semibold">(732) 998-8146</p>
-            </div>
-            
-            <div className="bg-white p-6 rounded-lg shadow-sm text-center">
-              <MapPin className="w-8 h-8 text-blue-500 mx-auto mb-3" />
-              <h3 className="font-semibold text-gray-900 mb-2">Pleasantville</h3>
-              <p className="text-sm text-gray-600 mb-2">7000 Black Horse Pike, Pleasantville, NJ 08232</p>
-              <p className="text-blue-600 font-semibold">640-444-3094</p>
-            </div>
-            
-            <div className="bg-white p-6 rounded-lg shadow-sm text-center">
-              <MapPin className="w-8 h-8 text-blue-500 mx-auto mb-3" />
-              <h3 className="font-semibold text-gray-900 mb-2">Ocean County Golf Carts</h3>
-              <p className="text-sm text-gray-600 mb-2">Ocean County</p>
-              <p className="text-blue-600 font-semibold">1-844-844-6638</p>
+              <h3 className="font-semibold text-gray-900 mb-2">Contact</h3>
+              <p className="text-sm text-gray-600 mb-2">Email: info@bucksgolfcarts.com</p>
+              <p className="text-blue-600 font-semibold">267-736-4890</p>
             </div>
           </div>
 
@@ -521,10 +509,12 @@ Bucks County Golf Carts Premier Dealership
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Main Contact</h3>
             <p className="text-gray-600 mb-4">For general inquiries and support</p>
             <div className="flex justify-center items-center gap-4">
-              <span className="text-2xl font-bold text-blue-600">1-844-844-6638</span>
-              <Button className="bg-theme-orange hover:bg-orange-600 text-white">
-                Contact Us
-              </Button>
+              <a href="tel:2677364890" className="text-2xl font-bold text-blue-600 hover:underline">267-736-4890</a>
+              <Link href="/contact">
+                <Button className="bg-theme-orange hover:bg-orange-600 text-white">
+                  Contact Us
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
