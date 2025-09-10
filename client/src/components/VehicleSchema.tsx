@@ -48,7 +48,10 @@ export default function VehicleSchema({
           "email": "info@bucksgolfcarts.com",
           "address": {
             "@type": "PostalAddress",
+            "streetAddress": "115 Lincoln Hwy",
+            "addressLocality": "Fairless Hills",
             "addressRegion": "PA",
+            "postalCode": "19030",
             "addressCountry": "US"
           }
         }

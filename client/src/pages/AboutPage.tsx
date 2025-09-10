@@ -206,11 +206,11 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div>
-              <h2 className="text-4xl font-bold mb-6 text-gray-900">About Ocean County Golf Carts</h2>
+              <h2 className="text-4xl font-bold mb-6 text-gray-900">About Bucks County Golf Carts</h2>
               <p className="text-lg text-gray-600 mb-6">
-                From our headquarters in Ocean County, we proudly serve customers throughout 
-                multiple counties in the region. Our commitment to quality service extends 
-                across our service area.
+                From our location at 115 Lincoln Hwy in Fairless Hills, we proudly serve customers throughout 
+                Bucks County and the surrounding region. Our commitment to quality service extends 
+                across our entire service area.
               </p>
               <div className="flex items-center gap-4 mb-6">
                 <MapPin className="w-6 h-6 text-blue-600" />
@@ -228,32 +228,32 @@ export default function AboutPage() {
             {/* Google Maps Embed */}
             <div className="bg-gray-100 rounded-lg overflow-hidden shadow-lg">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d392226.73214689275!2d-74.58890416124524!3d39.8233335737933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c16c287049b687%3A0x8c25d4d20966015a!2sOcean%20County%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141001225!5m2!1sen!2sus" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.1234567890123!2d-74.85210000000001!3d40.1734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s115%20Lincoln%20Hwy%2C%20Fairless%20Hills%2C%20PA%2019030!5e0!3m2!1sen!2sus!4v1753141001225!5m2!1sen!2sus" 
                 width="100%" 
                 height="450" 
                 style={{border:0}}
                 allowFullScreen 
                 loading="lazy" 
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Ocean County, NJ Map"
+                title="Bucks County Golf Carts Location Map"
               />
             </div>
           </div>
           
           {/* Towns List Below Map */}
           <div className="mt-12 bg-blue-50 p-8 rounded-lg">
-            <h3 className="text-xl font-semibold mb-4 text-center">Ocean County Towns We Serve</h3>
+            <h3 className="text-xl font-semibold mb-4 text-center">Bucks County Towns We Serve</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 text-sm text-gray-700">
               {[
-                "Barnegat Township", "Barnegat Light Borough", "Bay Head Borough", "Beach Haven Borough",
-                "Beachwood Borough", "Berkeley Township", "Brick Township", "Eagleswood Township",
-                "Harvey Cedars Borough", "Island Heights Borough", "Jackson Township", "Lacey Township",
-                "Lakehurst Borough", "Lakewood Township", "Lavallette Borough", "Little Egg Harbor Township",
-                "Long Beach Township", "Manchester Township", "Mantoloking Borough", "Ocean Gate Borough",
-                "Ocean Township", "Pine Beach Borough", "Plumsted Township", "Point Pleasant Borough",
-                "Point Pleasant Beach Borough", "Seaside Heights Borough", "Seaside Park Borough", "Ship Bottom Borough",
-                "South Toms River Borough", "Stafford Township", "Surf City Borough", "Toms River Township",
-                "Tuckerton Borough"
+                "Warrington Township", "Newtown Township", "Northampton Township", "Lower Makefield Township",
+                "Upper Makefield Township", "Middletown Township", "Yardley Borough", "Newtown Borough",
+                "Doylestown Township", "Doylestown Borough", "Warwick Township", "Warminster Township",
+                "Upper Southampton Township", "Lower Southampton Township", "Bristol Township", "Bristol Borough",
+                "Bensalem Township", "Falls Township", "Tullytown Borough", "Levittown",
+                "Langhorne Borough", "Langhorne Manor Borough", "Pennsbury Manor", "Morrisville Borough",
+                "Buckingham Township", "New Hope Borough", "Solebury Township", "Wrightstown Township",
+                "Hilltown Township", "Dublin Borough", "Perkasie Borough", "Quakertown Borough",
+                "Richland Township", "Silverdale Borough", "Telford Borough", "West Rockhill Township"
               ].map((town, index) => (
                 <div key={index} className="py-1">
                   {town}
@@ -271,7 +271,7 @@ export default function AboutPage() {
             Ready to Join Our Family?
           </h2>
           <p className="text-xl mb-8">
-            Experience the Ocean County Golf Carts difference for yourself
+            Experience the Bucks County Golf Carts difference for yourself
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">

@@ -18,16 +18,16 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
       "email": "info@bucksgolfcarts.com",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "123 Golf Cart Lane",
-        "addressLocality": "Doylestown",
+        "streetAddress": "115 Lincoln Hwy",
+        "addressLocality": "Fairless Hills",
         "addressRegion": "PA",
-        "postalCode": "18901",
+        "postalCode": "19030",
         "addressCountry": "US"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": "40.3073",
-        "longitude": "-75.1292"
+        "latitude": "40.1734",
+        "longitude": "-74.8521"
       },
       "openingHours": [
         "Mo-Fr 09:00-18:00",

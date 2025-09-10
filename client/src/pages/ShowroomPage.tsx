@@ -7,16 +7,16 @@ import { Link } from "wouter";
 export default function ShowroomPage() {
   const locations = [
     {
-      name: "TIGON Golf Carts Hatfield",
-      address: "2333 Bethlehem Pike, Hatfield, PA 19440",
+      name: "Bucks County Golf Carts",
+      address: "115 Lincoln Hwy, Fairless Hills, PA 19030",
       phone: "215-595-8736",
-      coordinates: "40.29839945958623,-75.28308913039525",
-      googleMapsUrl: "https://www.google.com/maps?cid=8221925612164093496",
-      facebookUrl: "https://www.facebook.com/TigonGolfCartsHatfield/",
-      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsHatfieldPA",
-      websiteUrl: "https://tigongolfcarts.com/hatfield/",
-      reviewUrl: "https://g.page/r/CTgWulrIJRpyEBM/review",
-      city: "Hatfield",
+      coordinates: "40.1734,-74.8521",
+      googleMapsUrl: "https://www.google.com/maps/place/115+Lincoln+Hwy,+Fairless+Hills,+PA+19030",
+      facebookUrl: "https://www.facebook.com/bucksgolfcarts",
+      youtubeUrl: "https://www.youtube.com/@bucksgolfcarts",
+      websiteUrl: "https://bucksgolfcarts.com",
+      reviewUrl: "https://g.page/bucksgolfcarts/review",
+      city: "Fairless Hills",
       type: "physical"
     },
     {

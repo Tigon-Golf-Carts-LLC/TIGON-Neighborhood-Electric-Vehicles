@@ -148,7 +148,7 @@ export function TermsOfServicePage() {
                 <p className="mb-2"><strong>Bucks County Golf Carts</strong></p>
                 <p className="mb-2">Email: info@bucksgolfcarts.com</p>
                 <p className="mb-2">Phone: (215) 555-GOLF</p>
-                <p className="mb-2">Address: Hatfield, Pennsylvania</p>
+                <p className="mb-2">Address: 115 Lincoln Hwy, Fairless Hills, PA 19030</p>
                 <p>Website: bucksgolfcarts.com</p>
               </div>
 

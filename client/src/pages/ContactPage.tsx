@@ -75,12 +75,12 @@ export default function ContactPage() {
   const contactInfo = [
     {
       icon: MapPin,
-      label: "Hatfield Showroom",
-      value: "Hatfield, PA",
+      label: "Main Location",
+      value: "115 Lincoln Hwy, Fairless Hills, PA 19030",
     },
     {
       icon: Phone,
-      label: "Hatfield Phone",
+      label: "Main Phone",
       value: "(215) 595-8736",
     },
     {
@@ -111,8 +111,8 @@ export default function ContactPage() {
     <>
       <SEOHead 
         title="Contact Bucks County Golf Carts - Get in Touch for Sales & Service"
-        description="Contact Bucks County Golf Carts for sales, service, and support. Visit our Hatfield showroom or call 1-844-844-6638. Serving all 56 Bucks County municipalities."
-        keywords="contact Bucks County golf carts, Hatfield showroom, golf cart sales Pennsylvania, TIGON dealer contact"
+        description="Contact Bucks County Golf Carts for sales, service, and support. Visit our Fairless Hills location at 115 Lincoln Hwy or call 1-844-844-6638. Serving all 56 Bucks County municipalities."
+        keywords="contact Bucks County golf carts, Fairless Hills location, golf cart sales Pennsylvania, Bucks County dealer contact"
       />
       
       <div className="max-w-7xl mx-auto px-4 py-8">
