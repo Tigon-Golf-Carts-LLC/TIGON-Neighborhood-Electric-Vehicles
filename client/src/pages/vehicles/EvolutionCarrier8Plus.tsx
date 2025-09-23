@@ -10,9 +10,11 @@ export default function EvolutionCarrier8Plus() {
   return (
     <>
       <SEOHead 
-        title="EVOLUTION® Carrier 8 Plus - Maximum Capacity Utility Cart | Ocean County Golf Carts"
-        description="Experience the EVOLUTION® Carrier 8 Plus with maximum seating and cargo capacity. Perfect for large group transportation and utility work."
-        keywords="EVOLUTION Carrier 8 Plus, 8-passenger golf cart, maximum capacity, utility vehicle, EVOLUTION dealer Ocean County"
+        title="Carrier 8 Plus"
+        description="Maximum seating and cargo capacity for large group transportation and utility work. Eight-passenger carrier for demanding applications. Call 1-844-844-6638."
+        keywords="EVOLUTION Carrier 8 Plus, 8-passenger golf cart, maximum capacity, utility vehicle, EVOLUTION dealer Bucks County PA"
+        canonicalUrl="https://bucksgolfcarts.com/vehicles/evolution-carrier-8-plus"
+        image="/attached_assets/EVOLUTIONCARRIER8PLUS_1751893115779_1753135231314.jpg"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">

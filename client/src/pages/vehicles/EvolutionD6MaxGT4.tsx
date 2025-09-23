@@ -10,9 +10,11 @@ export default function EvolutionD6MaxGT4() {
   return (
     <>
       <SEOHead 
-        title="EVOLUTION® D6 MAX GT4 - Performance Golf Cart | Ocean County Golf Carts"
-        description="Experience the EVOLUTION® D6 MAX GT4 with premium performance features and luxury appointments. High-performance electric golf cart for discerning drivers."
-        keywords="EVOLUTION D6 MAX GT4, performance golf cart, luxury electric vehicle, high performance, EVOLUTION dealer Ocean County"
+        title="MAX GT4"
+        description="High-performance electric golf cart with premium performance features and luxury appointments. Ultimate technology for discerning drivers. Call 1-844-844-6638."
+        keywords="EVOLUTION D6 MAX GT4, performance golf cart, luxury electric vehicle, high performance, EVOLUTION dealer Bucks County PA"
+        canonicalUrl="https://bucksgolfcarts.com/vehicles/evolution-d6-max-gt4"
+        image="/attached_assets/EVOLUTIOND6MAXGT4_1751893159004_1753135350620.jpg"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">

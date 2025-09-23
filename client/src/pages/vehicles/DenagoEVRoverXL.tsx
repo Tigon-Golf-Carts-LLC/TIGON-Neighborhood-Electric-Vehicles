@@ -10,9 +10,11 @@ export default function DenagoEVRoverXL() {
   return (
     <>
       <SEOHead 
-        title="DENAGO® EV ROVER XL - Premium Electric Golf Cart | Ocean County Golf Carts"
-        description="Discover the DENAGO® EV ROVER XL - Ultimate in electric vehicle performance with advanced capabilities and premium features. Available at Ocean County Golf Carts."
-        keywords="DENAGO EV ROVER XL, electric golf cart, premium electric vehicle, DENAGO dealer Ocean County"
+        title="EV ROVER XL"
+        description="Ultimate electric vehicle performance with advanced capabilities and premium features designed for the modern explorer. All-wheel drive technology and luxury comfort. Call 1-844-844-6638."
+        keywords="DENAGO EV ROVER XL, electric golf cart, premium electric vehicle, DENAGO dealer Bucks County PA"
+        canonicalUrl="https://bucksgolfcarts.com/vehicles/denago-ev-rover-xl"
+        image="/attached_assets/DENAGONEVROVERXL_1751893047473_1753135231313.jpg"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">

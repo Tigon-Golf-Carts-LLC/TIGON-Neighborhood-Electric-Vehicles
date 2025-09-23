@@ -10,9 +10,11 @@ export default function EvolutionForester4Plus() {
   return (
     <>
       <SEOHead 
-        title="EVOLUTION® FORESTER 4 PLUS - Premium Utility Golf Cart | Ocean County Golf Carts"
-        description="Discover the EVOLUTION® FORESTER 4 PLUS lineup and its unique features. Premium electric utility vehicle designed for rugged terrain and heavy-duty work."
-        keywords="EVOLUTION FORESTER 4 PLUS, utility golf cart, electric utility vehicle, work cart, EVOLUTION dealer Ocean County"
+        title="FORESTER 4 PLUS"
+        description="Premium electric utility vehicle designed for rugged terrain and heavy-duty work. Built for utility work with rugged construction and reliable electric power. Call 1-844-844-6638."
+        keywords="EVOLUTION FORESTER 4 PLUS, utility golf cart, electric utility vehicle, work cart, EVOLUTION dealer Bucks County PA"
+        canonicalUrl="https://bucksgolfcarts.com/vehicles/evolution-forester-4-plus"
+        image="/attached_assets/EVOLUTIONFORESTER4PLUS_1751893159005_1753135437836.jpg"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">

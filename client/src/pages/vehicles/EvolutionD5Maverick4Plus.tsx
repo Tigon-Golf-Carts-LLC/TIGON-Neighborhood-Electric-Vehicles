@@ -10,9 +10,11 @@ export default function EvolutionD5Maverick4Plus() {
   return (
     <>
       <SEOHead 
-        title="EVOLUTION® D5 Maverick 4 Plus - Premium Golf Cart | Ocean County Golf Carts"
-        description="Experience the EVOLUTION® D5 Maverick 4 Plus with premium features and advanced performance. Four-passenger golf cart with superior comfort and extended range."
-        keywords="EVOLUTION D5 Maverick 4 Plus, premium golf cart, 4-passenger, advanced features, extended range, EVOLUTION dealer Ocean County"
+        title="Maverick 4 Plus"
+        description="Premium four-passenger golf cart with advanced features and superior performance. Enhanced comfort with extended range capability and premium amenities. Call 1-844-844-6638."
+        keywords="EVOLUTION D5 Maverick 4 Plus, premium golf cart, 4-passenger, advanced features, extended range, EVOLUTION dealer Bucks County PA"
+        canonicalUrl="https://bucksgolfcarts.com/vehicles/evolution-d5-maverick-4-plus"
+        image="/attached_assets/EVOLUTIOND5MAVERICK4PLUS_1751893115781_1753135231312.jpg"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">

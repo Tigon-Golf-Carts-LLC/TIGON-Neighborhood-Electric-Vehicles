@@ -10,9 +10,11 @@ export default function EvolutionTurfman1000() {
   return (
     <>
       <SEOHead 
-        title="EVOLUTION® TURFMAN 1000 - Commercial Utility Vehicle | Ocean County Golf Carts"
-        description="Discover the EVOLUTION® TURFMAN 1000 lineup and its unique features. Heavy-duty commercial utility vehicle for landscaping and maintenance work."
-        keywords="EVOLUTION TURFMAN 1000, commercial utility vehicle, landscaping cart, maintenance vehicle, EVOLUTION dealer Ocean County"
+        title="TURFMAN 1000"
+        description="Professional commercial utility vehicle for landscaping and maintenance work. Heavy-duty build with 1,000 lbs payload and superior durability. Call 1-844-844-6638."
+        keywords="EVOLUTION TURFMAN 1000, commercial utility vehicle, landscaping cart, maintenance vehicle, EVOLUTION dealer Bucks County PA"
+        canonicalUrl="https://bucksgolfcarts.com/vehicles/evolution-turfman-1000"
+        image="/attached_assets/EVOLUTIONTURFMAN1000_1751893159006_1753135437836.jpg"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
