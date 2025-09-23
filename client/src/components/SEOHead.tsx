@@ -6,6 +6,9 @@ interface SEOHeadProps {
   keywords?: string;
   canonicalUrl?: string;
   townName?: string;
+  image?: string;
+  imageWidth?: number;
+  imageHeight?: number;
 }
 
 export default function SEOHead({ 
@@ -13,7 +16,10 @@ export default function SEOHead({
   description, 
   keywords = "golf carts, Bucks County, electric golf carts, golf cart sales, golf cart service", 
   canonicalUrl,
-  townName 
+  townName,
+  image,
+  imageWidth = 1200,
+  imageHeight = 630
 }: SEOHeadProps) {
   useEffect(() => {
     // Set page title
@@ -97,6 +103,12 @@ export default function SEOHead({
       updateOGTag("og:url", canonicalUrl);
     }
     
+    // Set Open Graph image (use provided image or fallback to logo)
+    const ogImage = image || "/attached_assets/Bucks County Golf Carts (3)_1753284044185.png";
+    updateOGTag("og:image", ogImage);
+    updateOGTag("og:image:width", imageWidth.toString());
+    updateOGTag("og:image:height", imageHeight.toString());
+    
     // Twitter Card tags
     const updateTwitterTag = (name: string, content: string) => {
       const existingTag = document.querySelector(`meta[name="${name}"]`);
@@ -113,6 +125,10 @@ export default function SEOHead({
     updateTwitterTag("twitter:card", "summary_large_image");
     updateTwitterTag("twitter:title", title);
     updateTwitterTag("twitter:description", description);
+    
+    // Set Twitter image (use provided image or fallback to logo)
+    const twitterImage = image || "/attached_assets/Bucks County Golf Carts (3)_1753284044185.png";
+    updateTwitterTag("twitter:image", twitterImage);
     
     // Structured Data (JSON-LD)
     if (townName) {
@@ -202,7 +218,7 @@ export default function SEOHead({
         document.head.appendChild(script);
       }
     }
-  }, [title, description, keywords, canonicalUrl, townName]);
+  }, [title, description, keywords, canonicalUrl, townName, image, imageWidth, imageHeight]);
 
   return null;
 }
