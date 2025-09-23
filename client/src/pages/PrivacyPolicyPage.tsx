@@ -4,8 +4,8 @@ export function PrivacyPolicyPage() {
   return (
     <>
       <SEOHead 
-        title="Privacy Policy | Bucks County Golf Carts"
-        description="Privacy Policy for Bucks County Golf Carts. Learn how we collect, use, and protect your personal information when you visit our website or purchase golf carts."
+        title="Privacy Policy"
+        description="Learn how we collect, use, and protect your personal information when you visit our website or purchase golf carts. Call 1-844-844-6638."
         keywords="privacy policy, data protection, personal information, Bucks County Golf Carts"
       />
       <div className="min-h-screen bg-gray-50 py-12">

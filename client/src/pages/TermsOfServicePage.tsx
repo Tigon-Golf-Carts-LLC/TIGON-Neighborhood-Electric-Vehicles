@@ -4,8 +4,8 @@ export function TermsOfServicePage() {
   return (
     <>
       <SEOHead 
-        title="Terms of Service | Bucks County Golf Carts"
-        description="Terms of Service for Bucks County Golf Carts. Review our terms and conditions for purchasing golf carts, rental services, and using our website."
+        title="Terms of Service"
+        description="Review our terms and conditions for purchasing golf carts, rental services, and using our website. Call 1-844-844-6638."
         keywords="terms of service, terms and conditions, golf cart purchase, rental agreement, Bucks County Golf Carts"
       />
       <div className="min-h-screen bg-gray-50 py-12">
