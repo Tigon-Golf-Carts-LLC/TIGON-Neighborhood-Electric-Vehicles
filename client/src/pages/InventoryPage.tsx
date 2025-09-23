@@ -46,8 +46,8 @@ export default function InventoryPage() {
   }
 
   const breadcrumbItems = [
-    { name: "Home", url: "https://oceancountygolfcarts.com" },
-    { name: "Inventory", url: "https://oceancountygolfcarts.com/inventory" }
+    { name: "Home", url: "https://bucksgolfcarts.com" },
+    { name: "Inventory", url: "https://bucksgolfcarts.com/inventory" }
   ];
 
   return (

@@ -137,9 +137,11 @@ export default function DenagoPage() {
   return (
     <>
       <SEOHead 
-        title="DENAGO Electric Golf Carts Bucks County | Premium Off-Road Vehicles"
-        description="Discover DENAGO electric golf carts in Bucks County, PA. Premium EV CITY, EV NOMAD, and EV ROVER series with advanced all-wheel drive technology. Sales, service & delivery."
+        title="DENAGO"
+        description="Discover premium DENAGO electric golf carts with all-wheel drive technology, advanced battery systems, and rugged off-road capability. Expert sales and service in Pennsylvania. Call 1-844-844-6638."
         keywords="DENAGO golf carts Bucks County, electric golf carts Pennsylvania, DENAGO EV CITY, DENAGO EV NOMAD, DENAGO EV ROVER, off-road golf carts, all-wheel drive golf carts"
+        canonicalUrl="https://bucksgolfcarts.com/denago"
+        image="/attached_assets/DENAGONEVROVERXL_1751893047473_1753135231313.jpg"
       />
       
       <div className="min-h-screen bg-gray-50">
