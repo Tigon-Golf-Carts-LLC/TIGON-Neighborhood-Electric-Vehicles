@@ -10,9 +10,11 @@ export default function EvolutionD5Maverick6() {
   return (
     <>
       <SEOHead 
-        title="EVOLUTION® D5 Maverick 6 - Family Golf Cart | Ocean County Golf Carts"
-        description="Discover the EVOLUTION® D5 Maverick 6 perfect for family outings. Reliable 6-passenger golf cart for group transportation with proven performance."
-        keywords="EVOLUTION D5 Maverick 6, 6-passenger golf cart, family golf cart, group transportation, EVOLUTION dealer Ocean County"
+        title="Maverick 6"
+        description="Perfect for family outings with reliable 6-passenger seating and proven performance for group transportation. Call 1-844-844-6638."
+        keywords="EVOLUTION D5 Maverick 6, 6-passenger golf cart, family golf cart, group transportation, EVOLUTION dealer Bucks County PA"
+        canonicalUrl="https://bucksgolfcarts.com/vehicles/evolution-d5-maverick-6"
+        image="/attached_assets/EVOLUTIOND5MAVERICK6_1751893115781_1753135350621.jpg"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">

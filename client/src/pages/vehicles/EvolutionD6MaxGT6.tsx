@@ -10,9 +10,11 @@ export default function EvolutionD6MaxGT6() {
   return (
     <>
       <SEOHead 
-        title="EVOLUTION® D6 Max GT6 - High Performance Golf Cart | Ocean County Golf Carts"
-        description="Experience the EVOLUTION® D6 Max GT6 with high performance and luxury features. Six-passenger golf cart with maximum power and premium comfort."
-        keywords="EVOLUTION D6 Max GT6, high performance golf cart, 6-passenger, luxury features, maximum power, EVOLUTION dealer Ocean County"
+        title="Max GT6"
+        description="High performance and luxury features combine in this six-passenger golf cart with maximum power and premium comfort. Call 1-844-844-6638."
+        keywords="EVOLUTION D6 Max GT6, high performance golf cart, 6-passenger, luxury features, maximum power, EVOLUTION dealer Bucks County PA"
+        canonicalUrl="https://bucksgolfcarts.com/vehicles/evolution-d6-max-gt6"
+        image="/attached_assets/EVOLUTIOND6MAXGT6_1751893159004_1753135350620.jpg"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">

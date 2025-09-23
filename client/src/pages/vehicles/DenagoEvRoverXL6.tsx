@@ -10,9 +10,11 @@ export default function DenagoEvRoverXL6() {
   return (
     <>
       <SEOHead 
-        title="DENAGO® EV Rover XL6 - Luxury Electric Vehicle | Ocean County Golf Carts"
-        description="Experience the DENAGO® EV Rover XL6 with premium luxury features and 6-passenger seating. Ultimate comfort and performance for discerning customers."
-        keywords="DENAGO EV Rover XL6, luxury electric vehicle, 6-passenger golf cart, premium comfort, DENAGO dealer Ocean County"
+        title="Rover XL6"
+        description="Premium luxury features and 6-passenger seating deliver ultimate comfort and performance for discerning customers. Call 1-844-844-6638."
+        keywords="DENAGO EV Rover XL6, luxury electric vehicle, 6-passenger golf cart, premium comfort, DENAGO dealer Bucks County PA"
+        canonicalUrl="https://bucksgolfcarts.com/vehicles/denago-ev-rover-xl6"
+        image="/attached_assets/DENAGONEVROVERXL6_1751893047473_1753135231313.jpg"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">

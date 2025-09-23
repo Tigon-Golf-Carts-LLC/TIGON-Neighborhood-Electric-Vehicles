@@ -10,9 +10,11 @@ export default function DenagoEvRoverXXL() {
   return (
     <>
       <SEOHead 
-        title="DENAGO® EV Rover XXL - Maximum Capacity Electric Vehicle | Ocean County Golf Carts"
-        description="Experience the DENAGO® EV Rover XXL with maximum seating and cargo capacity. Our largest luxury model for ultimate group transportation."
-        keywords="DENAGO EV Rover XXL, 8-passenger golf cart, maximum capacity, luxury electric vehicle, DENAGO dealer Ocean County"
+        title="Rover XXL"
+        description="Maximum seating and cargo capacity in our largest luxury model designed for ultimate group transportation. Call 1-844-844-6638."
+        keywords="DENAGO EV Rover XXL, 8-passenger golf cart, maximum capacity, luxury electric vehicle, DENAGO dealer Bucks County PA"
+        canonicalUrl="https://bucksgolfcarts.com/vehicles/denago-ev-rover-xxl"
+        image="/attached_assets/DENAGONEVROVERXXL_1751893047473_1753135231313.jpg"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">

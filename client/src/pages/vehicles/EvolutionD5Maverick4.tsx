@@ -10,9 +10,11 @@ export default function EvolutionD5Maverick4() {
   return (
     <>
       <SEOHead 
-        title="EVOLUTION® D5 Maverick 4 - Standard Golf Cart | Ocean County Golf Carts"
-        description="Discover the EVOLUTION® D5 Maverick 4 with reliable performance and essential features. Perfect 4-passenger golf cart for standard transportation needs."
-        keywords="EVOLUTION D5 Maverick 4, 4-passenger golf cart, standard features, reliable performance, EVOLUTION dealer Ocean County"
+        title="Maverick 4"
+        description="Reliable performance and essential features make this the perfect 4-passenger golf cart for standard transportation needs. Call 1-844-844-6638."
+        keywords="EVOLUTION D5 Maverick 4, 4-passenger golf cart, standard features, reliable performance, EVOLUTION dealer Bucks County PA"
+        canonicalUrl="https://bucksgolfcarts.com/vehicles/evolution-d5-maverick-4"
+        image="/attached_assets/EVOLUTIOND5MAVERICK4_1751893115780_1753135231312.jpg"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">

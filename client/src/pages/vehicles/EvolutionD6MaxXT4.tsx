@@ -10,9 +10,11 @@ export default function EvolutionD6MaxXT4() {
   return (
     <>
       <SEOHead 
-        title="EVOLUTION® D6 Max XT4 - Extreme Terrain Golf Cart | Ocean County Golf Carts"
-        description="Experience the EVOLUTION® D6 Max XT4 with extreme terrain capabilities. Four-passenger off-road golf cart with enhanced rugged design and high performance."
-        keywords="EVOLUTION D6 Max XT4, extreme terrain golf cart, off-road golf cart, 4-passenger, rugged design, EVOLUTION dealer Ocean County"
+        title="Max XT4"
+        description="Extreme terrain capabilities with four-passenger off-road design featuring enhanced rugged construction and high performance. Call 1-844-844-6638."
+        keywords="EVOLUTION D6 Max XT4, extreme terrain golf cart, off-road golf cart, 4-passenger, rugged design, EVOLUTION dealer Bucks County PA"
+        canonicalUrl="https://bucksgolfcarts.com/vehicles/evolution-d6-max-xt4"
+        image="/attached_assets/EVOLUTIOND6MAXXT4_1751893159005_1753135437836.jpg"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
