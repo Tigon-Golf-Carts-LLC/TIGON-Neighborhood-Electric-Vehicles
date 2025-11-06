@@ -153,7 +153,7 @@ export default function BucksCountyTownPage({ townName, townType }: BucksCountyT
         </nav>
 
         {/* Hero Section */}
-        <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(29, 78, 216, 0.8)), url('/attached_assets/0f46bdfb-c558-4e28-9473-6c85686c5a80 (1)_1753279436268.png')"}}>
+        <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(29, 78, 216, 0.8)), url('https://bucksgolfcarts.com/attached_assets/0f46bdfb-c558-4e28-9473-6c85686c5a80 (1)_1753279436268.png')"}}>
           <div className="max-w-7xl mx-auto text-center">
             <Badge className="bg-theme-orange text-white px-4 py-2 text-sm font-semibold mb-4">
               SERVING {fullTownName.toUpperCase()}

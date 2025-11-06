@@ -201,7 +201,7 @@ export default function RentalsPage() {
         description="Experience the best golf cart rentals with flexible daily, weekly, and monthly options. Full insurance coverage, delivery service, and no hidden fees. Call 1-844-844-6638."
         keywords="golf cart rental, Bucks County rentals, golf cart hire, Pennsylvania golf cart rental"
         canonicalUrl="https://bucksgolfcarts.com/rentals"
-        image="/attached_assets/Bucks County Golf Carts (3)_1753284044185.png"
+        image="https://bucksgolfcarts.com/attached_assets/Bucks County Golf Carts (3)_1753284044185.png"
       />
       
       <div className="min-h-screen bg-gray-50">

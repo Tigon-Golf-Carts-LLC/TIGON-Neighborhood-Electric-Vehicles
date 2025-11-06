@@ -116,7 +116,7 @@ export default function EvolutionPage() {
         description="Experience premium EVOLUTION golf carts with innovative design, reliable performance, and comprehensive vehicle lineup. Expert sales and service in Bucks County, Pennsylvania. Call 1-844-844-6638."
         keywords="EVOLUTION golf carts Bucks County, electric golf carts Pennsylvania, EVOLUTION D5 RANGER, EVOLUTION MAVERICK, EVOLUTION CLASSIC, golf cart sales Pennsylvania, EVOLUTION dealers"
         canonicalUrl="https://bucksgolfcarts.com/evolution"
-        image="/attached_assets/EVOLUTIOND6MAXXT4_1751893159005_1753135437836.jpg"
+        image="https://bucksgolfcarts.com/attached_assets/EVOLUTIOND6MAXXT4_1751893159005_1753135437836.jpg"
       />
       
       <div className="min-h-screen bg-gray-50">

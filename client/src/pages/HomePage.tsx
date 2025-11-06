@@ -25,11 +25,11 @@ export default function HomePage() {
         description="Transform your outdoor experience with premium electric golf carts from Pennsylvania's trusted dealership. Expert sales, service, rentals, and financing for Denago and Evolution golf carts. Call 1-844-844-6638."
         keywords="golf carts Bucks County PA, electric golf carts Pennsylvania, Denago golf carts, Evolution golf carts, golf cart sales service rentals"
         canonicalUrl="https://bucksgolfcarts.com/"
-        image="/attached_assets/a-photograph-of-a-bright-and-airy-modern_cSGtJe7oTWCsurFpyhqrJg_CXQ9jYUGRP2_wh-uk2Htkg_1753199147926.png"
+        image="https://bucksgolfcarts.com/attached_assets/a-photograph-of-a-bright-and-airy-modern_cSGtJe7oTWCsurFpyhqrJg_CXQ9jYUGRP2_wh-uk2Htkg_1753199147926.png"
       />
       <OrganizationSchema pageType="home" />
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-theme-primary via-blue-800 to-theme-primary text-white py-20 px-4 bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(59, 130, 246, 0.8), rgba(14, 46, 85, 0.8)), url('/attached_assets/a-photograph-of-a-bright-and-airy-modern_cSGtJe7oTWCsurFpyhqrJg_CXQ9jYUGRP2_wh-uk2Htkg_1753199147926.png')"}}>
+      <section className="relative bg-gradient-to-br from-theme-primary via-blue-800 to-theme-primary text-white py-20 px-4 bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(59, 130, 246, 0.8), rgba(14, 46, 85, 0.8)), url('https://bucksgolfcarts.com/attached_assets/a-photograph-of-a-bright-and-airy-modern_cSGtJe7oTWCsurFpyhqrJg_CXQ9jYUGRP2_wh-uk2Htkg_1753199147926.png')"}}>
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -55,7 +55,7 @@ Bucks County Golf Carts Premier Dealership
             </div>
             <div className="relative">
               <img 
-                src="/attached_assets/D6-XT6-4wd-color-PORTIMAO-BLUE_1753135231312.png" 
+                src="https://bucksgolfcarts.com/attached_assets/D6-XT6-4wd-color-PORTIMAO-BLUE_1753135231312.png" 
                 alt="Golf Cart" 
                 className="w-full h-auto max-w-lg mx-auto"
               />
@@ -196,7 +196,7 @@ Bucks County Golf Carts Premier Dealership
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="aspect-video bg-gray-200 relative overflow-hidden">
                 <img 
-                  src="/attached_assets/EVOLUTIOND5MAVERICK4PLUS_1751893115781_1753135350621.jpg" 
+                  src="https://bucksgolfcarts.com/attached_assets/EVOLUTIOND5MAVERICK4PLUS_1751893115781_1753135350621.jpg" 
                   alt="Evolution D5 Maverick 4 Plus"
                   className="w-full h-full object-cover"
                   width="640"
@@ -231,7 +231,7 @@ Bucks County Golf Carts Premier Dealership
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="aspect-video bg-gray-200 relative overflow-hidden">
                 <img 
-                  src="/attached_assets/EVOLUTIOND6MAXGT4_1751893159004_1753135350620.jpg" 
+                  src="https://bucksgolfcarts.com/attached_assets/EVOLUTIOND6MAXGT4_1751893159004_1753135350620.jpg" 
                   alt="Evolution D6 Max GT4"
                   className="w-full h-full object-cover"
                   width="640"
@@ -266,7 +266,7 @@ Bucks County Golf Carts Premier Dealership
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="aspect-video bg-gray-200 relative overflow-hidden">
                 <img 
-                  src="/attached_assets/DENAGONEVCITY_1751893047472_1753135231313.jpg" 
+                  src="https://bucksgolfcarts.com/attached_assets/DENAGONEVCITY_1751893047472_1753135231313.jpg" 
                   alt="Denago EV City"
                   className="w-full h-full object-cover"
                   width="640"

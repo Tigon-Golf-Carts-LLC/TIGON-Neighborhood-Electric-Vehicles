@@ -12,8 +12,8 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
       "name": "Bucks County Golf Carts",
       "description": "Premier golf cart dealership in Bucks County, Pennsylvania specializing in electric golf carts, sales, service, rentals, and financing.",
       "url": "https://bucksgolfcarts.com",
-      "logo": "https://bucksgolfcarts.com/assets/Bucks County Golf Carts (3)_1753284044185.png",
-      "image": "https://bucksgolfcarts.com/assets/Bucks County Golf Carts (3)_1753284044185.png",
+      "logo": "https://bucksgolfcarts.com/attached_assets/Bucks County Golf Carts (3)_1753284044185.png",
+      "image": "https://bucksgolfcarts.com/attached_assets/Bucks County Golf Carts (3)_1753284044185.png",
       "telephone": "267-736-4890",
       "email": "info@bucksgolfcarts.com",
       "address": {

@@ -29,7 +29,7 @@ export default function VehicleSchema({
         "name": brand
       },
       "description": description,
-      "image": `https://bucksgolfcarts.com/assets/${image}`,
+      "image": image.startsWith('http') ? image : `https://bucksgolfcarts.com/attached_assets/${image}`,
       "url": url,
       "category": "Golf Cart",
       "manufacturer": {

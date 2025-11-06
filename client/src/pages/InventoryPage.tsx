@@ -57,13 +57,13 @@ export default function InventoryPage() {
         description="Browse our extensive collection of premium electric golf carts from Denago and Evolution. Find the perfect vehicle with advanced filtering options. Call 1-844-844-6638."
         keywords="golf cart inventory, Denago golf carts, Evolution golf carts, electric golf carts, Bucks County PA"
         canonicalUrl="https://bucksgolfcarts.com/inventory"
-        image="/attached_assets/a-photograph-of-a-bright-and-airy-modern_cSGtJe7oTWCsurFpyhqrJg_CXQ9jYUGRP2_wh-uk2Htkg_1753199147926.png"
+        image="https://bucksgolfcarts.com/attached_assets/a-photograph-of-a-bright-and-airy-modern_cSGtJe7oTWCsurFpyhqrJg_CXQ9jYUGRP2_wh-uk2Htkg_1753199147926.png"
       />
       {/* Schema Markup */}
       <SchemaMarkup schema={generateBreadcrumbSchema(breadcrumbItems)} />
       {vehicles && <SchemaMarkup schema={generateOfferCatalogSchema(vehicles)} />}
       {/* Hero Section */}
-      <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(29, 78, 216, 0.8)), url('/attached_assets/a-photograph-of-a-modern-golf-cart-deale_c_kG6NR-SA6qC8Vzl1iBww_ILJUjQXFQCGLKMSveOjbrA_1753283141121.png')"}}>
+      <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(29, 78, 216, 0.8)), url('https://bucksgolfcarts.com/attached_assets/a-photograph-of-a-modern-golf-cart-deale_c_kG6NR-SA6qC8Vzl1iBww_ILJUjQXFQCGLKMSveOjbrA_1753283141121.png')"}}>
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">
             Golf Cart Inventory
