@@ -3,6 +3,7 @@ import { Link, useLocation } from "wouter";
 import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import tigonLogo from "@assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png";
 
 export default function Navigation() {
   const [location] = useLocation();
@@ -30,7 +31,7 @@ export default function Navigation() {
           <div className="flex items-center space-x-3">
             <div className="rounded-lg w-16 h-16 flex-shrink-0">
               <img 
-                src="https://bucksgolfcarts.com/attached_assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png" 
+                src={tigonLogo} 
                 alt="TIGON Medium Speed Vehicles Logo" 
                 className="h-16 w-16 object-contain"
                 width="64"
