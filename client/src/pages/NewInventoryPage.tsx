@@ -52,13 +52,20 @@ export default function NewInventoryPage() {
       
       <div className="min-h-screen bg-gray-50">
         {/* Hero Section */}
-        <section className="bg-gradient-to-r from-theme-primary to-blue-700 text-white py-16 bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(0, 0, 0, 0.8)), url('/attached_assets/TIGON%20-%20Medium%20Speed%20Vehicles%203_1763146957907.jpeg')"}}>
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">
+        <section className="relative min-h-[600px] flex items-center justify-center overflow-hidden">
+          <div 
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+            style={{backgroundImage: "url('/attached_assets/TIGON%20-%20Medium%20Speed%20Vehicles%203_1763146957907.jpeg')"}}
+          >
+            <div className="absolute inset-0 bg-gradient-to-r from-theme-primary/80 to-black/80"></div>
+          </div>
+          
+          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center text-white">
+              <h1 className="text-4xl md:text-5xl font-bold mb-6 drop-shadow-lg">
                 Medium Speed Vehicle Inventory
               </h1>
-              <p className="text-xl mb-8 max-w-3xl mx-auto">
+              <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto drop-shadow-md">
                 Discover our extensive selection of premium medium speed vehicles from leading brands. 
                 New arrivals, certified pre-owned, and custom builds available.
               </p>

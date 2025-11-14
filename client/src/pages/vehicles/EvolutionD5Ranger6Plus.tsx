@@ -28,45 +28,52 @@ export default function EvolutionD5Ranger6Plus() {
               <span>→</span>
               <a href="/evolution" className="text-theme-primary hover:text-blue-800">EVOLUTION</a>
               <span>→</span>
-              <span className="text-gray-900">D5 RANGER 6 PLUS</span>
+              <span className="drop-shadow-lg">D5 RANGER 6 PLUS</span>
             </div>
           </div>
         </nav>
 
         {/* Vehicle Hero Section */}
-        <section className="relative py-12 px-4 bg-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(0, 0, 0, 0.8)), url('/attached_assets/TIGON - Medium Speed Vehicles 2_1763150117019.jpeg')"}}>
-          <div className="max-w-7xl mx-auto">
+        <section className="relative min-h-[600px] flex items-center justify-center overflow-hidden">
+          <div 
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+            style={{backgroundImage: "url('/attached_assets/TIGON - Medium Speed Vehicles 2_1763150117019.jpeg')"}}
+          >
+            <div className="absolute inset-0 bg-gradient-to-r from-theme-primary/80 to-black/80"></div>
+          </div>
+          
+          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div className="order-2 lg:order-1">
+              <div className="order-2 lg:order-1 text-white">
                 <div className="mb-4">
-                  <Badge className="bg-theme-primary text-white px-4 py-2 text-sm font-semibold">
+                  <Badge className="bg-theme-orange text-white px-4 py-2 text-sm font-semibold shadow-lg">
                     EVOLUTION®
                   </Badge>
                 </div>
-                <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-gray-900">
+                <h1 className="text-4xl lg:text-5xl font-bold mb-6 drop-shadow-lg">
                   D5 RANGER 6 PLUS
                 </h1>
-                <p className="text-xl text-gray-600 mb-8 leading-relaxed">
+                <p className="text-xl drop-shadow-md mb-8 leading-relaxed">
                   Discover the EVOLUTION® D5 RANGER 6 PLUS lineup and its unique features. Advanced electric vehicle technology meets premium comfort and performance.
                 </p>
                 
                 {/* Key Features Grid */}
                 <div className="grid grid-cols-2 gap-4 mb-8">
-                  <div className="p-4 bg-gray-50 rounded-lg border">
-                    <div className="font-semibold text-theme-primary">Passengers</div>
-                    <div className="text-gray-900">6 Adults</div>
+                  <div className="p-4 bg-white/10 backdrop-blur-sm rounded-lg border border-white/20 shadow-lg">
+                    <div className="font-semibold text-theme-orange">Passengers</div>
+                    <div className="drop-shadow-lg">6 Adults</div>
                   </div>
-                  <div className="p-4 bg-gray-50 rounded-lg border">
-                    <div className="font-semibold text-theme-primary">Range</div>
-                    <div className="text-gray-900">30-45 miles</div>
+                  <div className="p-4 bg-white/10 backdrop-blur-sm rounded-lg border border-white/20 shadow-lg">
+                    <div className="font-semibold text-theme-orange">Range</div>
+                    <div className="drop-shadow-lg">30-45 miles</div>
                   </div>
-                  <div className="p-4 bg-gray-50 rounded-lg border">
-                    <div className="font-semibold text-theme-primary">Top Speed</div>
-                    <div className="text-gray-900">19 mph</div>
+                  <div className="p-4 bg-white/10 backdrop-blur-sm rounded-lg border border-white/20 shadow-lg">
+                    <div className="font-semibold text-theme-orange">Top Speed</div>
+                    <div className="drop-shadow-lg">19 mph</div>
                   </div>
-                  <div className="p-4 bg-gray-50 rounded-lg border">
-                    <div className="font-semibold text-theme-primary">Motor</div>
-                    <div className="text-gray-900">Electric AC Motor</div>
+                  <div className="p-4 bg-white/10 backdrop-blur-sm rounded-lg border border-white/20 shadow-lg">
+                    <div className="font-semibold text-theme-orange">Motor</div>
+                    <div className="drop-shadow-lg">Electric AC Motor</div>
                   </div>
                 </div>
 
@@ -90,7 +97,7 @@ export default function EvolutionD5Ranger6Plus() {
                   <img 
                     src={rangerImage} 
                     alt="EVOLUTION® D5 RANGER 6 PLUS - Premium electric medium speed vehicle" 
-                    className="w-full h-auto rounded-2xl shadow-2xl"
+                    className="w-full h-auto rounded-2xl shadow-2xl drop-shadow-2xl"
                   />
                 </div>
               </div>
@@ -102,7 +109,7 @@ export default function EvolutionD5Ranger6Plus() {
         <section className="relative py-16 px-4 bg-gray-50 bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(249, 250, 251, 0.9), rgba(249, 250, 251, 0.9)), url('/attached_assets/TIGON - Medium Speed Vehicles 2_1763150117019.jpeg')"}}>
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-4xl font-bold mb-4 text-theme-primary">Premium Features</h2>
+              <h2 className="text-4xl font-bold mb-4 text-theme-orange">Premium Features</h2>
               <p className="text-xl text-gray-600">Advanced technology and premium comfort</p>
             </div>
             
@@ -154,7 +161,7 @@ export default function EvolutionD5Ranger6Plus() {
         <section className="py-16 px-4 bg-white">
           <div className="max-w-7xl mx-auto">
             <div className="bg-gray-50 p-8 rounded-2xl border">
-              <h2 className="text-4xl font-bold text-center mb-12 text-theme-primary">Technical Specifications</h2>
+              <h2 className="text-4xl font-bold text-center mb-12 text-theme-orange">Technical Specifications</h2>
               
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div>
@@ -239,11 +246,11 @@ export default function EvolutionD5Ranger6Plus() {
         {/* Standard Features */}
         <section className="relative py-16 px-4 bg-gray-50 bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(249, 250, 251, 0.9), rgba(249, 250, 251, 0.9)), url('/attached_assets/TIGON - Medium Speed Vehicles 2_1763150117019.jpeg')"}}>
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-4xl font-bold text-center mb-12 text-theme-primary">Standard Features</h2>
+            <h2 className="text-4xl font-bold text-center mb-12 text-theme-orange">Standard Features</h2>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold mb-4 text-gray-900">Comfort & Convenience</h3>
+                <h3 className="text-xl font-semibold mb-4 drop-shadow-lg">Comfort & Convenience</h3>
                 <ul className="space-y-2 text-gray-600">
                   <li>• Premium vinyl seats</li>
                   <li>• Fold-down windshield</li>
@@ -254,7 +261,7 @@ export default function EvolutionD5Ranger6Plus() {
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold mb-4 text-gray-900">Safety & Performance</h3>
+                <h3 className="text-xl font-semibold mb-4 drop-shadow-lg">Safety & Performance</h3>
                 <ul className="space-y-2 text-gray-600">
                   <li>• LED headlights and taillights</li>
                   <li>• Hydraulic brakes</li>
@@ -265,7 +272,7 @@ export default function EvolutionD5Ranger6Plus() {
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold mb-4 text-gray-900">Drive System</h3>
+                <h3 className="text-xl font-semibold mb-4 drop-shadow-lg">Drive System</h3>
                 <ul className="space-y-2 text-gray-600">
                   <li>• AC electric motor</li>
                   <li>• Maintenance-free battery</li>
@@ -294,7 +301,7 @@ export default function EvolutionD5Ranger6Plus() {
                 </Button>
               </Link>
               <a href="tel:1-844-844-6638">
-                <Button size="lg" variant="outline" className="text-gray-900 bg-white border-white hover:bg-gray-100 hover:text-theme-primary">
+                <Button size="lg" variant="outline" className="text-gray-900 bg-white border-white hover:bg-gray-100 hover:text-theme-orange">
                   Call 1-844-844-6638
                 </Button>
               </a>

@@ -27,43 +27,50 @@ export default function EvolutionCarrier8Plus() {
               <span>→</span>
               <a href="/evolution" className="text-theme-primary hover:text-blue-800">EVOLUTION</a>
               <span>→</span>
-              <span className="text-gray-900">Carrier 8 Plus</span>
+              <span className="drop-shadow-lg">Carrier 8 Plus</span>
             </div>
           </div>
         </nav>
 
-        <section className="relative py-12 px-4 bg-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(0, 0, 0, 0.8)), url('/attached_assets/TIGON - Medium Speed Vehicles 2_1763150117019.jpeg')"}}>
-          <div className="max-w-7xl mx-auto">
+        <section className="relative min-h-[600px] flex items-center justify-center overflow-hidden">
+          <div 
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+            style={{backgroundImage: "url('/attached_assets/TIGON - Medium Speed Vehicles 2_1763150117019.jpeg')"}}
+          >
+            <div className="absolute inset-0 bg-gradient-to-r from-theme-primary/80 to-black/80"></div>
+          </div>
+          
+          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div className="order-2 lg:order-1">
+              <div className="order-2 lg:order-1 text-white">
                 <div className="mb-4">
-                  <Badge className="bg-theme-primary text-white px-4 py-2 text-sm font-semibold">
+                  <Badge className="bg-theme-orange text-white px-4 py-2 text-sm font-semibold shadow-lg">
                     EVOLUTION® CARRIER
                   </Badge>
                 </div>
-                <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-gray-900">
+                <h1 className="text-4xl lg:text-5xl font-bold mb-6 drop-shadow-lg">
                   Carrier 8 Plus
                 </h1>
-                <p className="text-xl text-gray-600 mb-8 leading-relaxed">
+                <p className="text-xl drop-shadow-md mb-8 leading-relaxed">
                   Eight-passenger carrier with maximum seating and cargo capacity for large group transportation. The ultimate utility vehicle for demanding applications.
                 </p>
                 
                 <div className="grid grid-cols-2 gap-4 mb-8">
-                  <div className="p-4 bg-gray-50 rounded-lg border">
-                    <div className="font-semibold text-theme-primary">8-Passenger</div>
-                    <div className="text-gray-900">Maximum Seating</div>
+                  <div className="p-4 bg-white/10 backdrop-blur-sm rounded-lg border border-white/20 shadow-lg">
+                    <div className="font-semibold text-theme-orange">8-Passenger</div>
+                    <div className="drop-shadow-lg">Maximum Seating</div>
                   </div>
-                  <div className="p-4 bg-gray-50 rounded-lg border">
-                    <div className="font-semibold text-theme-primary">Range</div>
-                    <div className="text-gray-900">30-40 miles</div>
+                  <div className="p-4 bg-white/10 backdrop-blur-sm rounded-lg border border-white/20 shadow-lg">
+                    <div className="font-semibold text-theme-orange">Range</div>
+                    <div className="drop-shadow-lg">30-40 miles</div>
                   </div>
-                  <div className="p-4 bg-gray-50 rounded-lg border">
-                    <div className="font-semibold text-theme-primary">Payload</div>
-                    <div className="text-gray-900">1,400 lbs</div>
+                  <div className="p-4 bg-white/10 backdrop-blur-sm rounded-lg border border-white/20 shadow-lg">
+                    <div className="font-semibold text-theme-orange">Payload</div>
+                    <div className="drop-shadow-lg">1,400 lbs</div>
                   </div>
-                  <div className="p-4 bg-gray-50 rounded-lg border">
-                    <div className="font-semibold text-theme-primary">Utility</div>
-                    <div className="text-gray-900">Maximum Capacity</div>
+                  <div className="p-4 bg-white/10 backdrop-blur-sm rounded-lg border border-white/20 shadow-lg">
+                    <div className="font-semibold text-theme-orange">Utility</div>
+                    <div className="drop-shadow-lg">Maximum Capacity</div>
                   </div>
                 </div>
 
@@ -109,11 +116,11 @@ export default function EvolutionCarrier8Plus() {
               <div className="mt-4 md:mt-0 flex gap-4">
                 <div className="text-center">
                   <div className="text-sm text-gray-600">Availability</div>
-                  <div className="font-semibold text-theme-primary">In Stock</div>
+                  <div className="font-semibold text-theme-orange">In Stock</div>
                 </div>
                 <div className="text-center">
                   <div className="text-sm text-gray-600">Delivery</div>
-                  <div className="font-semibold text-gray-900">2-3 Weeks</div>
+                  <div className="font-semibold drop-shadow-lg">2-3 Weeks</div>
                 </div>
               </div>
             </div>
@@ -124,7 +131,7 @@ export default function EvolutionCarrier8Plus() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12">
               <div>
-                <h2 className="text-3xl font-bold mb-8 text-gray-900">Maximum Utility</h2>
+                <h2 className="text-3xl font-bold mb-8 drop-shadow-lg">Maximum Utility</h2>
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
                     <Zap className="w-6 h-6 text-theme-primary mt-1 flex-shrink-0" />
@@ -158,7 +165,7 @@ export default function EvolutionCarrier8Plus() {
               </div>
 
               <div>
-                <h2 className="text-3xl font-bold mb-8 text-gray-900">Specifications</h2>
+                <h2 className="text-3xl font-bold mb-8 drop-shadow-lg">Specifications</h2>
                 <Card>
                   <CardContent className="p-6">
                     <div className="space-y-4">
@@ -167,42 +174,42 @@ export default function EvolutionCarrier8Plus() {
                           <Gauge className="w-5 h-5 text-theme-primary" />
                           <span className="font-medium">Top Speed</span>
                         </div>
-                        <span className="text-gray-900">20 mph</span>
+                        <span className="drop-shadow-lg">20 mph</span>
                       </div>
                       <div className="flex items-center justify-between py-3 border-b border-gray-200">
                         <div className="flex items-center gap-3">
                           <Battery className="w-5 h-5 text-theme-primary" />
                           <span className="font-medium">Range</span>
                         </div>
-                        <span className="text-gray-900">30-40 miles</span>
+                        <span className="drop-shadow-lg">30-40 miles</span>
                       </div>
                       <div className="flex items-center justify-between py-3 border-b border-gray-200">
                         <div className="flex items-center gap-3">
                           <Users className="w-5 h-5 text-theme-primary" />
                           <span className="font-medium">Seating Capacity</span>
                         </div>
-                        <span className="text-gray-900">8 passengers</span>
+                        <span className="drop-shadow-lg">8 passengers</span>
                       </div>
                       <div className="flex items-center justify-between py-3 border-b border-gray-200">
                         <div className="flex items-center gap-3">
                           <Car className="w-5 h-5 text-theme-primary" />
                           <span className="font-medium">Battery Type</span>
                         </div>
-                        <span className="text-gray-900">Deep Cycle</span>
+                        <span className="drop-shadow-lg">Deep Cycle</span>
                       </div>
                       <div className="flex items-center justify-between py-3 border-b border-gray-200">
                         <div className="flex items-center gap-3">
                           <Clock className="w-5 h-5 text-theme-primary" />
                           <span className="font-medium">Charging Time</span>
                         </div>
-                        <span className="text-gray-900">8-10 hours</span>
+                        <span className="drop-shadow-lg">8-10 hours</span>
                       </div>
                       <div className="flex items-center justify-between py-3">
                         <div className="flex items-center gap-3">
                           <Settings className="w-5 h-5 text-theme-primary" />
                           <span className="font-medium">Payload</span>
                         </div>
-                        <span className="text-gray-900">1,400 lbs</span>
+                        <span className="drop-shadow-lg">1,400 lbs</span>
                       </div>
                     </div>
                   </CardContent>
@@ -228,7 +235,7 @@ export default function EvolutionCarrier8Plus() {
                 </Button>
               </Link>
               <a href="https://tigongolfcarts.com/apply-for-financing/" target="_blank" rel="noopener noreferrer">
-                <Button size="lg" variant="outline" className="text-gray-900 bg-white border-white hover:bg-gray-100 hover:text-gray-900">
+                <Button size="lg" variant="outline" className="text-gray-900 bg-white border-white hover:bg-gray-100 hover:drop-shadow-lg">
                   <MapPin className="w-5 h-5 mr-2" />
                   Visit Showroom
                 </Button>

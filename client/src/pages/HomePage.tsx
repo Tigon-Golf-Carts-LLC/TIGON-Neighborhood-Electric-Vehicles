@@ -29,25 +29,32 @@ export default function HomePage() {
       />
       <OrganizationSchema pageType="home" />
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-theme-primary via-blue-800 to-theme-primary text-white py-20 px-4 bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(0, 0, 0, 0.8)), url('/attached_assets/TIGON%20-%20Medium%20Speed%20Vehicles_1763146957906.jpeg')"}}>
-        <div className="max-w-7xl mx-auto">
+      <section className="relative min-h-[600px] flex items-center justify-center overflow-hidden">
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{backgroundImage: "url('/attached_assets/TIGON%20-%20Medium%20Speed%20Vehicles_1763146957906.jpeg')"}}
+        >
+          <div className="absolute inset-0 bg-gradient-to-r from-theme-primary/80 to-black/80"></div>
+        </div>
+        
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h1 className="text-5xl font-bold mb-6 leading-tight">
-TIGON Medium Speed Vehicles Premier MSV Dealership
+            <div className="text-white">
+              <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight drop-shadow-lg">
+                TIGON Medium Speed Vehicles Premier MSV Dealership
               </h1>
-              <p className="text-xl mb-8 text-gray-100">
+              <p className="text-xl mb-8 drop-shadow-md">
                 Discover our extensive selection of new medium speed vehicles from Evolution and Denago with professional services. 
                 Serving customers nationwide across all 50 states, Canada, and Mexico with premium medium speed vehicles.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/inventory" className="w-full sm:w-auto">
-                  <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white w-full sm:w-auto">
+                  <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white shadow-lg w-full sm:w-auto">
                     View Inventory
                   </Button>
                 </Link>
                 <a href="tel:18448446638">
-                  <Button size="lg" variant="outline" className="text-gray-900 bg-white border-white hover:bg-gray-100 hover:text-gray-900 w-full sm:w-auto">
+                  <Button size="lg" className="bg-white text-theme-primary hover:bg-gray-100 shadow-lg w-full sm:w-auto">
                     Call Now 1-844-844-6638
                   </Button>
                 </a>
@@ -57,7 +64,7 @@ TIGON Medium Speed Vehicles Premier MSV Dealership
               <img 
                 src="/attached_assets/D6-XT6-4wd-color-PORTIMAO-BLUE_1753135231312.png" 
                 alt="Medium Speed Vehicle" 
-                className="w-full h-auto max-w-lg mx-auto"
+                className="w-full h-auto max-w-lg mx-auto drop-shadow-2xl"
               />
             </div>
           </div>

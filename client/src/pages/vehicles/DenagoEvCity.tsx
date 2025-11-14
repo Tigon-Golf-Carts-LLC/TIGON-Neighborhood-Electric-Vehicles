@@ -43,56 +43,63 @@ export default function DenagoEvCity() {
         </nav>
 
         {/* Vehicle Hero Section */}
-        <section className="relative py-12 px-4 bg-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(0, 0, 0, 0.8)), url('/attached_assets/TIGON - Medium Speed Vehicles 2_1763150117019.jpeg')"}}>
-          <div className="max-w-7xl mx-auto">
+        <section className="relative min-h-[600px] flex items-center justify-center overflow-hidden">
+          <div 
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+            style={{backgroundImage: "url('/attached_assets/TIGON - Medium Speed Vehicles 2_1763150117019.jpeg')"}}
+          >
+            <div className="absolute inset-0 bg-gradient-to-r from-theme-primary/80 to-black/80"></div>
+          </div>
+          
+          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div className="order-2 lg:order-1">
+              <div className="order-2 lg:order-1 text-white">
                 <div className="mb-4">
-                  <Badge className="bg-theme-primary text-white px-4 py-2 text-sm font-semibold">
+                  <Badge className="bg-theme-orange text-white px-4 py-2 text-sm font-semibold shadow-lg">
                     DENAGO®
                   </Badge>
                 </div>
-                <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-gray-900">
+                <h1 className="text-4xl lg:text-5xl font-bold mb-6 drop-shadow-lg">
                   EV CITY
                 </h1>
-                <p className="text-xl text-gray-600 mb-8 leading-relaxed">
+                <p className="text-xl mb-8 leading-relaxed drop-shadow-md">
                   Discover the EV CITY lineup and its unique features designed for urban mobility. Perfect for neighborhoods, campuses, and city transportation.
                 </p>
                 
                 {/* Key Features Grid */}
                 <div className="grid grid-cols-2 gap-4 mb-8">
-                  <div className="p-4 bg-gray-50 rounded-lg border">
-                    <div className="font-semibold text-theme-primary">Street Legal</div>
-                    <div className="text-gray-900">NEV Certified</div>
+                  <div className="p-4 bg-white/10 backdrop-blur-sm rounded-lg border border-white/20 shadow-lg">
+                    <div className="font-semibold text-theme-orange">Street Legal</div>
+                    <div className="text-white">NEV Certified</div>
                   </div>
-                  <div className="p-4 bg-gray-50 rounded-lg border">
-                    <div className="font-semibold text-theme-primary">Range</div>
-                    <div className="text-gray-900">40-50 miles</div>
+                  <div className="p-4 bg-white/10 backdrop-blur-sm rounded-lg border border-white/20 shadow-lg">
+                    <div className="font-semibold text-theme-orange">Range</div>
+                    <div className="text-white">40-50 miles</div>
                   </div>
-                  <div className="p-4 bg-gray-50 rounded-lg border">
-                    <div className="font-semibold text-theme-primary">Top Speed</div>
-                    <div className="text-gray-900">25 mph</div>
+                  <div className="p-4 bg-white/10 backdrop-blur-sm rounded-lg border border-white/20 shadow-lg">
+                    <div className="font-semibold text-theme-orange">Top Speed</div>
+                    <div className="text-white">25 mph</div>
                   </div>
-                  <div className="p-4 bg-gray-50 rounded-lg border">
-                    <div className="font-semibold text-theme-primary">Seating</div>
-                    <div className="text-gray-900">4 Passengers</div>
+                  <div className="p-4 bg-white/10 backdrop-blur-sm rounded-lg border border-white/20 shadow-lg">
+                    <div className="font-semibold text-theme-orange">Seating</div>
+                    <div className="text-white">4 Passengers</div>
                   </div>
                 </div>
 
                 {/* Action Buttons */}
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Link href="/contact">
-                    <Button size="lg" className="w-full sm:w-auto bg-theme-orange hover:bg-orange-600 text-white">
+                    <Button size="lg" className="w-full sm:w-auto bg-theme-orange hover:bg-orange-600 text-white shadow-lg">
                       Get Quote
                     </Button>
                   </Link>
                   <a href="https://tigongolfcarts.com/apply-for-financing/" target="_blank" rel="noopener noreferrer">
-                    <Button size="lg" variant="outline" className="w-full sm:w-auto border-theme-orange text-theme-orange hover:bg-orange-50">
+                    <Button size="lg" className="w-full sm:w-auto bg-white text-theme-primary hover:bg-gray-100 shadow-lg">
                       Finance Options
                     </Button>
                   </a>
                   <a href="https://tigongolfcarts.com/denago-ev/city/" target="_blank" rel="noopener noreferrer">
-                    <Button size="lg" className="w-full sm:w-auto bg-theme-orange hover:bg-orange-600 text-white">
+                    <Button size="lg" className="w-full sm:w-auto bg-theme-orange hover:bg-orange-600 text-white shadow-lg">
                       View More Details
                     </Button>
                   </a>
@@ -104,7 +111,7 @@ export default function DenagoEvCity() {
                   <img 
                     src={cityImage} 
                     alt="DENAGO® EV CITY - Street-legal electric vehicle" 
-                    className="w-full h-auto rounded-2xl shadow-2xl"
+                    className="w-full h-auto rounded-2xl shadow-2xl drop-shadow-2xl"
                   />
                 </div>
               </div>

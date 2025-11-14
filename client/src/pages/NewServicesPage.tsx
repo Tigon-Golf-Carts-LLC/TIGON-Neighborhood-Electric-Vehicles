@@ -47,24 +47,31 @@ export default function NewServicesPage() {
       
       <div className="min-h-screen bg-gray-50">
         {/* Hero Section */}
-        <section className="relative bg-gradient-to-r from-theme-primary to-blue-700 text-white py-20 px-4 bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(0, 0, 0, 0.8)), url('/attached_assets/TIGON%20-%20Medium%20Speed%20Vehicles%202_1763146957906.jpeg')"}}>
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">
+        <section className="relative min-h-[600px] flex items-center justify-center overflow-hidden">
+          <div 
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+            style={{backgroundImage: "url('/attached_assets/TIGON%20-%20Medium%20Speed%20Vehicles%202_1763146957906.jpeg')"}}
+          >
+            <div className="absolute inset-0 bg-gradient-to-r from-theme-primary/80 to-black/80"></div>
+          </div>
+          
+          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center text-white">
+              <h1 className="text-4xl md:text-5xl font-bold mb-6 drop-shadow-lg">
                 Professional Medium Speed Vehicle Services
               </h1>
-              <p className="text-xl mb-8 max-w-3xl mx-auto">
+              <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto drop-shadow-md">
                 Keep your medium speed vehicle running smoothly with our comprehensive service offerings. 
                 From routine maintenance to major repairs, our certified technicians have you covered.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/contact">
-                  <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
+                  <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white shadow-lg">
                     Schedule Service
                   </Button>
                 </Link>
                 <a href="tel:1-844-844-6638">
-                  <Button size="lg" className="bg-white text-theme-primary hover:bg-gray-100">
+                  <Button size="lg" className="bg-white text-theme-primary hover:bg-gray-100 shadow-lg">
                     Call for Emergency Service
                   </Button>
                 </a>

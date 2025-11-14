@@ -28,52 +28,59 @@ export default function DenagoEvRoverXL6() {
               <span>→</span>
               <a href="/denago" className="text-theme-primary hover:text-blue-800">DENAGO</a>
               <span>→</span>
-              <span className="text-gray-900">EV Rover XL6</span>
+              <span className="drop-shadow-lg">EV Rover XL6</span>
             </div>
           </div>
         </nav>
 
         {/* Vehicle Hero Section */}
-        <section className="relative py-12 px-4 bg-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(0, 0, 0, 0.8)), url('/attached_assets/TIGON - Medium Speed Vehicles 2_1763150117019.jpeg')"}}>
-          <div className="max-w-7xl mx-auto">
+        <section className="relative min-h-[600px] flex items-center justify-center overflow-hidden">
+          <div 
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+            style={{backgroundImage: "url('/attached_assets/TIGON - Medium Speed Vehicles 2_1763150117019.jpeg')"}}
+          >
+            <div className="absolute inset-0 bg-gradient-to-r from-theme-primary/80 to-black/80"></div>
+          </div>
+          
+          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div className="order-2 lg:order-1">
+              <div className="order-2 lg:order-1 text-white">
                 <div className="mb-4">
-                  <Badge className="bg-theme-primary text-white px-4 py-2 text-sm font-semibold">
+                  <Badge className="bg-theme-orange text-white px-4 py-2 text-sm font-semibold shadow-lg">
                     DENAGO® EV
                   </Badge>
                 </div>
-                <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-gray-900">
+                <h1 className="text-4xl lg:text-5xl font-bold mb-6 drop-shadow-lg">
                   Rover XL6
                 </h1>
-                <p className="text-xl text-gray-600 mb-8 leading-relaxed">
+                <p className="text-xl drop-shadow-md mb-8 leading-relaxed">
                   Six-passenger luxury rover with premium features and extended range for ultimate comfort and performance. The pinnacle of electric vehicle luxury.
                 </p>
                 
                 {/* Key Features Grid */}
                 <div className="grid grid-cols-2 gap-4 mb-8">
-                  <div className="p-4 bg-gray-50 rounded-lg border">
-                    <div className="font-semibold text-theme-primary">Luxury Features</div>
-                    <div className="text-gray-900">Premium Comfort</div>
+                  <div className="p-4 bg-white/10 backdrop-blur-sm rounded-lg border border-white/20 shadow-lg">
+                    <div className="font-semibold text-theme-orange">Luxury Features</div>
+                    <div className="drop-shadow-lg">Premium Comfort</div>
                   </div>
-                  <div className="p-4 bg-gray-50 rounded-lg border">
-                    <div className="font-semibold text-theme-primary">Range</div>
-                    <div className="text-gray-900">50-65 miles</div>
+                  <div className="p-4 bg-white/10 backdrop-blur-sm rounded-lg border border-white/20 shadow-lg">
+                    <div className="font-semibold text-theme-orange">Range</div>
+                    <div className="drop-shadow-lg">50-65 miles</div>
                   </div>
-                  <div className="p-4 bg-gray-50 rounded-lg border">
-                    <div className="font-semibold text-theme-primary">Top Speed</div>
-                    <div className="text-gray-900">25 mph</div>
+                  <div className="p-4 bg-white/10 backdrop-blur-sm rounded-lg border border-white/20 shadow-lg">
+                    <div className="font-semibold text-theme-orange">Top Speed</div>
+                    <div className="drop-shadow-lg">25 mph</div>
                   </div>
-                  <div className="p-4 bg-gray-50 rounded-lg border">
-                    <div className="font-semibold text-theme-primary">Seating</div>
-                    <div className="text-gray-900">6 Premium Seats</div>
+                  <div className="p-4 bg-white/10 backdrop-blur-sm rounded-lg border border-white/20 shadow-lg">
+                    <div className="font-semibold text-theme-orange">Seating</div>
+                    <div className="drop-shadow-lg">6 Premium Seats</div>
                   </div>
                 </div>
 
                 {/* Action Buttons */}
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Link href="/contact">
-                    <Button size="lg" className="w-full sm:w-auto bg-theme-orange hover:bg-orange-600 text-white">
+                    <Button size="lg" className="w-full sm:w-auto bg-theme-orange hover:bg-orange-600 text-white shadow-lg">
                       Get Quote
                     </Button>
                   </Link>
@@ -114,11 +121,11 @@ export default function DenagoEvRoverXL6() {
               <div className="mt-4 md:mt-0 flex gap-4">
                 <div className="text-center">
                   <div className="text-sm text-gray-600">Availability</div>
-                  <div className="font-semibold text-theme-primary">In Stock</div>
+                  <div className="font-semibold text-theme-orange">In Stock</div>
                 </div>
                 <div className="text-center">
                   <div className="text-sm text-gray-600">Delivery</div>
-                  <div className="font-semibold text-gray-900">2-3 Weeks</div>
+                  <div className="font-semibold drop-shadow-lg">2-3 Weeks</div>
                 </div>
               </div>
             </div>
@@ -131,7 +138,7 @@ export default function DenagoEvRoverXL6() {
             <div className="grid lg:grid-cols-2 gap-12">
               {/* Features */}
               <div>
-                <h2 className="text-3xl font-bold mb-8 text-gray-900">Luxury Features</h2>
+                <h2 className="text-3xl font-bold mb-8 drop-shadow-lg">Luxury Features</h2>
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
                     <Zap className="w-6 h-6 text-theme-primary mt-1 flex-shrink-0" />
@@ -166,7 +173,7 @@ export default function DenagoEvRoverXL6() {
 
               {/* Specifications */}
               <div>
-                <h2 className="text-3xl font-bold mb-8 text-gray-900">Specifications</h2>
+                <h2 className="text-3xl font-bold mb-8 drop-shadow-lg">Specifications</h2>
                 <Card>
                   <CardContent className="p-6">
                     <div className="space-y-4">
@@ -175,42 +182,42 @@ export default function DenagoEvRoverXL6() {
                           <Gauge className="w-5 h-5 text-theme-primary" />
                           <span className="font-medium">Top Speed</span>
                         </div>
-                        <span className="text-gray-900">25 mph</span>
+                        <span className="drop-shadow-lg">25 mph</span>
                       </div>
                       <div className="flex items-center justify-between py-3 border-b border-gray-200">
                         <div className="flex items-center gap-3">
                           <Battery className="w-5 h-5 text-theme-primary" />
                           <span className="font-medium">Range</span>
                         </div>
-                        <span className="text-gray-900">50-65 miles</span>
+                        <span className="drop-shadow-lg">50-65 miles</span>
                       </div>
                       <div className="flex items-center justify-between py-3 border-b border-gray-200">
                         <div className="flex items-center gap-3">
                           <Users className="w-5 h-5 text-theme-primary" />
                           <span className="font-medium">Seating Capacity</span>
                         </div>
-                        <span className="text-gray-900">6 passengers</span>
+                        <span className="drop-shadow-lg">6 passengers</span>
                       </div>
                       <div className="flex items-center justify-between py-3 border-b border-gray-200">
                         <div className="flex items-center gap-3">
                           <Car className="w-5 h-5 text-theme-primary" />
                           <span className="font-medium">Battery Type</span>
                         </div>
-                        <span className="text-gray-900">Premium Lithium</span>
+                        <span className="drop-shadow-lg">Premium Lithium</span>
                       </div>
                       <div className="flex items-center justify-between py-3 border-b border-gray-200">
                         <div className="flex items-center gap-3">
                           <Clock className="w-5 h-5 text-theme-primary" />
                           <span className="font-medium">Charging Time</span>
                         </div>
-                        <span className="text-gray-900">8-10 hours</span>
+                        <span className="drop-shadow-lg">8-10 hours</span>
                       </div>
                       <div className="flex items-center justify-between py-3">
                         <div className="flex items-center gap-3">
                           <Settings className="w-5 h-5 text-theme-primary" />
                           <span className="font-medium">Payload</span>
                         </div>
-                        <span className="text-gray-900">1,200 lbs</span>
+                        <span className="drop-shadow-lg">1,200 lbs</span>
                       </div>
                     </div>
                   </CardContent>
@@ -231,13 +238,13 @@ export default function DenagoEvRoverXL6() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
-                <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
+                <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white shadow-lg">
                   <Phone className="w-5 h-5 mr-2" />
                   Get Quote Today
                 </Button>
               </Link>
               <a href="https://tigongolfcarts.com/apply-for-financing/" target="_blank" rel="noopener noreferrer">
-                <Button size="lg" variant="outline" className="text-gray-900 bg-white border-white hover:bg-gray-100 hover:text-gray-900">
+                <Button size="lg" variant="outline" className="text-gray-900 bg-white border-white hover:bg-gray-100 hover:drop-shadow-lg">
                   <MapPin className="w-5 h-5 mr-2" />
                   Visit Showroom
                 </Button>
