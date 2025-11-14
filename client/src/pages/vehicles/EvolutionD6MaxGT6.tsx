@@ -12,7 +12,7 @@ export default function EvolutionD6MaxGT6() {
       <SEOHead 
         title="Max GT6"
         description="High performance and luxury features combine in this six-passenger golf cart with maximum power and premium comfort. Call 1-844-844-6638."
-        keywords="EVOLUTION D6 Max GT6, high performance golf cart, 6-passenger, luxury features, maximum power, EVOLUTION dealer Bucks County PA"
+        keywords="EVOLUTION D6 Max GT6, high performance golf cart, 6-passenger, luxury features, maximum power, EVOLUTION dealer nationwide PA"
         canonicalUrl="https://bucksgolfcarts.com/vehicles/evolution-d6-max-gt6"
         image="https://bucksgolfcarts.com/attached_assets/EVOLUTIOND6MAXGT6_1751893159004_1753135350620.jpg"
       />
@@ -218,7 +218,7 @@ export default function EvolutionD6MaxGT6() {
               Maximum Performance, Maximum Luxury
             </h2>
             <p className="text-xl text-gray-300 mb-8">
-              Contact Bucks County Golf Carts today for your EVOLUTION D6 Max GT6.
+              Contact TIGON Medium Speed Vehicles today for your EVOLUTION D6 Max GT6.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">

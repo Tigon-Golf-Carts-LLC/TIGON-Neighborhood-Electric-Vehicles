@@ -12,7 +12,7 @@ export default function EvolutionD6MaxXT6() {
       <SEOHead 
         title="Max XT6"
         description="Maximum off-road capability with six-passenger extreme terrain design featuring adventure features and rugged construction. Call 1-844-844-6638."
-        keywords="EVOLUTION D6 Max XT6, extreme terrain golf cart, 6-passenger off-road, maximum capability, adventure features, EVOLUTION dealer Bucks County PA"
+        keywords="EVOLUTION D6 Max XT6, extreme terrain golf cart, 6-passenger off-road, maximum capability, adventure features, EVOLUTION dealer nationwide PA"
         canonicalUrl="https://bucksgolfcarts.com/vehicles/evolution-d6-max-xt6"
         image="https://bucksgolfcarts.com/attached_assets/EVOLUTIOND6MAXXT6_1751893159005_1753135437836.jpg"
       />
@@ -218,7 +218,7 @@ export default function EvolutionD6MaxXT6() {
               Ultimate Adventure Awaits
             </h2>
             <p className="text-xl text-gray-300 mb-8">
-              Contact Bucks County Golf Carts today for your EVOLUTION D6 Max XT6.
+              Contact TIGON Medium Speed Vehicles today for your EVOLUTION D6 Max XT6.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">

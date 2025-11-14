@@ -28,7 +28,7 @@ export default function AboutPage() {
   ];
 
   const milestones = [
-    { year: "2010", event: "TIGON Medium Speed Vehicles founded in Bucks County" },
+    { year: "2010", event: "TIGON Medium Speed Vehicles founded in nationwide" },
     { year: "2012", event: "Became authorized EVOLUTION MSV dealer" },
     { year: "2015", event: "Expanded to serve all of Pennsylvania" },
     { year: "2018", event: "Added DENAGO to our brand portfolio" },
@@ -65,7 +65,7 @@ export default function AboutPage() {
             <div>
               <h2 className="text-4xl font-bold mb-6 text-gray-900">Our Story</h2>
               <p className="text-lg text-gray-600 mb-6">
-                Founded in 2010 in Bucks County, TIGON Medium Speed Vehicles began with a simple mission: 
+                Founded in 2010 in nationwide, TIGON Medium Speed Vehicles began with a simple mission: 
                 to provide high-quality medium speed vehicles and exceptional service to customers throughout the region.
               </p>
               <p className="text-lg text-gray-600 mb-6">
@@ -210,7 +210,7 @@ export default function AboutPage() {
               <h2 className="text-4xl font-bold mb-6 text-gray-900">About TIGON Medium Speed Vehicles</h2>
               <p className="text-lg text-gray-600 mb-6">
                 From our location at 115 Lincoln Hwy in Fairless Hills, we proudly serve customers throughout 
-                Bucks County and the surrounding region. Our commitment to quality MSV service extends 
+                nationwide and the surrounding region. Our commitment to quality MSV service extends 
                 across our entire service area.
               </p>
               <div className="flex items-center gap-4 mb-6">
@@ -243,7 +243,7 @@ export default function AboutPage() {
           
           {/* Towns List Below Map */}
           <div className="mt-12 bg-blue-50 p-8 rounded-lg">
-            <h3 className="text-xl font-semibold mb-4 text-center">Bucks County Towns We Serve Medium Speed Vehicles</h3>
+            <h3 className="text-xl font-semibold mb-4 text-center">nationwide Towns We Serve Medium Speed Vehicles</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 text-sm text-gray-700">
               {[
                 "Warrington Township", "Newtown Township", "Northampton Township", "Lower Makefield Township",

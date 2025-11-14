@@ -15,39 +15,41 @@ export default function SchemaMarkup({ schema }: SchemaMarkupProps) {
 export const generateOrganizationSchema = () => ({
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Bucks County Golf Carts",
-  "alternateName": "BCGC",
-  "description": "Premier golf cart dealer in Bucks County, Pennsylvania specializing in DENAGO and EVOLUTION electric vehicles with sales, service, and rentals.",
+  "name": "TIGON Medium Speed Vehicles",
+  "alternateName": "TIGON MSV",
+  "description": "Premier medium speed vehicle dealer specializing in DENAGO and EVOLUTION electric vehicles with sales, service, and rentals across North America.",
   "url": "https://bucksgolfcarts.com",
-  "logo": "https://bucksgolfcarts.com/attached_assets/Ocean County Golf Carts New Jersey 3_1753197335727.jpeg",
+  "logo": "https://bucksgolfcarts.com/attached_assets/Pennsylvania Golf Carts (3)_1753284044185.png",
   "image": [
-    "https://bucksgolfcarts.com/attached_assets/Ocean County Golf Carts New Jersey 3_1753197335727.jpeg",
-    "https://bucksgolfcarts.com/attached_assets/OCEAN COUNTY GOLF CARTS_1753196019170.jpeg"
+    "https://bucksgolfcarts.com/attached_assets/Pennsylvania Golf Carts (3)_1753284044185.png"
   ],
   "telephone": "1-844-844-6638",
   "email": "sales@tigongolfcarts.com",
   "address": {
     "@type": "PostalAddress",
+    "streetAddress": "115 Lincoln Hwy",
+    "addressLocality": "Fairless Hills",
     "addressRegion": "PA",
-    "addressCountry": "US",
-    "addressLocality": "Bucks County"
+    "postalCode": "19030",
+    "addressCountry": "US"
   },
-  "areaServed": {
-    "@type": "State",
-    "name": "Pennsylvania"
-  },
-  "serviceArea": {
-    "@type": "GeoCircle",
-    "geoMidpoint": {
-      "@type": "GeoCoordinates",
-      "latitude": 40.3059,
-      "longitude": -75.3168
+  "areaServed": [
+    {
+      "@type": "Country",
+      "name": "United States"
     },
-    "geoRadius": "50000"
-  },
-  "foundingDate": "2008",
+    {
+      "@type": "Country",
+      "name": "Canada"
+    },
+    {
+      "@type": "Country",
+      "name": "Mexico"
+    }
+  ],
+  "foundingDate": "2015",
   "numberOfEmployees": "15-25",
-  "slogan": "Professional golf cart services delivered to your town",
+  "slogan": "Premium medium speed vehicles delivered nationwide",
   "brand": ["DENAGO", "EVOLUTION"],
   "sameAs": [
     "https://www.facebook.com/bucksgolfcarts",
@@ -330,17 +332,17 @@ export const generateTownPageSchema = (townName: string) => ({
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": `Golf Carts in ${townName}`,
-  "description": `Professional golf cart sales, service, and rentals delivered to ${townName}, Bucks County, Pennsylvania`,
+  "description": `Professional golf cart sales, service, and rentals delivered to ${townName}, Pennsylvania, Pennsylvania`,
   "url": `https://bucksgolfcarts.com/${townName.toLowerCase().replace(/\s+/g, '-')}-golf-carts`,
   "mainEntity": {
     "@type": "LocalBusiness",
-    "name": "Bucks County Golf Carts",
+    "name": "Pennsylvania Golf Carts",
     "areaServed": {
       "@type": "City",
       "name": townName,
       "containedInPlace": {
         "@type": "AdministrativeArea",
-        "name": "Bucks County",
+        "name": "Pennsylvania",
         "containedInPlace": {
           "@type": "State",
           "name": "Pennsylvania"

@@ -43,7 +43,7 @@ export default function VehicleSchema({
         "priceCurrency": "USD",
         "seller": {
           "@type": "Organization",
-          "name": "Bucks County Golf Carts",
+          "name": "Pennsylvania Golf Carts",
           "telephone": "267-736-4890",
           "email": "info@bucksgolfcarts.com",
           "address": {

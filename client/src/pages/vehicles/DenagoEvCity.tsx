@@ -13,7 +13,7 @@ export default function DenagoEvCity() {
       <SEOHead 
         title="EV CITY"
         description="Experience urban mobility with the DENAGO EV CITY street-legal electric vehicle. Perfect for city transportation and neighborhood use with 40-50 mile range. Call 1-844-844-6638."
-        keywords="DENAGO EV CITY, street legal electric vehicle, NEV, urban mobility, DENAGO dealer Bucks County PA"
+        keywords="DENAGO EV CITY, street legal electric vehicle, NEV, urban mobility, DENAGO dealer nationwide PA"
         canonicalUrl="https://bucksgolfcarts.com/vehicles/denago-ev-city"
         image="https://bucksgolfcarts.com/attached_assets/DENAGONEVCITY_1751893047472_1753135231313.jpg"
       />
@@ -257,7 +257,7 @@ export default function DenagoEvCity() {
               Ready to Experience the DENAGO® EV CITY?
             </h2>
             <p className="text-xl mb-8">
-              Contact Bucks County Golf Carts today for pricing, availability, and to schedule a test drive.
+              Contact TIGON Medium Speed Vehicles today for pricing, availability, and to schedule a test drive.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
@@ -306,11 +306,11 @@ export default function DenagoEvCity() {
               <Card className="text-center">
                 <CardHeader>
                   <MapPin className="w-12 h-12 text-purple-500 mx-auto mb-4" />
-                  <CardTitle>Bucks County Service</CardTitle>
+                  <CardTitle>nationwide Service</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600">
-                    Delivery and pickup available throughout Bucks County, Pennsylvania and surrounding areas.
+                    Delivery and pickup available throughout nationwide, Pennsylvania and surrounding areas.
                   </p>
                 </CardContent>
               </Card>

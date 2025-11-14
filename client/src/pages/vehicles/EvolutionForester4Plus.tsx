@@ -12,7 +12,7 @@ export default function EvolutionForester4Plus() {
       <SEOHead 
         title="FORESTER 4 PLUS"
         description="Premium electric utility vehicle designed for rugged terrain and heavy-duty work. Built for utility work with rugged construction and reliable electric power. Call 1-844-844-6638."
-        keywords="EVOLUTION FORESTER 4 PLUS, utility golf cart, electric utility vehicle, work cart, EVOLUTION dealer Bucks County PA"
+        keywords="EVOLUTION FORESTER 4 PLUS, utility golf cart, electric utility vehicle, work cart, EVOLUTION dealer nationwide PA"
         canonicalUrl="https://bucksgolfcarts.com/vehicles/evolution-forester-4-plus"
         image="https://bucksgolfcarts.com/attached_assets/EVOLUTIONFORESTER4PLUS_1751893159005_1753135437836.jpg"
       />
@@ -243,7 +243,7 @@ export default function EvolutionForester4Plus() {
               Ready to Experience the EVOLUTION® FORESTER 4 PLUS?
             </h2>
             <p className="text-xl mb-8">
-              Contact Bucks County Golf Carts today for pricing, availability, and to schedule a test drive.
+              Contact TIGON Medium Speed Vehicles today for pricing, availability, and to schedule a test drive.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
@@ -292,11 +292,11 @@ export default function EvolutionForester4Plus() {
               <Card className="text-center">
                 <CardHeader>
                   <MapPin className="w-12 h-12 text-purple-500 mx-auto mb-4" />
-                  <CardTitle>Bucks County Service</CardTitle>
+                  <CardTitle>nationwide Service</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600">
-                    Delivery and pickup available throughout Bucks County and surrounding areas.
+                    Delivery and pickup available throughout nationwide and surrounding areas.
                   </p>
                 </CardContent>
               </Card>

@@ -12,7 +12,7 @@ export default function EvolutionCarrier8Plus() {
       <SEOHead 
         title="Carrier 8 Plus"
         description="Maximum seating and cargo capacity for large group transportation and utility work. Eight-passenger carrier for demanding applications. Call 1-844-844-6638."
-        keywords="EVOLUTION Carrier 8 Plus, 8-passenger golf cart, maximum capacity, utility vehicle, EVOLUTION dealer Bucks County PA"
+        keywords="EVOLUTION Carrier 8 Plus, 8-passenger golf cart, maximum capacity, utility vehicle, EVOLUTION dealer nationwide PA"
         canonicalUrl="https://bucksgolfcarts.com/vehicles/evolution-carrier-8-plus"
         image="https://bucksgolfcarts.com/attached_assets/EVOLUTIONCARRIER8PLUS_1751893115779_1753135231314.jpg"
       />
@@ -218,7 +218,7 @@ export default function EvolutionCarrier8Plus() {
               Maximum Capacity, Maximum Performance
             </h2>
             <p className="text-xl text-gray-300 mb-8">
-              Contact Bucks County Golf Carts today for your EVOLUTION Carrier 8 Plus.
+              Contact TIGON Medium Speed Vehicles today for your EVOLUTION Carrier 8 Plus.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">

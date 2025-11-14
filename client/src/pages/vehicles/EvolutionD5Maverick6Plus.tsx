@@ -12,7 +12,7 @@ export default function EvolutionD5Maverick6Plus() {
       <SEOHead 
         title="Maverick 6 Plus"
         description="Six-passenger luxury golf cart with premium amenities and extended range capability. Perfect for larger families and group outings with enhanced comfort features. Call 1-844-844-6638."
-        keywords="EVOLUTION D5 Maverick 6 Plus, luxury golf cart, 6-passenger, family ready, premium comfort, EVOLUTION dealer Bucks County PA"
+        keywords="EVOLUTION D5 Maverick 6 Plus, luxury golf cart, 6-passenger, family ready, premium comfort, EVOLUTION dealer nationwide PA"
         canonicalUrl="https://bucksgolfcarts.com/vehicles/evolution-d5-maverick-6-plus"
         image="https://bucksgolfcarts.com/attached_assets/EVOLUTIOND5MAVERICK6PLUS_1751893115781_1753135350622.jpg"
       />
@@ -218,7 +218,7 @@ export default function EvolutionD5Maverick6Plus() {
               Luxury Family Adventures Await
             </h2>
             <p className="text-xl text-gray-300 mb-8">
-              Contact Bucks County Golf Carts today for your EVOLUTION D5 Maverick 6 Plus.
+              Contact TIGON Medium Speed Vehicles today for your EVOLUTION D5 Maverick 6 Plus.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">

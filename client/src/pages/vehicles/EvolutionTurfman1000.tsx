@@ -12,7 +12,7 @@ export default function EvolutionTurfman1000() {
       <SEOHead 
         title="TURFMAN 1000"
         description="Professional commercial utility vehicle for landscaping and maintenance work. Heavy-duty build with 1,000 lbs payload and superior durability. Call 1-844-844-6638."
-        keywords="EVOLUTION TURFMAN 1000, commercial utility vehicle, landscaping cart, maintenance vehicle, EVOLUTION dealer Bucks County PA"
+        keywords="EVOLUTION TURFMAN 1000, commercial utility vehicle, landscaping cart, maintenance vehicle, EVOLUTION dealer nationwide PA"
         canonicalUrl="https://bucksgolfcarts.com/vehicles/evolution-turfman-1000"
         image="https://bucksgolfcarts.com/attached_assets/EVOLUTIONTURFMAN1000_1751893159006_1753135437836.jpg"
       />
@@ -243,7 +243,7 @@ export default function EvolutionTurfman1000() {
               Ready to Experience the EVOLUTION® TURFMAN 1000?
             </h2>
             <p className="text-xl mb-8">
-              Contact Bucks County Golf Carts today for commercial pricing, availability, and to schedule a demonstration.
+              Contact TIGON Medium Speed Vehicles today for commercial pricing, availability, and to schedule a demonstration.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">

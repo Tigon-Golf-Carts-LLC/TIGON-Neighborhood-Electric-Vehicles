@@ -139,7 +139,7 @@ export default function DenagoPage() {
       <SEOHead 
         title="DENAGO"
         description="Discover premium DENAGO electric golf carts with all-wheel drive technology, advanced battery systems, and rugged off-road capability. Expert sales and service in Pennsylvania. Call 1-844-844-6638."
-        keywords="DENAGO golf carts Bucks County, electric golf carts Pennsylvania, DENAGO EV CITY, DENAGO EV NOMAD, DENAGO EV ROVER, off-road golf carts, all-wheel drive golf carts"
+        keywords="DENAGO golf carts nationwide, electric golf carts Pennsylvania, DENAGO EV CITY, DENAGO EV NOMAD, DENAGO EV ROVER, off-road golf carts, all-wheel drive golf carts"
         canonicalUrl="https://bucksgolfcarts.com/denago"
         image="https://bucksgolfcarts.com/attached_assets/DENAGONEVROVERXL_1751893047473_1753135231313.jpg"
       />
@@ -161,7 +161,7 @@ export default function DenagoPage() {
             </h1>
             <p className="text-2xl mb-8 max-w-4xl mx-auto">
               Experience the ultimate in electric off-road performance. DENAGO vehicles combine cutting-edge 
-              technology with rugged durability for unmatched adventure capability in Bucks County, Pennsylvania.
+              technology with rugged durability for unmatched adventure capability in nationwide, Pennsylvania.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
@@ -189,7 +189,7 @@ export default function DenagoPage() {
                   DENAGO represents the pinnacle of electric vehicle engineering, combining innovative 
                   all-wheel drive technology with premium comfort features. Each DENAGO is built to 
                   exceed expectations on any terrain while delivering exceptional reliability for 
-                  Bucks County's diverse landscapes.
+                  nationwide's diverse landscapes.
                 </p>
                 <div className="grid grid-cols-1 gap-4">
                   {denagoFeatures.map((feature, index) => (
@@ -223,7 +223,7 @@ export default function DenagoPage() {
                 DENAGO Vehicle Series
               </h2>
               <p className="text-xl text-gray-600">
-                Discover the complete lineup of DENAGO electric vehicles available in Bucks County
+                Discover the complete lineup of DENAGO electric vehicles available in nationwide
               </p>
             </div>
             
@@ -279,7 +279,7 @@ export default function DenagoPage() {
                 Complete DENAGO Vehicle Lineup
               </h2>
               <p className="text-xl text-gray-600">
-                Explore all 6 DENAGO electric vehicle models available in Bucks County
+                Explore all 6 DENAGO electric vehicle models available in nationwide
               </p>
             </div>
             
@@ -371,7 +371,7 @@ export default function DenagoPage() {
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold mb-4 text-gray-900">
-                Why Choose DENAGO in Bucks County?
+                Why Choose DENAGO in nationwide?
               </h2>
             </div>
             
@@ -398,7 +398,7 @@ export default function DenagoPage() {
                 <MapPin className="w-16 h-16 text-theme-orange mx-auto mb-4" />
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Local Service</h3>
                 <p className="text-gray-600">
-                  Expert DENAGO service and support right here in Bucks County with 
+                  Expert DENAGO service and support right here in nationwide with 
                   genuine parts and factory-trained technicians.
                 </p>
               </div>

@@ -12,7 +12,7 @@ export default function EvolutionD5Maverick4Plus() {
       <SEOHead 
         title="Maverick 4 Plus"
         description="Premium four-passenger golf cart with advanced features and superior performance. Enhanced comfort with extended range capability and premium amenities. Call 1-844-844-6638."
-        keywords="EVOLUTION D5 Maverick 4 Plus, premium golf cart, 4-passenger, advanced features, extended range, EVOLUTION dealer Bucks County PA"
+        keywords="EVOLUTION D5 Maverick 4 Plus, premium golf cart, 4-passenger, advanced features, extended range, EVOLUTION dealer nationwide PA"
         canonicalUrl="https://bucksgolfcarts.com/vehicles/evolution-d5-maverick-4-plus"
         image="https://bucksgolfcarts.com/attached_assets/EVOLUTIOND5MAVERICK4PLUS_1751893115781_1753135231312.jpg"
       />
@@ -223,7 +223,7 @@ export default function EvolutionD5Maverick4Plus() {
               Premium Performance, Advanced Features
             </h2>
             <p className="text-xl text-gray-300 mb-8">
-              Contact Bucks County Golf Carts today for your EVOLUTION D5 Maverick 4 Plus.
+              Contact TIGON Medium Speed Vehicles today for your EVOLUTION D5 Maverick 4 Plus.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">

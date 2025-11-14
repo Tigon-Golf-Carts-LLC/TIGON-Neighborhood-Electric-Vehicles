@@ -23,7 +23,7 @@ export default function HomePage() {
       <SEOHead 
         title="TIGON Medium Speed Vehicles Premier MSV Dealership"
         description="Transform your outdoor experience with premium medium speed vehicles from Pennsylvania's trusted MSV dealership. Expert sales, service, rentals, and financing for Denago and Evolution medium speed vehicles. Call 267-736-4890."
-        keywords="medium speed vehicles Bucks County PA, MSV Pennsylvania, Denago MSV, Evolution MSV, medium speed vehicle sales service rentals, TIGON"
+        keywords="medium speed vehicles nationwide PA, MSV Pennsylvania, Denago MSV, Evolution MSV, medium speed vehicle sales service rentals, TIGON"
         canonicalUrl="https://bucksgolfcarts.com/"
         image="https://bucksgolfcarts.com/attached_assets/a-photograph-of-a-bright-and-airy-modern_cSGtJe7oTWCsurFpyhqrJg_CXQ9jYUGRP2_wh-uk2Htkg_1753199147926.png"
       />
@@ -38,7 +38,7 @@ TIGON Medium Speed Vehicles Premier MSV Dealership
               </h1>
               <p className="text-xl mb-8 text-gray-100">
                 Discover our extensive selection of new medium speed vehicles from Evolution and Denago with professional services. 
-                Serving Bucks County, and all surrounding towns, townships, and Pennsylvania communities In Bucks County.
+                Serving customers nationwide across all 50 states, Canada, and Mexico with premium medium speed vehicles.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/inventory" className="w-full sm:w-auto">
@@ -315,7 +315,7 @@ TIGON Medium Speed Vehicles Premier MSV Dealership
                 About TIGON Medium Speed Vehicles
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                With over 15 years of experience in the medium speed vehicle industry, we've built our reputation on providing exceptional service and quality products to customers throughout Bucks County and surrounding areas.
+                With over 15 years of experience in the medium speed vehicle industry, we've built our reputation on providing exceptional service and quality products to customers throughout nationwide and surrounding areas.
               </p>
               
               <div className="grid grid-cols-2 gap-8 mb-8">
@@ -343,7 +343,7 @@ TIGON Medium Speed Vehicles Premier MSV Dealership
                   allowFullScreen={true} 
                   loading="lazy" 
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="TIGON Medium Speed Vehicles Bucks County, PA Map"
+                  title="TIGON Medium Speed Vehicles nationwide, PA Map"
                 />
               </div>
             </div>
@@ -351,132 +351,132 @@ TIGON Medium Speed Vehicles Premier MSV Dealership
         </div>
       </section>
 
-      {/* Bucks County Towns Section */}
+      {/* Nationwide Coverage Section */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            Medium Speed Vehicles for Every Bucks County Township
+            Medium Speed Vehicles Delivered Nationwide
           </h2>
           <p className="text-xl text-gray-600 mb-12">
-            Professional MSV services delivered to your township
+            Professional MSV services delivered across all 50 states, Canada, and Mexico
           </p>
           
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 mb-12">
-            <Link href="/warrington-township-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Warrington Township</div>
+            <Link href="/pennsylvania" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Pennsylvania</div>
             </Link>
-            <Link href="/newtown-township-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Newtown Township</div>
+            <Link href="/california" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">California</div>
             </Link>
-            <Link href="/northampton-township-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Northampton Township</div>
+            <Link href="/texas" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Texas</div>
             </Link>
-            <Link href="/lower-makefield-township-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Lower Makefield Township</div>
+            <Link href="/florida" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Florida</div>
             </Link>
-            <Link href="/upper-makefield-township-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Upper Makefield Township</div>
+            <Link href="/new-york" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">New York</div>
             </Link>
-            <Link href="/middletown-township-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Middletown Township</div>
+            <Link href="/illinois" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Illinois</div>
             </Link>
-            <Link href="/yardley-borough-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Yardley Borough</div>
+            <Link href="/ohio" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Ohio</div>
             </Link>
-            <Link href="/newtown-borough-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Newtown Borough</div>
+            <Link href="/georgia" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Georgia</div>
             </Link>
-            <Link href="/doylestown-township-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Doylestown Township</div>
+            <Link href="/north-carolina" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">North Carolina</div>
             </Link>
-            <Link href="/doylestown-borough-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Doylestown Borough</div>
+            <Link href="/michigan" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Michigan</div>
             </Link>
-            <Link href="/warwick-township-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Warwick Township</div>
+            <Link href="/new-jersey" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">New Jersey</div>
             </Link>
-            <Link href="/warminster-township-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Warminster Township</div>
+            <Link href="/virginia" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Virginia</div>
             </Link>
-            <Link href="/upper-southampton-township-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Upper Southampton</div>
+            <Link href="/washington" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Washington</div>
             </Link>
-            <Link href="/lower-southampton-township-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Lower Southampton</div>
+            <Link href="/arizona" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Arizona</div>
             </Link>
-            <Link href="/bristol-township-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Bristol Township</div>
+            <Link href="/massachusetts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Massachusetts</div>
             </Link>
-            <Link href="/bristol-borough-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Bristol Borough</div>
+            <Link href="/tennessee" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Tennessee</div>
             </Link>
-            <Link href="/bensalem-township-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Bensalem Township</div>
+            <Link href="/indiana" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Indiana</div>
             </Link>
-            <Link href="/falls-township-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Falls Township</div>
+            <Link href="/missouri" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Missouri</div>
             </Link>
-            <Link href="/tullytown-borough-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Tullytown Borough</div>
+            <Link href="/maryland" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Maryland</div>
             </Link>
-            <Link href="/levittown-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Levittown</div>
+            <Link href="/wisconsin" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Wisconsin</div>
             </Link>
-            <Link href="/langhorne-borough-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Langhorne Borough</div>
+            <Link href="/colorado" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Colorado</div>
             </Link>
-            <Link href="/langhorne-manor-borough-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Langhorne Manor</div>
+            <Link href="/minnesota" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Minnesota</div>
             </Link>
-            <Link href="/pennsbury-manor-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Pennsbury Manor</div>
+            <Link href="/south-carolina" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">South Carolina</div>
             </Link>
-            <Link href="/morrisville-borough-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Morrisville Borough</div>
+            <Link href="/alabama" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Alabama</div>
             </Link>
-            <Link href="/buckingham-township-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Buckingham Township</div>
+            <Link href="/louisiana" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Louisiana</div>
             </Link>
-            <Link href="/new-hope-borough-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">New Hope Borough</div>
+            <Link href="/kentucky" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Kentucky</div>
             </Link>
-            <Link href="/solebury-township-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Solebury Township</div>
+            <Link href="/oregon" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Oregon</div>
             </Link>
-            <Link href="/wrightstown-township-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Wrightstown Township</div>
+            <Link href="/oklahoma" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Oklahoma</div>
             </Link>
-            <Link href="/hilltown-township-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Hilltown Township</div>
+            <Link href="/connecticut" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Connecticut</div>
             </Link>
-            <Link href="/dublin-borough-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Dublin Borough</div>
+            <Link href="/iowa" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Iowa</div>
             </Link>
-            <Link href="/perkasie-borough-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Perkasie Borough</div>
+            <Link href="/nevada" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Nevada</div>
             </Link>
-            <Link href="/quakertown-borough-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Quakertown Borough</div>
+            <Link href="/arkansas" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Arkansas</div>
             </Link>
-            <Link href="/richland-township-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Richland Township</div>
+            <Link href="/kansas" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Kansas</div>
             </Link>
-            <Link href="/silverdale-borough-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Silverdale Borough</div>
+            <Link href="/utah" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Utah</div>
             </Link>
-            <Link href="/telford-borough-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Telford Borough</div>
+            <Link href="/mississippi" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Mississippi</div>
             </Link>
-            <Link href="/west-rockhill-township-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">West Rockhill</div>
+            <Link href="/canada" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Canada</div>
             </Link>
-            <Link href="/east-rockhill-township-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">East Rockhill</div>
+            <Link href="/mexico" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Mexico</div>
             </Link>
           </div>
           
           <p className="text-gray-600 mb-8">
-            Serving all Bucks County municipalities! Professional golf cart sales, service, and rentals delivered throughout the region.
+            Serving all 50 states, Canada, and Mexico! Professional medium speed vehicle sales, service, and rentals delivered across North America.
           </p>
         </div>
       </section>
@@ -502,8 +502,8 @@ TIGON Medium Speed Vehicles Premier MSV Dealership
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
               <MapPin className="w-8 h-8 text-blue-500 mx-auto mb-3" />
               <h3 className="font-semibold text-gray-900 mb-2">Service Area</h3>
-              <p className="text-sm text-gray-600 mb-2">All of Bucks County, PA</p>
-              <p className="text-blue-600 font-semibold">267-736-4890</p>
+              <p className="text-sm text-gray-600 mb-2">Nationwide: All 50 States</p>
+              <p className="text-blue-600 font-semibold">1-844-844-6638</p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">

@@ -49,8 +49,8 @@ export default function ShowroomPage() {
     <div className="min-h-screen bg-gray-50">
       <SEOHead 
         title="Golf Cart Showroom"
-        description="Visit our golf cart dealership locations in Bucks County, Pennsylvania. Experience our full lineup of Denago and Evolution electric vehicles in person or online. Call 1-844-844-6638."
-        keywords="golf cart showroom, Bucks County dealership, Denago Evolution dealer, golf cart locations"
+        description="Visit our golf cart dealership locations in nationwide, Pennsylvania. Experience our full lineup of Denago and Evolution electric vehicles in person or online. Call 1-844-844-6638."
+        keywords="golf cart showroom, nationwide dealership, Denago Evolution dealer, golf cart locations"
         canonicalUrl="https://bucksgolfcarts.com/showroom"
         image="https://bucksgolfcarts.com/attached_assets/0f46bdfb-c558-4e28-9473-6c85686c5a80 (1)_1753279436268.png"
       />
@@ -61,7 +61,7 @@ export default function ShowroomPage() {
             Golf Cart Showroom
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Visit our TIGON Golf Cart dealership locations serving Bucks County, Pennsylvania. 
+            Visit our TIGON Golf Cart dealership locations serving nationwide, Pennsylvania. 
             Experience our full lineup of DENAGO and EVOLUTION electric vehicles in person or online.
           </p>
           <div className="flex justify-center">
@@ -78,7 +78,7 @@ export default function ShowroomPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4 text-theme-primary">Our Locations</h2>
-            <p className="text-xl text-gray-600">Three convenient locations serving Bucks County and all of Pennsylvania</p>
+            <p className="text-xl text-gray-600">Three convenient locations serving nationwide and all of Pennsylvania</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -250,7 +250,7 @@ export default function ShowroomPage() {
             Ready to Visit Our Showroom?
           </h2>
           <p className="text-xl mb-8">
-            Visit our showroom locations in Bucks County or shop online to see our full inventory of DENAGO and EVOLUTION golf carts.
+            Visit our showroom locations in nationwide or shop online to see our full inventory of DENAGO and EVOLUTION golf carts.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

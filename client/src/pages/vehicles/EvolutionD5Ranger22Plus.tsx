@@ -12,7 +12,7 @@ export default function EvolutionD5Ranger22Plus() {
       <SEOHead 
         title="D5 RANGER 2+2 PLUS"
         description="Ultimate in electric vehicle performance with advanced capabilities and premium features for versatile transportation. Call 1-844-844-6638."
-        keywords="EVOLUTION D5 RANGER 2+2 PLUS, electric golf cart, premium electric vehicle, EVOLUTION dealer Bucks County PA"
+        keywords="EVOLUTION D5 RANGER 2+2 PLUS, electric golf cart, premium electric vehicle, EVOLUTION dealer nationwide PA"
         canonicalUrl="https://bucksgolfcarts.com/vehicles/evolution-d5-ranger-2-2-plus"
         image="https://bucksgolfcarts.com/attached_assets/EVOLUTIOND5RANGER2+2PLUS_1751893115782_1753135350622.jpg"
       />
@@ -243,7 +243,7 @@ export default function EvolutionD5Ranger22Plus() {
               Ready to Experience the EVOLUTION® D5 RANGER 2+2 PLUS?
             </h2>
             <p className="text-xl mb-8">
-              Contact Bucks County Golf Carts today for pricing, availability, and to schedule a test drive.
+              Contact TIGON Medium Speed Vehicles today for pricing, availability, and to schedule a test drive.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
@@ -292,11 +292,11 @@ export default function EvolutionD5Ranger22Plus() {
               <Card className="text-center">
                 <CardHeader>
                   <MapPin className="w-12 h-12 text-purple-500 mx-auto mb-4" />
-                  <CardTitle>Bucks County Service</CardTitle>
+                  <CardTitle>nationwide Service</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600">
-                    Delivery and pickup available throughout Bucks County and surrounding areas.
+                    Delivery and pickup available throughout nationwide and surrounding areas.
                   </p>
                 </CardContent>
               </Card>

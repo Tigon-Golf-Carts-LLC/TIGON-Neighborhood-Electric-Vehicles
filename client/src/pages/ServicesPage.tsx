@@ -85,7 +85,7 @@ export default function ServicesPage() {
       <SEOHead 
         title="Professional Medium Speed Vehicle Services"
         description="Keep your medium speed vehicle running perfectly with expert maintenance, repair, and customization services from certified technicians. Professional MSV service for all major brands. Call 267-736-4890."
-        keywords="medium speed vehicle service, MSV repair, MSV maintenance, Bucks County PA, certified technicians, TIGON"
+        keywords="medium speed vehicle service, MSV repair, MSV maintenance, nationwide PA, certified technicians, TIGON"
         canonicalUrl="https://bucksgolfcarts.com/services"
         image="https://bucksgolfcarts.com/attached_assets/a-photograph-of-a-modern-golf-cart-deale_c_kG6NR-SA6qC8Vzl1iBww_ILJUjQXFQCGLKMSveOjbrA_1753283141121.png"
       />
@@ -191,7 +191,7 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">Service Areas</h2>
           <p className="text-xl text-gray-600 mb-8">
-            We proudly serve customers throughout Bucks County and surrounding areas
+            We proudly serve customers throughout nationwide and surrounding areas
           </p>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-gray-700">

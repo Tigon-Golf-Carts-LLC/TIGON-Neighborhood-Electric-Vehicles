@@ -12,7 +12,7 @@ export default function EvolutionCarrier6Plus() {
       <SEOHead 
         title="Carrier 6 Plus"
         description="Six-passenger carrier with enhanced cargo capacity and utility features for work and recreation. Perfect balance of passenger comfort and utility functionality. Call 1-844-844-6638."
-        keywords="EVOLUTION Carrier 6 Plus, utility golf cart, cargo capacity, 6-passenger, work vehicle, EVOLUTION dealer Bucks County PA"
+        keywords="EVOLUTION Carrier 6 Plus, utility golf cart, cargo capacity, 6-passenger, work vehicle, EVOLUTION dealer nationwide PA"
         canonicalUrl="https://bucksgolfcarts.com/vehicles/evolution-carrier-6-plus"
         image="https://bucksgolfcarts.com/attached_assets/EVOLUTIONCARRIER6PLUS_1751893115778_1753135231314.jpg"
       />
@@ -232,7 +232,7 @@ export default function EvolutionCarrier6Plus() {
               Ready for Work and Recreation
             </h2>
             <p className="text-xl text-gray-300 mb-8">
-              Contact Bucks County Golf Carts today to schedule a test drive or get a personalized quote for your EVOLUTION Carrier 6 Plus.
+              Contact TIGON Medium Speed Vehicles today to schedule a test drive or get a personalized quote for your EVOLUTION Carrier 6 Plus.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">

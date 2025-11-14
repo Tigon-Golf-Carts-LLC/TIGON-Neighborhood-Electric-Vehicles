@@ -199,7 +199,7 @@ export default function RentalsPage() {
       <SEOHead 
         title="Why Choose Our Medium Speed Vehicle Rentals?"
         description="Experience the best medium speed vehicle rentals with flexible daily, weekly, and monthly options. Full insurance coverage, delivery service, and no hidden fees. Call 1-844-844-6638."
-        keywords="medium speed vehicle rental, Bucks County rentals, medium speed vehicle hire, Pennsylvania medium speed vehicle rental"
+        keywords="medium speed vehicle rental, nationwide rentals, medium speed vehicle hire, Pennsylvania medium speed vehicle rental"
         canonicalUrl="https://bucksgolfcarts.com/rentals"
         image="https://bucksgolfcarts.com/attached_assets/TIGON Medium Speed Vehicles (3)_1753284044185.png"
       />

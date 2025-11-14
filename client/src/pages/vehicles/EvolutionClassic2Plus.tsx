@@ -12,7 +12,7 @@ export default function EvolutionClassic2Plus() {
       <SEOHead 
         title="Classic 2 Plus"
         description="Timeless design and reliable performance in this perfect compact 2-passenger golf cart for traditional golf. Call 1-844-844-6638."
-        keywords="EVOLUTION Classic 2 Plus, 2-passenger golf cart, compact golf cart, traditional design, EVOLUTION dealer Bucks County PA"
+        keywords="EVOLUTION Classic 2 Plus, 2-passenger golf cart, compact golf cart, traditional design, EVOLUTION dealer nationwide PA"
         canonicalUrl="https://bucksgolfcarts.com/vehicles/evolution-classic-2-plus"
         image="https://bucksgolfcarts.com/attached_assets/EVOLUTIONCLASSIC2PLUS_1751893115779_1753135231314.jpg"
       />
@@ -218,7 +218,7 @@ export default function EvolutionClassic2Plus() {
               Classic Style, Modern Reliability
             </h2>
             <p className="text-xl text-gray-300 mb-8">
-              Contact Bucks County Golf Carts today for your EVOLUTION Classic 2 Plus.
+              Contact TIGON Medium Speed Vehicles today for your EVOLUTION Classic 2 Plus.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">

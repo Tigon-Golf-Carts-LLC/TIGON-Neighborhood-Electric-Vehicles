@@ -46,8 +46,8 @@ export default function NewInventoryPage() {
     <>
       <SEOHead 
         title="Golf Cart Inventory"
-        description="Browse our extensive inventory of new and used golf carts from top brands like DENAGO and EVOLUTION in Bucks County, PA. Call 1-844-844-6638."
-        keywords="golf cart inventory, new golf carts, used golf carts, DENAGO, EVOLUTION, Bucks County golf carts"
+        description="Browse our extensive inventory of new and used golf carts from top brands like DENAGO and EVOLUTION in nationwide, PA. Call 1-844-844-6638."
+        keywords="golf cart inventory, new golf carts, used golf carts, DENAGO, EVOLUTION, nationwide golf carts"
       />
       
       <div className="min-h-screen bg-gray-50">
@@ -283,11 +283,11 @@ export default function NewInventoryPage() {
               <Card className="text-center">
                 <CardHeader>
                   <MapPin className="w-12 h-12 text-purple-500 mx-auto mb-4" />
-                  <CardTitle>Bucks County Service</CardTitle>
+                  <CardTitle>nationwide Service</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600">
-                    Delivery and pickup available throughout Bucks County and surrounding areas.
+                    Delivery and pickup available throughout nationwide and surrounding areas.
                   </p>
                 </CardContent>
               </Card>

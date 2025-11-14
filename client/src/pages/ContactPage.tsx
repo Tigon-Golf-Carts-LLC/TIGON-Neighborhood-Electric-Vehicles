@@ -112,7 +112,7 @@ export default function ContactPage() {
       <SEOHead 
         title="Contact TIGON Medium Speed Vehicles"
         description="Get expert medium speed vehicle sales, service, and support from Pennsylvania's trusted dealership. Visit our Fairless Hills location at 115 Lincoln Hwy or call 1-844-844-6638."
-        keywords="contact Bucks County medium speed vehicles, Fairless Hills location, medium speed vehicle sales Pennsylvania, Bucks County dealer contact"
+        keywords="contact nationwide medium speed vehicles, Fairless Hills location, medium speed vehicle sales Pennsylvania, nationwide dealer contact"
         canonicalUrl="https://bucksgolfcarts.com/contact"
         image="https://bucksgolfcarts.com/attached_assets/TIGON Medium Speed Vehicles (3)_1753284044185.png"
       />

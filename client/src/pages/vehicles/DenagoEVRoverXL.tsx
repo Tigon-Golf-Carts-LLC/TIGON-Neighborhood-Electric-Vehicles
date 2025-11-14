@@ -12,7 +12,7 @@ export default function DenagoEVRoverXL() {
       <SEOHead 
         title="EV ROVER XL"
         description="Ultimate electric vehicle performance with advanced capabilities and premium features designed for the modern explorer. All-wheel drive technology and luxury comfort. Call 1-844-844-6638."
-        keywords="DENAGO EV ROVER XL, electric golf cart, premium electric vehicle, DENAGO dealer Bucks County PA"
+        keywords="DENAGO EV ROVER XL, electric golf cart, premium electric vehicle, DENAGO dealer nationwide PA"
         canonicalUrl="https://bucksgolfcarts.com/vehicles/denago-ev-rover-xl"
         image="https://bucksgolfcarts.com/attached_assets/DENAGONEVROVERXL_1751893047473_1753135231313.jpg"
       />
@@ -220,7 +220,7 @@ export default function DenagoEVRoverXL() {
               Ready to Experience the DENAGO® EV ROVER XL?
             </h2>
             <p className="text-xl mb-8">
-              Contact Bucks County Golf Carts today for pricing, availability, and to schedule a test drive.
+              Contact TIGON Medium Speed Vehicles today for pricing, availability, and to schedule a test drive.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
@@ -269,11 +269,11 @@ export default function DenagoEVRoverXL() {
               <Card className="text-center">
                 <CardHeader>
                   <MapPin className="w-12 h-12 text-purple-500 mx-auto mb-4" />
-                  <CardTitle>Bucks County Service</CardTitle>
+                  <CardTitle>nationwide Service</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600">
-                    Delivery and pickup available throughout Bucks County and surrounding areas.
+                    Delivery and pickup available throughout nationwide and surrounding areas.
                   </p>
                 </CardContent>
               </Card>

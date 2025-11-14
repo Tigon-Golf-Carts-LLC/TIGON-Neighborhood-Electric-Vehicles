@@ -12,7 +12,7 @@ export default function DenagoEvNomad() {
       <SEOHead 
         title="EV NOMAD"
         description="Adventure-ready electric vehicle designed for outdoor exploration and off-road capability. Perfect for camping, hunting, and recreational activities. Call 1-844-844-6638."
-        keywords="DENAGO EV NOMAD, adventure electric vehicle, off-road golf cart, outdoor recreation, DENAGO dealer Bucks County PA"
+        keywords="DENAGO EV NOMAD, adventure electric vehicle, off-road golf cart, outdoor recreation, DENAGO dealer nationwide PA"
         canonicalUrl="https://bucksgolfcarts.com/vehicles/denago-ev-nomad"
         image="https://bucksgolfcarts.com/attached_assets/DENAGONEVNOMAD_1751893047472_1753135231313.jpg"
       />
@@ -248,7 +248,7 @@ export default function DenagoEvNomad() {
               Ready to Start Your Adventure with the DENAGO® EV NOMAD?
             </h2>
             <p className="text-xl mb-8">
-              Contact Bucks County Golf Carts today for pricing, availability, and to schedule an off-road test drive.
+              Contact TIGON Medium Speed Vehicles today for pricing, availability, and to schedule an off-road test drive.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
@@ -297,11 +297,11 @@ export default function DenagoEvNomad() {
               <Card className="text-center">
                 <CardHeader>
                   <MapPin className="w-12 h-12 text-purple-500 mx-auto mb-4" />
-                  <CardTitle>Bucks County Service</CardTitle>
+                  <CardTitle>nationwide Service</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600">
-                    Adventure-ready delivery and pickup service throughout Bucks County, Pennsylvania.
+                    Adventure-ready delivery and pickup service throughout nationwide, Pennsylvania.
                   </p>
                 </CardContent>
               </Card>

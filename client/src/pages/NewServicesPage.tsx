@@ -41,8 +41,8 @@ export default function NewServicesPage() {
     <>
       <SEOHead 
         title="Professional Golf Cart Services"
-        description="Complete maintenance, repair, battery service, and custom modifications served by certified technicians in Bucks County, PA. Call 1-844-844-6638."
-        keywords="golf cart service, golf cart repair, battery replacement, maintenance, Bucks County"
+        description="Complete maintenance, repair, battery service, and custom modifications served by certified technicians in nationwide, PA. Call 1-844-844-6638."
+        keywords="golf cart service, golf cart repair, battery replacement, maintenance, nationwide"
       />
       
       <div className="min-h-screen bg-gray-50">

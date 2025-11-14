@@ -12,7 +12,7 @@ export default function DenagoEvNomadXL() {
       <SEOHead 
         title="Nomad XL"
         description="Extended seating and enhanced storage for larger adventure groups. Perfect for group exploration and outdoor activities with superior performance. Call 1-844-844-6638."
-        keywords="DENAGO EV Nomad XL, adventure electric vehicle, 6-passenger golf cart, DENAGO dealer Bucks County PA"
+        keywords="DENAGO EV Nomad XL, adventure electric vehicle, 6-passenger golf cart, DENAGO dealer nationwide PA"
         canonicalUrl="https://bucksgolfcarts.com/vehicles/denago-ev-nomad-xl"
         image="https://bucksgolfcarts.com/attached_assets/DENAGONEVNOMADXL_1751893047472_1753135231313.jpg"
       />
@@ -232,7 +232,7 @@ export default function DenagoEvNomadXL() {
               Ready for Your Next Adventure?
             </h2>
             <p className="text-xl text-gray-300 mb-8">
-              Contact Bucks County Golf Carts today to schedule a test drive or get a personalized quote for your DENAGO EV Nomad XL.
+              Contact TIGON Medium Speed Vehicles today to schedule a test drive or get a personalized quote for your DENAGO EV Nomad XL.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">

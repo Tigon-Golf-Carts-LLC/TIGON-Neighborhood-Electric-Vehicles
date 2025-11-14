@@ -12,7 +12,7 @@ export default function EvolutionD6MaxXT4() {
       <SEOHead 
         title="Max XT4"
         description="Extreme terrain capabilities with four-passenger off-road design featuring enhanced rugged construction and high performance. Call 1-844-844-6638."
-        keywords="EVOLUTION D6 Max XT4, extreme terrain golf cart, off-road golf cart, 4-passenger, rugged design, EVOLUTION dealer Bucks County PA"
+        keywords="EVOLUTION D6 Max XT4, extreme terrain golf cart, off-road golf cart, 4-passenger, rugged design, EVOLUTION dealer nationwide PA"
         canonicalUrl="https://bucksgolfcarts.com/vehicles/evolution-d6-max-xt4"
         image="https://bucksgolfcarts.com/attached_assets/EVOLUTIOND6MAXXT4_1751893159005_1753135437836.jpg"
       />
@@ -218,7 +218,7 @@ export default function EvolutionD6MaxXT4() {
               Conquer Any Terrain
             </h2>
             <p className="text-xl text-gray-300 mb-8">
-              Contact Bucks County Golf Carts today for your EVOLUTION D6 Max XT4.
+              Contact TIGON Medium Speed Vehicles today for your EVOLUTION D6 Max XT4.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">

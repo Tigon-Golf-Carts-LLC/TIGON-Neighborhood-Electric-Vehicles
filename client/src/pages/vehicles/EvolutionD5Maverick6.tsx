@@ -12,7 +12,7 @@ export default function EvolutionD5Maverick6() {
       <SEOHead 
         title="Maverick 6"
         description="Perfect for family outings with reliable 6-passenger seating and proven performance for group transportation. Call 1-844-844-6638."
-        keywords="EVOLUTION D5 Maverick 6, 6-passenger golf cart, family golf cart, group transportation, EVOLUTION dealer Bucks County PA"
+        keywords="EVOLUTION D5 Maverick 6, 6-passenger golf cart, family golf cart, group transportation, EVOLUTION dealer nationwide PA"
         canonicalUrl="https://bucksgolfcarts.com/vehicles/evolution-d5-maverick-6"
         image="https://bucksgolfcarts.com/attached_assets/EVOLUTIOND5MAVERICK6_1751893115781_1753135350621.jpg"
       />
@@ -218,7 +218,7 @@ export default function EvolutionD5Maverick6() {
               Perfect for Family Adventures
             </h2>
             <p className="text-xl text-gray-300 mb-8">
-              Contact Bucks County Golf Carts today for your EVOLUTION D5 Maverick 6.
+              Contact TIGON Medium Speed Vehicles today for your EVOLUTION D5 Maverick 6.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">

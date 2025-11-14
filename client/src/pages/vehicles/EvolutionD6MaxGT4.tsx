@@ -12,7 +12,7 @@ export default function EvolutionD6MaxGT4() {
       <SEOHead 
         title="MAX GT4"
         description="High-performance electric golf cart with premium performance features and luxury appointments. Ultimate technology for discerning drivers. Call 1-844-844-6638."
-        keywords="EVOLUTION D6 MAX GT4, performance golf cart, luxury electric vehicle, high performance, EVOLUTION dealer Bucks County PA"
+        keywords="EVOLUTION D6 MAX GT4, performance golf cart, luxury electric vehicle, high performance, EVOLUTION dealer nationwide PA"
         canonicalUrl="https://bucksgolfcarts.com/vehicles/evolution-d6-max-gt4"
         image="https://bucksgolfcarts.com/attached_assets/EVOLUTIOND6MAXGT4_1751893159004_1753135350620.jpg"
       />
@@ -243,7 +243,7 @@ export default function EvolutionD6MaxGT4() {
               Ready to Experience the EVOLUTION® D6 MAX GT4?
             </h2>
             <p className="text-xl mb-8">
-              Contact Bucks County Golf Carts today for pricing, availability, and to schedule a performance test drive.
+              Contact TIGON Medium Speed Vehicles today for pricing, availability, and to schedule a performance test drive.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
@@ -292,11 +292,11 @@ export default function EvolutionD6MaxGT4() {
               <Card className="text-center">
                 <CardHeader>
                   <MapPin className="w-12 h-12 text-purple-500 mx-auto mb-4" />
-                  <CardTitle>Bucks County Service</CardTitle>
+                  <CardTitle>nationwide Service</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600">
-                    Premium delivery and pickup service available throughout Bucks County, Pennsylvania.
+                    Premium delivery and pickup service available throughout nationwide, Pennsylvania.
                   </p>
                 </CardContent>
               </Card>
