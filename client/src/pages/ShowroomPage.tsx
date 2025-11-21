@@ -2,43 +2,391 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { MapPin, Phone, Clock, Star, Facebook, ExternalLink, Youtube } from "lucide-react";
+import { SiPinterest } from "react-icons/si";
 import { Link } from "wouter";
 import SEOHead from "@/components/SEOHead";
 
 export default function ShowroomPage() {
   const locations = [
     {
-      name: "TIGON Neighborhood Electric Vehicles",
+      name: "TIGON National",
+      address: "Serving All 50 States",
       phone: "1-844-844-6638",
-      coordinates: "40.1734,-74.8521",
-      googleMapsUrl: "https://www.google.com/maps/place/115+Lincoln+Hwy,+Fairless+Hills,+PA+19030",
-      facebookUrl: "https://www.facebook.com/tigonnev",
-      youtubeUrl: "https://www.youtube.com/@tigonnev",
-      websiteUrl: "https://tigonnev.com",
-      reviewUrl: "https://g.page/tigonnev/review",
+      googleMapsUrl: "https://www.google.com/maps?cid=913687030872245288",
+      facebookUrl: "https://www.facebook.com/Tigongolfcarts",
+      youtubeUrl: "https://www.youtube.com/@TigonGolfCarts",
+      websiteUrl: "https://tigongolfcarts.com",
+      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/",
+      reviewUrl: "https://g.page/r/CSiEBX-DEa4MEBM/review",
+      city: "National",
+      type: "online"
+    },
+    {
+      name: "TIGON Hatfield PA",
+      address: "2333 Bethlehem Pike, Hatfield, PA 19440",
+      phone: "215-595-8736",
+      coordinates: "40.29839945958623, -75.28308913039525",
+      googleMapsUrl: "https://www.google.com/maps?cid=8221925612164093496",
+      facebookUrl: "https://www.facebook.com/TigonGolfCartsHatfield/",
+      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsHatfieldPA",
+      websiteUrl: "https://tigongolfcarts.com/hatfield/",
+      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/hatfield-pennsylvania/",
+      reviewUrl: "https://g.page/r/CTgWulrIJRpyEBM/review",
+      city: "Hatfield",
       type: "physical"
     },
     {
-      name: "TIGON Neighborhood Electric Vehicles Pennsylvania",
+      name: "TIGON Ocean View NJ",
+      address: "101 NJ-50, Ocean View, NJ 08230",
+      phone: "609-840-0404",
+      coordinates: "39.22254797811702, -74.70417212536503",
+      googleMapsUrl: "https://www.google.com/maps?cid=6446924254429489274",
+      facebookUrl: "https://www.facebook.com/TigonGolfCartsOceanView/",
+      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsOceanViewNJ",
+      websiteUrl: "https://tigongolfcarts.com/ocean-view/",
+      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/ocean-view-new-jersey/",
+      reviewUrl: "https://g.page/r/CXqoHr9zE3hZEBM/review",
+      city: "Ocean View",
+      type: "physical"
+    },
+    {
+      name: "TIGON Pocono PA",
+      address: "1712 Pennsylvania 940, Pocono Pines, PA 18350",
+      phone: "570-643-0152",
+      coordinates: "41.10286354605563, -75.48758590250345",
+      googleMapsUrl: "https://www.google.com/maps?cid=17137841834562046914",
+      facebookUrl: "https://www.facebook.com/TigonGolfCartsPoconos/",
+      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsPoconosPA",
+      websiteUrl: "https://tigongolfcarts.com/pocono/",
+      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/pocono-pines-pennsylvania/",
+      reviewUrl: "https://g.page/r/CcJL5i1Z2NXtEBM/review",
+      city: "Pocono",
+      type: "physical"
+    },
+    {
+      name: "TIGON Dover DE",
+      address: "5158 N Dupont Hwy, Dover, DE 19901",
+      phone: "302-546-0010",
+      coordinates: "39.22044318468275, -75.57452048907642",
+      googleMapsUrl: "https://www.google.com/maps?cid=12843447677705895190",
+      facebookUrl: "https://www.facebook.com/TigonGolfCartsDover/",
+      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsDoverDE",
+      websiteUrl: "https://tigongolfcarts.com/dover/",
+      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/dover-delaware/",
+      reviewUrl: "https://g.page/r/CRa9-YidFz2yEBM/review",
+      city: "Dover",
+      type: "physical"
+    },
+    {
+      name: "TIGON Scranton-Wilkes-Barre PA",
+      address: "1225 N Keyser Ave #2, Scranton, PA 18504",
+      phone: "570-344-4443",
+      coordinates: "41.4374075,-75.6835104",
+      googleMapsUrl: "https://www.google.com/maps?cid=13243686786001524416",
+      facebookUrl: "https://www.facebook.com/TigonGolfCartsScranton/",
+      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsScrantonWilkesPA",
+      websiteUrl: "https://tigongolfcarts.com/scranton-wilkes-barre/",
+      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/scranton-pennsylvania/",
+      reviewUrl: "https://g.page/r/CcDWJ7z2Bsu3EBM/review",
+      city: "Scranton",
+      type: "physical"
+    },
+    {
+      name: "TIGON Raleigh NC",
+      address: "2700 S Wilmington St, Raleigh, NC 27603",
+      phone: "984-489-0296",
+      coordinates: "35.7471032,-78.6452007",
+      googleMapsUrl: "https://www.google.com/maps?cid=14570072271497929915",
+      facebookUrl: "https://www.facebook.com/TigonGolfCartsRaleigh/",
+      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsRaleighNC",
+      websiteUrl: "https://tigongolfcarts.com/raleigh/",
+      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/raleigh-north-carolina/",
+      reviewUrl: "https://g.page/r/CbskZw6JSzPKEBM/review",
+      city: "Raleigh",
+      type: "physical"
+    },
+    {
+      name: "TIGON South Bend IN",
+      address: "52129 State Road 933, South Bend, IN 46637",
+      phone: "574-703-0456",
+      coordinates: "41.7360283,-86.2511865",
+      googleMapsUrl: "https://www.google.com/maps?cid=17532455648086849827",
+      facebookUrl: "https://www.facebook.com/TigonGolfCartsSouthBend/",
+      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsSouthBendIN",
+      websiteUrl: "https://tigongolfcarts.com/south-bend/",
+      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/south-bend-indiana/",
+      reviewUrl: "https://g.page/r/CSP5gWCFy0_zEBM/review",
+      city: "South Bend",
+      type: "physical"
+    },
+    {
+      name: "TIGON Gloucester Point VA",
+      address: "2810 George Washington Memorial Hwy, Gloucester Point, VA 23072",
+      phone: "804-792-0234",
+      coordinates: "37.2850625,-76.5074161",
+      googleMapsUrl: "https://www.google.com/maps?cid=16682967888503617377",
+      facebookUrl: "https://www.facebook.com/TigonGolfCartsGloucesterPoint/",
+      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsGloucesterPoint",
+      websiteUrl: "https://tigongolfcarts.com/gloucester-point/",
+      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/gloucester-point-virginia/",
+      city: "Gloucester Point",
+      type: "physical"
+    },
+    {
+      name: "TIGON Bayville NJ",
+      address: "155 Atlantic City Blvd, Bayville, NJ 08721",
+      phone: "732-908-7166",
+      coordinates: "39.9277698,-74.1748497",
+      googleMapsUrl: "https://www.google.com/maps?cid=16812778070531162551",
+      facebookUrl: "https://www.facebook.com/TigonGolfCartsBayville/",
+      websiteUrl: "https://tigongolfcarts.com/bayville/",
+      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/bayville-new-jersey/",
+      reviewUrl: "https://g.page/r/CbfBfMWT_FLpEBM/review",
+      city: "Bayville",
+      type: "physical"
+    },
+    {
+      name: "TIGON Waretown NJ",
+      address: "526 US-9, Waretown, NJ 08758",
+      phone: "732-998-8146",
+      googleMapsUrl: "https://www.google.com/maps?cid=11595558320608622005",
+      facebookUrl: "https://www.facebook.com/TigonGolfCartsWaretown/",
+      websiteUrl: "https://tigongolfcarts.com/waretown/",
+      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/waretown-new-jersey/",
+      reviewUrl: "https://g.page/r/CbW1M1DbsuugEBM/review",
+      city: "Waretown",
+      type: "physical"
+    },
+    {
+      name: "TIGON Orangeburg SC",
+      address: "4166 North Rd, Orangeburg, SC 29118",
+      phone: "803-596-0246",
+      coordinates: "33.547201,-80.9162039",
+      googleMapsUrl: "https://www.google.com/maps?cid=17192321019507936230",
+      facebookUrl: "https://www.facebook.com/TigonGolfCartsOrangeburg/",
+      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsOrangeburgSC",
+      websiteUrl: "https://tigongolfcarts.com/orangeburg/",
+      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/orangeburg-south-carolina/",
+      city: "Orangeburg",
+      type: "physical"
+    },
+    {
+      name: "TIGON Swanton OH",
+      address: "10420 Airport Hwy, Swanton, OH 43558",
+      phone: "419-402-8400",
+      coordinates: "41.6013184,-83.7926472",
+      googleMapsUrl: "https://www.google.com/maps?cid=16517552730289967239",
+      facebookUrl: "https://www.facebook.com/TigonGolfCartsSwanton/",
+      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsSwantonOH",
+      websiteUrl: "https://tigongolfcarts.com/swanton/",
+      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/swanton-ohio/",
+      reviewUrl: "https://g.page/r/CYeQt8exIjrlEBM/review",
+      city: "Swanton",
+      type: "physical"
+    },
+    {
+      name: "TIGON Lecanto FL",
+      address: "299 E. Gulf to Lake Hwy, Lecanto, FL 34461",
+      phone: "352-453-0345",
+      coordinates: "28.858622,-82.4295381",
+      googleMapsUrl: "https://www.google.com/maps?cid=4773802157529013859",
+      facebookUrl: "https://www.facebook.com/TigonGolfCartsLecanto/",
+      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsLecantoFL",
+      websiteUrl: "https://tigongolfcarts.com/lecanto/",
+      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/lecanto-florida/",
+      reviewUrl: "https://g.page/r/CWOeggPF8z9CEBM/review",
+      city: "Lecanto",
+      type: "physical"
+    },
+    {
+      name: "TIGON Long Pond PA",
+      address: "4738 PA-115, Long Pond, PA 18334",
+      phone: "570-580-0567",
+      coordinates: "41.053988,-75.534146",
+      googleMapsUrl: "https://www.google.com/maps?cid=11714838830522733253",
+      websiteUrl: "https://tigongolfcarts.com/long-pond/",
+      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/long-pond-pennsylvania/",
+      city: "Long Pond",
+      type: "physical"
+    },
+    {
+      name: "TIGON Pleasantville NJ",
+      address: "7000 Black Horse Pike, Pleasantville, NJ 08232",
+      phone: "640-444-3094",
+      coordinates: "39.38812835576412, -74.5186949022294",
+      googleMapsUrl: "https://www.google.com/maps?cid=7635149767591436869",
+      facebookUrl: "https://www.facebook.com/TigonGolfCartPleasantville",
+      websiteUrl: "https://tigongolfcarts.com/pleasantville/",
+      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/pleasantville-new-jersey/",
+      reviewUrl: "https://g.page/r/CUWiMchCgPVpEBM/review",
+      city: "Pleasantville",
+      type: "physical"
+    },
+    {
+      name: "TIGON Portsmouth VA",
+      address: "2008 Portsmouth Blvd, Portsmouth, VA 23704",
+      phone: "757-977-0146",
+      coordinates: "36.817786,-76.3235434",
+      googleMapsUrl: "https://www.google.com/maps?cid=5113923461119431468",
+      facebookUrl: "https://www.facebook.com/TigonGolfCartsPortsmouthVA/",
+      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsPortsmouthVA",
+      websiteUrl: "https://tigongolfcarts.com/portsmouth/",
+      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/portsmouth-virginia/",
+      reviewUrl: "https://g.page/r/CSxTjwxLTvhGEBM/review",
+      city: "Portsmouth",
+      type: "physical"
+    },
+    {
+      name: "TIGON Virginia Beach VA",
+      address: "1101 Virginia Beach Blvd, Virginia Beach, VA 23451",
+      phone: "1-844-844-6638",
+      coordinates: "36.8414381,-75.9965854",
+      googleMapsUrl: "https://www.google.com/maps?cid=17806490138133315425",
+      facebookUrl: "https://www.facebook.com/TigonGolfCartsVirginiaBeach/",
+      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsVirginiaBeachVA",
+      websiteUrl: "https://tigongolfcarts.com/virginia-beach/",
+      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/virginia-beach-virginia/",
+      city: "Virginia Beach",
+      type: "physical"
+    },
+    {
+      name: "TIGON Pennsylvania",
       address: "Online Store - Serving All of Pennsylvania",
       phone: "1-844-844-6638",
       coordinates: "41.1169824,-77.6047047",
       googleMapsUrl: "https://www.google.com/maps?cid=13935683838976847185",
       youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsPennsylvania",
       websiteUrl: "https://tigongolfcarts.com/pennsylvania/",
+      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/pennsylvania/",
       reviewUrl: "https://g.page/r/CVHtXfydfmXBEBM/review",
       city: "Pennsylvania",
       type: "online"
     },
     {
-      name: "TIGON Neighborhood Electric Vehicle Philadelphia",
+      name: "TIGON New Jersey",
+      address: "Online Store - Serving All of New Jersey",
+      phone: "1-844-844-6638",
+      coordinates: "40.073132,-74.724323",
+      googleMapsUrl: "https://www.google.com/maps?cid=15178469885958324473",
+      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsNewJersey",
+      websiteUrl: "https://tigongolfcarts.com/new-jersey/",
+      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/new-jersey/",
+      reviewUrl: "https://g.page/r/CfmAgjrxwaTSEBM/review",
+      city: "New Jersey",
+      type: "online"
+    },
+    {
+      name: "TIGON Delaware",
+      address: "Online Store - Serving All of Delaware",
+      phone: "1-844-844-6638",
+      coordinates: "39.145324,-75.386594",
+      googleMapsUrl: "https://www.google.com/maps?cid=11044789483047204293",
+      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsDelaware",
+      websiteUrl: "https://tigongolfcarts.com/delaware/",
+      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/delaware/",
+      reviewUrl: "https://g.page/r/CcW1_1uE-UaZEBM/review",
+      city: "Delaware",
+      type: "online"
+    },
+    {
+      name: "TIGON Virginia",
+      address: "Online Store - Serving All of Virginia",
+      phone: "1-844-844-6638",
+      coordinates: "37.5334624,-78.866703",
+      googleMapsUrl: "https://www.google.com/maps?cid=6737760967527982175",
+      youtubeUrl: "https://www.youtube.com/@TigonGolfCartsVirginia",
+      websiteUrl: "https://tigongolfcarts.com/virginia/",
+      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/virginia/",
+      reviewUrl: "https://g.page/r/CV9k_9rmVYFdEBM/review",
+      city: "Virginia",
+      type: "online"
+    },
+    {
+      name: "TIGON North Carolina",
+      address: "Online Store - Serving All of North Carolina",
+      phone: "1-844-844-6638",
+      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsNorthCarolina",
+      websiteUrl: "https://tigongolfcarts.com/north-carolina/",
+      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/north-carolina/",
+      city: "North Carolina",
+      type: "online"
+    },
+    {
+      name: "TIGON South Carolina",
+      address: "Online Store - Serving All of South Carolina",
+      phone: "1-844-844-6638",
+      websiteUrl: "https://tigongolfcarts.com/south-carolina/",
+      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/south-carolina/",
+      city: "South Carolina",
+      type: "online"
+    },
+    {
+      name: "TIGON Florida",
+      address: "Online Store - Serving All of Florida",
+      phone: "1-844-844-6638",
+      coordinates: "27.698638,-83.804601",
+      googleMapsUrl: "https://www.google.com/maps?cid=15821077580647342669",
+      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsFlorida",
+      websiteUrl: "https://tigongolfcarts.com/florida/",
+      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/florida/",
+      reviewUrl: "https://g.page/r/CU2iYWY8wo_bEBM/review",
+      city: "Florida",
+      type: "online"
+    },
+    {
+      name: "TIGON Indiana",
+      address: "Online Store - Serving All of Indiana",
+      phone: "1-844-844-6638",
+      googleMapsUrl: "https://www.google.com/maps?cid=6765774483345438799",
+      websiteUrl: "https://tigongolfcarts.com/indiana/",
+      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/indiana/",
+      reviewUrl: "https://g.page/r/CU_4NMYL3ORdEBM/review",
+      city: "Indiana",
+      type: "online"
+    },
+    {
+      name: "TIGON Ohio",
+      address: "Online Store - Serving All of Ohio",
+      phone: "1-844-844-6638",
+      coordinates: "40.3633984,-82.669505",
+      googleMapsUrl: "https://www.google.com/maps?cid=7815966071951211924",
+      websiteUrl: "https://tigongolfcarts.com/ohio/",
+      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/ohio/",
+      reviewUrl: "https://g.page/r/CZQ9KE-743dsEBM/review",
+      city: "Ohio",
+      type: "online"
+    },
+    {
+      name: "TIGON Maryland",
+      address: "Online Store - Serving All of Maryland",
+      phone: "1-844-844-6638",
+      googleMapsUrl: "https://www.google.com/maps?cid=17519466833587552740",
+      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsMaryland",
+      websiteUrl: "https://tigongolfcarts.com/maryland/",
+      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/maryland/",
+      reviewUrl: "https://g.page/r/CeRBOVZDpiHzEBM/review",
+      city: "Maryland",
+      type: "online"
+    },
+    {
+      name: "TIGON Philadelphia",
       address: "Online Store - Serving Philadelphia Area",
       phone: "1-844-844-6638",
       coordinates: "40.0024979,-75.1180146",
       googleMapsUrl: "https://www.google.com/maps?cid=6103352888615501339",
-      websiteUrl: "https://tigongolfcarts.com/philadelphia/",
+      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/philadelphia-pennsylvania/",
       reviewUrl: "https://g.page/r/CRv-x4Add7NUEBM/review",
       city: "Philadelphia",
+      type: "online"
+    },
+    {
+      name: "TIGON New York",
+      address: "Online Store - Serving All of New York",
+      phone: "1-844-844-6638",
+      googleMapsUrl: "https://www.google.com/maps?cid=15907670281743348655",
+      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/new-york/",
+      reviewUrl: "https://g.page/r/Ca-zWbvWZcPcEBM/review",
+      city: "New York",
       type: "online"
     }
   ];
@@ -83,7 +431,7 @@ export default function ShowroomPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4 text-theme-primary">Our Locations</h2>
-            <p className="text-xl text-gray-600">Three convenient locations serving nationwide and all of Pennsylvania</p>
+            <p className="text-xl text-gray-600">30 locations nationwide - 18 physical showrooms and 12 online stores serving communities across America</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -177,14 +525,22 @@ export default function ShowroomPage() {
                           <Youtube className="w-5 h-5" />
                         </a>
                       )}
+                      {location.pinterestUrl && (
+                        <a href={location.pinterestUrl} target="_blank" rel="noopener noreferrer"
+                           className="text-gray-600 hover:text-red-700 transition-colors">
+                          <SiPinterest className="w-5 h-5" />
+                        </a>
+                      )}
                       <a href={location.websiteUrl} target="_blank" rel="noopener noreferrer"
                          className="text-gray-600 hover:text-theme-orange transition-colors">
                         <ExternalLink className="w-5 h-5" />
                       </a>
-                      <a href={location.reviewUrl} target="_blank" rel="noopener noreferrer"
-                         className="text-gray-600 hover:text-yellow-500 transition-colors">
-                        <Star className="w-5 h-5" />
-                      </a>
+                      {location.reviewUrl && (
+                        <a href={location.reviewUrl} target="_blank" rel="noopener noreferrer"
+                           className="text-gray-600 hover:text-yellow-500 transition-colors">
+                          <Star className="w-5 h-5" />
+                        </a>
+                      )}
                     </div>
                   </div>
                 </CardContent>
