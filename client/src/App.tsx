@@ -46,6 +46,18 @@ import EvolutionD5Maverick6Plus from "@/pages/vehicles/EvolutionD5Maverick6Plus"
 import EvolutionD6MaxGT6 from "@/pages/vehicles/EvolutionD6MaxGT6";
 import EvolutionD6MaxXT4 from "@/pages/vehicles/EvolutionD6MaxXT4";
 import EvolutionD6MaxXT6 from "@/pages/vehicles/EvolutionD6MaxXT6";
+// Blog Pages
+import BlogIndexPage from "@/pages/BlogIndexPage";
+import BestNEVCityCommuting from "@/pages/blog/BestNEVCityCommuting";
+import NEVManufacturersUS from "@/pages/blog/NEVManufacturersUS";
+import FindNEVDealerships from "@/pages/blog/FindNEVDealerships";
+import NEVPriceRange from "@/pages/blog/NEVPriceRange";
+import NEVTaxCredits from "@/pages/blog/NEVTaxCredits";
+import NEVvsElectricCars from "@/pages/blog/NEVvsElectricCars";
+import CargoDeliveryNEVs from "@/pages/blog/CargoDeliveryNEVs";
+import LeaseNEVOptions from "@/pages/blog/LeaseNEVOptions";
+import BuyUsedNEVs from "@/pages/blog/BuyUsedNEVs";
+import NEVWarrantyComparison from "@/pages/blog/NEVWarrantyComparison";
 // Location Pages (States and Countries)
 import DynamicLocationPage from "@/pages/DynamicLocationPage";
 
@@ -100,6 +112,19 @@ function App() {
             <Route path="/vehicles/evolution-d6-max-gt6" component={EvolutionD6MaxGT6} />
             <Route path="/vehicles/evolution-d6-max-xt4" component={EvolutionD6MaxXT4} />
             <Route path="/vehicles/evolution-d6-max-xt6" component={EvolutionD6MaxXT6} />
+            
+            {/* Blog Routes */}
+            <Route path="/blog" component={BlogIndexPage} />
+            <Route path="/blog/best-neighborhood-electric-vehicles-city-commuting" component={BestNEVCityCommuting} />
+            <Route path="/blog/neighborhood-electric-vehicle-manufacturers-us" component={NEVManufacturersUS} />
+            <Route path="/blog/find-neighborhood-electric-vehicle-dealerships-near-me" component={FindNEVDealerships} />
+            <Route path="/blog/neighborhood-electric-vehicle-price-range-cost" component={NEVPriceRange} />
+            <Route path="/blog/neighborhood-electric-vehicle-tax-credits-incentives" component={NEVTaxCredits} />
+            <Route path="/blog/neighborhood-electric-vehicles-vs-regular-electric-cars-comparison" component={NEVvsElectricCars} />
+            <Route path="/blog/top-rated-neighborhood-electric-vehicles-cargo-delivery" component={CargoDeliveryNEVs} />
+            <Route path="/blog/lease-neighborhood-electric-vehicle-options" component={LeaseNEVOptions} />
+            <Route path="/blog/buy-used-neighborhood-electric-vehicles-online" component={BuyUsedNEVs} />
+            <Route path="/blog/neighborhood-electric-vehicle-warranty-coverage-comparison" component={NEVWarrantyComparison} />
             
             {/* Dynamic Location Pages (All States and Countries) */}
             <Route path="/:slug" component={DynamicLocationPage} />
