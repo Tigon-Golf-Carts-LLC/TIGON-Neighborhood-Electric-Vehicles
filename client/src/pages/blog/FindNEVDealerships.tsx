@@ -166,12 +166,12 @@ export default function FindNEVDealerships() {
             Can't visit a physical showroom? TIGON's online stores provide full-service NEV sales with home delivery available across:
           </p>
           <ul className="list-disc pl-6 mb-6 space-y-2">
-            <li>Pennsylvania - <Link href="/pennsylvania" className="text-theme-orange hover:underline">tigongolfcarts.com/pennsylvania</Link></li>
-            <li>New Jersey - <Link href="/new-jersey" className="text-theme-orange hover:underline">tigongolfcarts.com/new-jersey</Link></li>
-            <li>Delaware - <Link href="/delaware" className="text-theme-orange hover:underline">tigongolfcarts.com/delaware</Link></li>
-            <li>Virginia - <Link href="/virginia" className="text-theme-orange hover:underline">tigongolfcarts.com/virginia</Link></li>
-            <li>Maryland - <Link href="/maryland" className="text-theme-orange hover:underline">tigongolfcarts.com/maryland</Link></li>
-            <li>New York - <Link href="/new-york" className="text-theme-orange hover:underline">tigongolfcarts.com/new-york</Link></li>
+            <li>Pennsylvania - <Link href="/pennsylvania" className="text-theme-orange hover:underline">tigonnev.com/pennsylvania</Link></li>
+            <li>New Jersey - <Link href="/new-jersey" className="text-theme-orange hover:underline">tigonnev.com/new-jersey</Link></li>
+            <li>Delaware - <Link href="/delaware" className="text-theme-orange hover:underline">tigonnev.com/delaware</Link></li>
+            <li>Virginia - <Link href="/virginia" className="text-theme-orange hover:underline">tigonnev.com/virginia</Link></li>
+            <li>Maryland - <Link href="/maryland" className="text-theme-orange hover:underline">tigonnev.com/maryland</Link></li>
+            <li>New York - <Link href="/new-york" className="text-theme-orange hover:underline">tigonnev.com/new-york</Link></li>
           </ul>
 
           <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">

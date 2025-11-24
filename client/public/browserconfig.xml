@@ -6,7 +6,7 @@
       <square150x150logo src="/attached_assets/TIGON Neighborhood Electric Vehicles_1764002910326.png"/>
       <wide310x150logo src="/attached_assets/TIGON Neighborhood Electric Vehicles_1764002910326.png"/>
       <square310x310logo src="/attached_assets/TIGON Neighborhood Electric Vehicles_1764002910326.png"/>
-      <TileColor>#0e2e55</TileColor>
+      <TileColor>#af1b30</TileColor>
     </tile>
     <badge>
       <polling-uri src="/api/badge"/>
@@ -30,7 +30,7 @@
     <jumplist>
       <task>
         <name>Browse Neighborhood Electric Vehicles</name>
-        <description>View our complete MSV vehicle inventory</description>
+        <description>View our complete NEV vehicle inventory</description>
         <arguments>/inventory</arguments>
         <iconUri>/attached_assets/TIGON Neighborhood Electric Vehicles_1764002910326.png</iconUri>
       </task>
@@ -61,8 +61,8 @@
     </jumplist>
     <tooltip>TIGON Neighborhood Electric Vehicles - NEV Dealership</tooltip>
     <startscreen>
-      <image src="/attached_assets/image_1753282400827.png"/>
-      <color>#0e2e55</color>
+      <image src="/attached_assets/TIGON Neighborhood Electric Vehicles_1764002910326.png"/>
+      <color>#af1b30</color>
     </startscreen>
   </msapplication>
 </browserconfig>

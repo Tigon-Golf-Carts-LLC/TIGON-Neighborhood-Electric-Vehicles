@@ -2,21 +2,21 @@
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
                        xmlns:moz="http://www.mozilla.org/2006/browser/search/">
   <ShortName>TIGON Neighborhood Electric Vehicles</ShortName>
-  <Description>Search medium speed vehicles, parts, and services nationwide - serving all 50 states, Canada, and Mexico</Description>
+  <Description>Search neighborhood electric vehicles, parts, and services nationwide - serving all 50 states, Canada, and Mexico</Description>
   <InputEncoding>UTF-8</InputEncoding>
   <OutputEncoding>UTF-8</OutputEncoding>
-  <Image width="16" height="16" type="image/png">/attached_assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png</Image>
-  <Url type="text/html" method="get" template="https://tigonmsv.com/search?q={searchTerms}"/>
-  <Url type="application/x-suggestions+json" method="get" template="https://tigonmsv.com/api/suggestions?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://tigonmsv.com/opensearch.xml"/>
+  <Image width="16" height="16" type="image/png">https://tigonnev.com/attached_assets/TIGON%20Neighborhood%20Electric%20Vehicles_1764002910326.png</Image>
+  <Url type="text/html" method="get" template="https://tigonnev.com/search?q={searchTerms}"/>
+  <Url type="application/x-suggestions+json" method="get" template="https://tigonnev.com/api/suggestions?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://tigonnev.com/opensearch.xml"/>
   <Query role="example" searchTerms="Evolution D5 Maverick"/>
   <Developer>TIGON Neighborhood Electric Vehicles</Developer>
-  <Contact>info@tigonmsv.com</Contact>
-  <Tags>medium speed vehicles electric MSV Evolution Denago nationwide</Tags>
+  <Contact>info@tigonnev.com</Contact>
+  <Tags>neighborhood electric vehicles NEV electric TIGON Evolution Denago nationwide</Tags>
   <LongName>TIGON Neighborhood Electric Vehicles - NEV Search</LongName>
   <Attribution>Copyright 2025 TIGON Neighborhood Electric Vehicles. All rights reserved.</Attribution>
   <SyndicationRight>open</SyndicationRight>
   <AdultContent>false</AdultContent>
   <Language>en-us</Language>
-  <moz:SearchForm>https://tigonmsv.com/inventory</moz:SearchForm>
+  <moz:SearchForm>https://tigonnev.com/inventory</moz:SearchForm>
 </OpenSearchDescription>

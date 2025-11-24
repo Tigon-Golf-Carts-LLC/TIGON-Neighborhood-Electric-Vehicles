@@ -93,12 +93,12 @@ export default function DenagoEvCity() {
                       Get Quote
                     </Button>
                   </Link>
-                  <a href="https://tigongolfcarts.com/apply-for-financing/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://tigonnev.com/apply-for-financing/" target="_blank" rel="noopener noreferrer">
                     <Button size="lg" className="w-full sm:w-auto bg-white text-theme-primary hover:bg-gray-100 shadow-lg">
                       Finance Options
                     </Button>
                   </a>
-                  <a href="https://tigongolfcarts.com/denago-ev/city/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://tigonnev.com/denago-ev/city/" target="_blank" rel="noopener noreferrer">
                     <Button size="lg" className="w-full sm:w-auto bg-theme-orange hover:opacity-90 text-white shadow-lg">
                       View More Details
                     </Button>
