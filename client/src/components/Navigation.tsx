@@ -41,7 +41,7 @@ export default function Navigation() {
             </div>
             <Link href="/">
               <div className="cursor-pointer">
-                <div className="text-lg font-bold text-theme-primary">TIGON NEV</div>
+                <div className="text-lg font-bold" style={{ color: '#af1b30' }}>TIGON NEV</div>
               </div>
             </Link>
           </div>
